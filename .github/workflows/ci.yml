@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Descargar el repositorio
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           # Historial completo: el escaneo de secretos mira todos los commits,
           # no solo el árbol actual. Un secreto borrado en un commit posterior
