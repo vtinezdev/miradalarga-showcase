@@ -1,0 +1,105 @@
+/*
+ * Entrada de lista: móvil, ordinal y cuerpo con el póster `s` a la derecha y el
+ * veredicto a lo ancho; desde tableta, el ordinal cuelga en el margen izquierdo
+ * y el póster en el derecho (SCREENS.md §5).
+ */
+.entrada {
+  display: grid;
+  grid-template-columns: 2.75rem minmax(0, 1fr) 4.5rem;
+  gap: var(--space-4);
+  align-items: start;
+  padding-block: var(--space-8);
+  border-top: var(--border-row);
+}
+
+.ordinal {
+  font-family: var(--font-serif);
+  font-size: var(--text-title-1);
+  font-weight: 300;
+  line-height: 1;
+  color: var(--color-text-3);
+  font-variant-numeric: tabular-nums;
+  text-align: end;
+}
+
+.cuerpo {
+  display: grid;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.titulo {
+  font-size: var(--text-title-2);
+  line-height: 1.15;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Objetivo ≥ 44 px (DS §4.5) sin mover nada: en un elemento en línea, el
+   relleno vertical amplía la zona pulsable y no cambia la interlínea. */
+.titulo a {
+  padding-block: 0.625rem;
+  text-decoration: none;
+  box-decoration-break: clone;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .titulo a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+    text-decoration-thickness: 1px;
+  }
+}
+
+/* Etiqueta editorial: del conjunto cerrado de PRODUCT.md §10, sin color de estado. */
+.sello {
+  justify-self: start;
+  padding: 0.125rem var(--space-2);
+  border: 1px solid var(--color-editorial-rule);
+  border-radius: var(--radius-s);
+  font-size: var(--text-small);
+  font-weight: 500;
+  color: var(--color-accent);
+}
+
+.veredicto {
+  max-width: var(--measure-reading);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--text-reading);
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.poster {
+  grid-column: 3;
+  grid-row: 1;
+  width: 4.5rem;
+}
+
+.salida {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+/* Se fue: en su sitio, atenuada, con la fecha (DS §8.2). */
+.fuera .titulo,
+.fuera .veredicto,
+.fuera .poster {
+  opacity: 0.6;
+}
+
+@media (min-width: 48rem) {
+  .entrada {
+    grid-template-columns: 5rem minmax(0, 1fr) 7.5rem;
+    gap: var(--space-6);
+  }
+
+  .ordinal {
+    font-size: var(--text-display-l);
+  }
+
+  .poster {
+    width: 7.5rem;
+  }
+}

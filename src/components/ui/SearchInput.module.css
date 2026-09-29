@@ -1,0 +1,87 @@
+.formulario {
+  grid-template-columns: minmax(0, 1fr);
+  display: grid;
+  gap: var(--space-2);
+}
+
+.etiqueta {
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-2);
+}
+
+.campo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 3.25rem;
+  border: var(--border-control);
+  border-radius: var(--radius-s);
+  background: var(--color-bg);
+  transition: border-color var(--duration-feedback) var(--ease-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .campo:hover {
+    border-color: var(--color-border-control-hover);
+  }
+}
+
+.campo:focus-within {
+  border-color: var(--color-border-control-hover);
+}
+
+.icono {
+  position: absolute;
+  left: var(--space-4);
+  color: var(--color-text-3);
+  pointer-events: none;
+}
+
+.entrada {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  min-height: 3.25rem;
+  padding-inline: calc(var(--space-4) + var(--icon-m) + var(--space-3)) var(--space-3);
+  border: 0;
+  border-radius: inherit;
+  background: transparent;
+  font-size: var(--text-body);
+}
+
+.entrada::placeholder {
+  color: var(--color-text-3);
+  opacity: 1;
+}
+
+.entrada:focus-visible {
+  outline-offset: 0;
+}
+
+.enviar {
+  align-self: stretch;
+  padding-inline: var(--space-5);
+  border-left: var(--border-control);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .enviar:hover {
+    background: var(--color-surface-hover);
+  }
+}
+
+/* /buscar: el campo es la página. */
+.grande .campo,
+.grande .entrada {
+  min-height: 3.75rem;
+}
+
+.grande .entrada {
+  font-family: var(--font-serif);
+  font-size: var(--text-title-3);
+}

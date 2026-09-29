@@ -1,0 +1,920 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "seq": 4,
+    "slug": "B-netflix-series",
+    "path": "/shows/search/filters",
+    "query": {
+      "country": "es",
+      "catalogs": "netflix",
+      "show_type": "series",
+      "series_granularity": "show",
+      "output_language": "es"
+    },
+    "status": 200,
+    "ok": true,
+    "ts_utc": "2026-09-21T12:41:56.509Z",
+    "ts_madrid": "2026-09-21T14:41:56",
+    "result_count": 20,
+    "has_more": true,
+    "next_cursor": "5348:ficticio",
+    "response_headers": {
+      "access-control-allow-headers": "*",
+      "access-control-allow-methods": "*",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "*",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 21 Sep 2026 12:41:57 GMT",
+      "transfer-encoding": "chunked",
+      "x-quota-granted": "1000",
+      "x-quota-reset": "2026-10-01T00:00:00Z",
+      "x-quota-used": "4"
+    },
+    "plataforma": "netflix",
+    "service_id": "netflix",
+    "show_type": "series"
+  },
+  "body": {
+    "shows": [
+      {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000092",
+        "imdbId": "tt90000063",
+        "tmdbId": "tv/900104",
+        "title": "Título ficticio 121",
+        "overview": "Sinopsis ficticia de ejemplo número 21.",
+        "firstAirYear": 2025,
+        "lastAirYear": 2025,
+        "originalTitle": "Original ficticio 130",
+        "genres": [
+          {
+            "id": "action",
+            "name": "Acción"
+          },
+          {
+            "id": "crime",
+            "name": "Crimen"
+          },
+          {
+            "id": "drama",
+            "name": "Drama"
+          }
+        ],
+        "creators": [],
+        "cast": [
+          "Persona Ficticia 299",
+          "Persona Ficticia 114",
+          "Persona Ficticia 101",
+          "Persona Ficticia 049",
+          "Persona Ficticia 007",
+          "Persona Ficticia 045",
+          "Persona Ficticia 200"
+        ],
+        "rating": 70,
+        "seasonCount": 1,
+        "episodeCount": 7,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000092/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000092/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000092/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000092/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000092/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000092/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000092/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000092/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000092/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000092/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000092/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000092/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000092/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000092/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000092/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0355",
+              "videoLink": "https://www.netflix.com/ficticio/0356",
+              "audios": [
+                {
+                  "language": "ces"
+                },
+                {
+                  "language": "deu"
+                },
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "fil"
+                },
+                {
+                  "language": "fra"
+                },
+                {
+                  "language": "hin"
+                },
+                {
+                  "language": "hun"
+                },
+                {
+                  "language": "ind"
+                },
+                {
+                  "language": "ita"
+                },
+                {
+                  "language": "jpn"
+                },
+                {
+                  "language": "kor"
+                },
+                {
+                  "language": "pol"
+                },
+                {
+                  "language": "por"
+                },
+                {
+                  "language": "spa"
+                },
+                {
+                  "language": "tam"
+                },
+                {
+                  "language": "tel"
+                },
+                {
+                  "language": "tha"
+                },
+                {
+                  "language": "tur"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ara"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ces"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "dan"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "deu"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ell"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fil"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fin"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "heb"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hrv"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hun"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ind"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ita"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "jpn"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "kor"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "msa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nob"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "pol"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ron"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "rus"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "swe"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tha"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tur"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "vie"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "zho"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1749909512
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000034",
+        "imdbId": "tt90000047",
+        "tmdbId": "tv/900099",
+        "title": "Título ficticio 092",
+        "overview": "Sinopsis ficticia de ejemplo número 22.",
+        "firstAirYear": 2022,
+        "lastAirYear": 2022,
+        "originalTitle": "Original ficticio 131",
+        "genres": [
+          {
+            "id": "action",
+            "name": "Acción"
+          },
+          {
+            "id": "drama",
+            "name": "Drama"
+          }
+        ],
+        "creators": ["Creador Ficticio 017"],
+        "cast": [
+          "Persona Ficticia 173",
+          "Persona Ficticia 273",
+          "Persona Ficticia 204",
+          "Persona Ficticia 333",
+          "Persona Ficticia 170",
+          "Persona Ficticia 236",
+          "Persona Ficticia 181"
+        ],
+        "rating": 70,
+        "seasonCount": 1,
+        "episodeCount": 16,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000034/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000034/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000034/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000034/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000034/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000034/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000034/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000034/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000034/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000034/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000034/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000034/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000034/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000034/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000034/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0357",
+              "videoLink": "https://www.netflix.com/ficticio/0358",
+              "audios": [
+                {
+                  "language": "kor"
+                },
+                {
+                  "language": "por"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ara"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ces"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "dan"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "deu"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ell"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fin"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "heb"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hrv"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hun"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ind"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ita"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "jpn"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "kor"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "msa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nob"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "pol"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ron"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "rus"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "swe"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tha"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tur"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "vie"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "zho"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1650298587
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000082",
+        "imdbId": "tt90000056",
+        "tmdbId": "tv/900103",
+        "title": "Título ficticio 081",
+        "overview": "Sinopsis ficticia de ejemplo número 23.",
+        "firstAirYear": 2024,
+        "lastAirYear": 2024,
+        "originalTitle": "Original ficticio 133",
+        "genres": [
+          {
+            "id": "drama",
+            "name": "Drama"
+          },
+          {
+            "id": "thriller",
+            "name": "Suspenso"
+          }
+        ],
+        "creators": ["Creador Ficticio 018", "Creador Ficticio 019"],
+        "cast": [
+          "Persona Ficticia 304",
+          "Persona Ficticia 171",
+          "Persona Ficticia 179",
+          "Persona Ficticia 185",
+          "Persona Ficticia 118",
+          "Persona Ficticia 164",
+          "Persona Ficticia 136"
+        ],
+        "rating": 58,
+        "seasonCount": 1,
+        "episodeCount": 12,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000082/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000082/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000082/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000082/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000082/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000082/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000082/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000082/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000082/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000082/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000082/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000082/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000082/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000082/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000082/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0359",
+              "videoLink": "https://www.netflix.com/ficticio/0360",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "fil"
+                },
+                {
+                  "language": "fra"
+                },
+                {
+                  "language": "hin"
+                },
+                {
+                  "language": "ind"
+                },
+                {
+                  "language": "ita"
+                },
+                {
+                  "language": "jpn"
+                },
+                {
+                  "language": "kor"
+                },
+                {
+                  "language": "pol"
+                },
+                {
+                  "language": "por"
+                },
+                {
+                  "language": "spa"
+                },
+                {
+                  "language": "tam"
+                },
+                {
+                  "language": "tha"
+                },
+                {
+                  "language": "tur"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ara"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ces"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "dan"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "deu"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ell"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fil"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fin"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "heb"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hrv"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hun"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ind"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ita"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "jpn"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "kor"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "msa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nob"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "pol"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ron"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "rus"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "swe"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tha"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tur"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "vie"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "zho"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1726832130
+            }
+          ]
+        }
+      }
+    ],
+    "hasMore": true,
+    "nextCursor": "5348:ficticio"
+  }
+}

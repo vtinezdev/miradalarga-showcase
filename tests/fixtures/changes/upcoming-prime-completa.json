@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "seq": 32,
+    "slug": "D-upcoming-prime",
+    "path": "/changes",
+    "query": {
+      "country": "es",
+      "change_type": "upcoming",
+      "item_type": "show",
+      "catalogs": "prime",
+      "from": "1789994540",
+      "to": "1792672940",
+      "output_language": "es"
+    },
+    "status": 200,
+    "ok": true,
+    "ts_utc": "2026-09-21T12:43:03.209Z",
+    "ts_madrid": "2026-09-21T14:43:03",
+    "result_count": 4,
+    "has_more": false,
+    "next_cursor": null,
+    "response_headers": {
+      "access-control-allow-headers": "*",
+      "access-control-allow-methods": "*",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "*",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 21 Sep 2026 12:43:03 GMT",
+      "transfer-encoding": "chunked",
+      "x-quota-granted": "1000",
+      "x-quota-reset": "2026-10-01T00:00:00Z",
+      "x-quota-used": "28"
+    },
+    "change_type": "upcoming",
+    "item_type": "show",
+    "catalogs": ["prime"],
+    "plataforma": "prime",
+    "ventana": {
+      "from_epoch": 1789994540,
+      "to_epoch": 1792672940,
+      "from_madrid": "2026-09-21 14:42:20",
+      "to_madrid": "2026-10-22 14:42:20"
+    },
+    "cursor_enviado": null,
+    "pagina": 1,
+    "recorte": "Recorte de spike-1/raw/032 (solo prime, lista completa, hasMore=false): sus 4 avisos, TODOS sin link y con streamingOptions.es vacío, y sus shows sin imageSet. 5000107 también está en upcoming-pagina-1: el mismo anuncio en dos páginas."
+  },
+  "body": {
+    "changes": [
+      {
+        "changeType": "upcoming",
+        "itemType": "show",
+        "showId": "5000107",
+        "showType": "movie",
+        "service": {
+          "id": "prime",
+          "name": "Prime Video",
+          "homePage": "https://www.primevideo.com/",
+          "themeColorCode": "#00A8E1",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790114400
+      },
+      {
+        "changeType": "upcoming",
+        "itemType": "show",
+        "showId": "5000114",
+        "showType": "series",
+        "service": {
+          "id": "prime",
+          "name": "Prime Video",
+          "homePage": "https://www.primevideo.com/",
+          "themeColorCode": "#00A8E1",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1791324000
+      },
+      {
+        "changeType": "upcoming",
+        "itemType": "show",
+        "showId": "5000111",
+        "showType": "movie",
+        "service": {
+          "id": "prime",
+          "name": "Prime Video",
+          "homePage": "https://www.primevideo.com/",
+          "themeColorCode": "#00A8E1",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1791928800
+      },
+      {
+        "changeType": "upcoming",
+        "itemType": "show",
+        "showId": "5000110",
+        "showType": "movie",
+        "service": {
+          "id": "prime",
+          "name": "Prime Video",
+          "homePage": "https://www.primevideo.com/",
+          "themeColorCode": "#00A8E1",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1792101600
+      }
+    ],
+    "shows": {
+      "5000107": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000107",
+        "imdbId": "tt90000053",
+        "tmdbId": "movie/900000",
+        "title": "Título ficticio 079",
+        "overview": "",
+        "releaseYear": 2026,
+        "originalTitle": "Original ficticio 108",
+        "genres": [
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          },
+          {
+            "id": "romance",
+            "name": "Romance"
+          }
+        ],
+        "directors": ["Persona Ficticia 059"],
+        "cast": [
+          "Persona Ficticia 206",
+          "Persona Ficticia 314",
+          "Persona Ficticia 269",
+          "Persona Ficticia 122",
+          "Persona Ficticia 245",
+          "Persona Ficticia 025",
+          "Persona Ficticia 134"
+        ],
+        "rating": 0,
+        "streamingOptions": {}
+      },
+      "5000110": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000110",
+        "imdbId": "tt90000095",
+        "tmdbId": "movie/900031",
+        "title": "Título ficticio 093",
+        "overview": "",
+        "releaseYear": 2026,
+        "originalTitle": "Título ficticio 093",
+        "genres": [
+          {
+            "id": "crime",
+            "name": "Crimen"
+          },
+          {
+            "id": "thriller",
+            "name": "Suspenso"
+          }
+        ],
+        "directors": ["Persona Ficticia 312"],
+        "cast": [
+          "Persona Ficticia 300",
+          "Persona Ficticia 298",
+          "Persona Ficticia 317",
+          "Persona Ficticia 084",
+          "Persona Ficticia 036",
+          "Persona Ficticia 029",
+          "Persona Ficticia 089"
+        ],
+        "rating": 0,
+        "streamingOptions": {}
+      },
+      "5000111": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000111",
+        "imdbId": "tt90000075",
+        "tmdbId": "movie/900022",
+        "title": "Título ficticio 089",
+        "overview": "",
+        "releaseYear": 2026,
+        "originalTitle": "Título ficticio 089",
+        "genres": [
+          {
+            "id": "drama",
+            "name": "Drama"
+          },
+          {
+            "id": "romance",
+            "name": "Romance"
+          }
+        ],
+        "directors": ["Persona Ficticia 270"],
+        "cast": [
+          "Persona Ficticia 216",
+          "Persona Ficticia 001",
+          "Persona Ficticia 095",
+          "Persona Ficticia 264",
+          "Persona Ficticia 041",
+          "Persona Ficticia 308",
+          "Persona Ficticia 062"
+        ],
+        "rating": 0,
+        "streamingOptions": {}
+      },
+      "5000114": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000114",
+        "imdbId": "tt90000026",
+        "tmdbId": "tv/900115",
+        "title": "Título ficticio 028",
+        "overview": "",
+        "firstAirYear": 2026,
+        "lastAirYear": 2026,
+        "originalTitle": "Título ficticio 028",
+        "genres": [
+          {
+            "id": "drama",
+            "name": "Drama"
+          },
+          {
+            "id": "horror",
+            "name": "Terror"
+          }
+        ],
+        "creators": ["Creador Ficticio 016"],
+        "cast": [
+          "Persona Ficticia 305",
+          "Persona Ficticia 283",
+          "Persona Ficticia 296",
+          "Persona Ficticia 016",
+          "Persona Ficticia 144",
+          "Persona Ficticia 155",
+          "Persona Ficticia 023"
+        ],
+        "rating": 0,
+        "seasonCount": 1,
+        "episodeCount": 8,
+        "streamingOptions": {}
+      }
+    },
+    "hasMore": false
+  }
+}

@@ -1,0 +1,32 @@
+# Evidencia archivada de los spikes: se conserva tal cual.
+spike-1/
+spike-2/
+spike-3/
+
+# Generado
+pnpm-lock.yaml
+dist/
+.next/
+.vinext/
+.wrangler/
+coverage/
+next-env.d.ts
+
+# Migraciones: las genera drizzle-kit, no se reformatean.
+drizzle/
+
+# Markdown fuera de Prettier — decisión deliberada.
+# El Plan, los ADR y la documentación son documentos revisados por humanos y
+# fuente de verdad del proyecto. Prettier realinea el relleno de las tablas, lo
+# que reformateaba 374 líneas del Plan sin cambiar una palabra y convertía
+# cualquier futura edición de una celda en un diff de la tabla entera.
+# La legibilidad del diff en estos documentos vale más que la uniformidad.
+*.md
+
+# Skills de Claude Code: herramientas de terceros versionadas en el repo (commit a413615),
+# no código del proyecto. Mismo criterio que en eslint.config.mjs.
+.claude/
+
+# Salida de Playwright
+playwright-report/
+test-results/

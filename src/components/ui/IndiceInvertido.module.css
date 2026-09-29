@@ -1,0 +1,92 @@
+/*
+ * Índice invertido (interacción de firma 3, DS §8.5): rankings y sumarios.
+ *
+ * En reposo, la fila es tinta. Señalada —ratón fino, foco de teclado dentro, o
+ * el dedo mientras pulsa— se vuelve papel con texto tinta y el ordinal toma
+ * cuerpo. El papel entra como una cortinilla desde la izquierda y se va hacia
+ * la derecha; el texto cambia **en seco**, sin fundido: es un cambio de estado,
+ * no una transición decorativa.
+ *
+ * La inversión se hace redefiniendo los tokens semánticos en el ámbito de la
+ * fila: todo lo que hay dentro (título, metadatos, chips, punto de tus
+ * plataformas) se invierte sin conocer esta regla. Contrastes sobre
+ * `--invertido-fondo`: texto 15,9 · texto 2 10,5 · texto 3 7,9 · filete 4,7.
+ */
+
+.invertible {
+  position: relative;
+  isolation: isolate;
+}
+
+/* El papel sobresale del texto sin cambiar la caja de la fila: los filetes
+   siguen alineados con el resto de la columna. */
+.invertible::before {
+  content: "";
+  position: absolute;
+  inset: 0 calc(-1 * var(--space-3));
+  z-index: -1;
+  background: var(--invertido-fondo);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--duration-feedback) var(--ease-in);
+}
+
+.ordinal {
+  transition:
+    transform var(--duration-hover) var(--ease-out),
+    font-weight var(--duration-hover) var(--ease-out);
+}
+
+.invertible:has(a:focus-visible),
+.invertible:active {
+  --color-text: var(--invertido-texto);
+  --color-text-2: var(--invertido-texto-2);
+  --color-text-3: var(--invertido-texto-3);
+  --color-border: var(--invertido-filete);
+  --color-accent: var(--invertido-acento);
+  --color-mine: var(--invertido-acento);
+  color: var(--color-text);
+}
+
+.invertible:has(a:focus-visible)::before,
+.invertible:active::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform var(--duration-hover) var(--ease-out);
+}
+
+.invertible:has(a:focus-visible) .ordinal,
+.invertible:active .ordinal {
+  color: var(--invertido-texto);
+  font-weight: 500;
+  transform: translateX(var(--shift-hover));
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .invertible:hover {
+    --color-text: var(--invertido-texto);
+    --color-text-2: var(--invertido-texto-2);
+    --color-text-3: var(--invertido-texto-3);
+    --color-border: var(--invertido-filete);
+    --color-accent: var(--invertido-acento);
+    --color-mine: var(--invertido-acento);
+    color: var(--color-text);
+  }
+
+  .invertible:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform var(--duration-hover) var(--ease-out);
+  }
+
+  .invertible:hover .ordinal {
+    color: var(--invertido-texto);
+    font-weight: 500;
+    transform: translateX(var(--shift-hover));
+  }
+
+  /* Invertida, el subrayado del enlace sobra: toda la fila ya responde. */
+  .invertible:hover a {
+    text-decoration: none;
+  }
+}

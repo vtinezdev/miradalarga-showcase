@@ -1,0 +1,41 @@
+version: 2
+
+updates:
+  # Dependencias de npm. Agrupadas para que no lleguen veinte PR sueltas: cada
+  # PR consume minutos de Actions, y el presupuesto es de 2.000/mes.
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: Europe/Madrid
+    open-pull-requests-limit: 5
+    groups:
+      desarrollo:
+        dependency-type: development
+        update-types: [minor, patch]
+      produccion-menores:
+        dependency-type: production
+        update-types: [minor, patch]
+    ignore:
+      # El conjunto del runtime está clavado a las versiones validadas en el
+      # Spike 2 (ADR 0002). Subirlas de mayor exige volver a medir sobre
+      # Workers, no aceptar una PR automática.
+      - dependency-name: react
+        update-types: [version-update:semver-major]
+      - dependency-name: react-dom
+        update-types: [version-update:semver-major]
+      - dependency-name: react-server-dom-webpack
+        update-types: [version-update:semver-major]
+      - dependency-name: next
+        update-types: [version-update:semver-major]
+      - dependency-name: vinext
+      - dependency-name: "@vinext/cloudflare"
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+      timezone: Europe/Madrid
+    open-pull-requests-limit: 3

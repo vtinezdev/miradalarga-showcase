@@ -1,0 +1,36 @@
+.migas {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.elemento {
+  display: inline-flex;
+  align-items: center;
+}
+
+.elemento + .elemento::before {
+  content: "›";
+  padding-inline: var(--space-2);
+  color: var(--color-text-3);
+}
+
+.elemento a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  color: var(--color-text-2);
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .elemento a:hover {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
+}

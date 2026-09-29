@@ -1,0 +1,21 @@
+# Normalización de finales de línea.
+# Se desarrolla en Windows y el CI corre en Linux: sin esto, cada fichero
+# entraría con CRLF y Prettier y ESLint discreparían entre local y CI.
+* text=auto eol=lf
+
+# Binarios: nunca normalizar.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary
+
+# Scripts de PowerShell: CRLF nativo.
+*.ps1 text eol=crlf
+
+# Lockfiles: no generan conflicto útil en revisión.
+pnpm-lock.yaml linguist-generated=true -diff

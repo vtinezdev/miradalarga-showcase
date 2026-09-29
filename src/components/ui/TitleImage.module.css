@@ -1,0 +1,23 @@
+.hueco {
+  position: relative;
+  width: 100%;
+  border-radius: var(--radius-xs);
+  overflow: hidden;
+  background: var(--placeholder-field-1);
+}
+
+.hueco[data-proporcion="poster"] {
+  aspect-ratio: 2 / 3;
+}
+
+.hueco[data-proporcion="fondo"] {
+  aspect-ratio: 16 / 9;
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: var(--border-hairline);
+  border-radius: inherit;
+}

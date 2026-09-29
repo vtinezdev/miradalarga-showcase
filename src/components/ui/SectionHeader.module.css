@@ -1,0 +1,114 @@
+.cabecera {
+  position: relative;
+  display: grid;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+  /* Línea de tiempo propia para trazar el horizonte cuando entra en pantalla. */
+  view-timeline: --separador block;
+}
+
+/* Separador horizonte (interacción de firma 1): filete a todo el contenedor
+   y punto latón al extremo. En reposo, ya trazado: es el estado final. */
+.cabecera::before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-block: 3px calc(var(--space-5) + 3px);
+  background: var(--color-border-subtle);
+  transform-origin: left;
+}
+
+.cabecera::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+/* Se traza de izquierda a derecha al entrar, y el punto se enciende al final.
+   Vinculado a la posición, no al tiempo: sin soporte o con movimiento
+   reducido, la línea ya está entera. */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .cabecera::before {
+      animation: trazarSeparador linear both;
+      animation-timeline: --separador;
+      animation-range: entry 20% cover 25%;
+    }
+
+    .cabecera::after {
+      animation: encenderPunto linear both;
+      animation-timeline: --separador;
+      animation-range: cover 20% cover 30%;
+    }
+  }
+}
+
+@keyframes trazarSeparador {
+  from {
+    transform: scaleX(0.06);
+  }
+}
+
+@keyframes encenderPunto {
+  from {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+}
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-6);
+}
+
+.textos {
+  display: grid;
+  gap: var(--space-2);
+}
+
+/* Desde tableta, el título ocupa una base fija en lugar de su ancho de texto:
+   si el enlace cabe a su lado no depende ya de la métrica de la fuente (a
+   768 px, un título largo saltaba 52 px al llegar el woff2). */
+@media (min-width: 48rem) {
+  .textos {
+    flex: 1 1 24rem;
+  }
+}
+
+.editorial .antetitulo::before {
+  content: "";
+  display: block;
+  width: 24px;
+  margin-bottom: var(--space-2);
+  border-top: var(--rule-editorial);
+}
+
+.h2 {
+  font-size: var(--text-title-2);
+}
+
+.h3 {
+  font-size: var(--text-title-3);
+}
+
+.enlace {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--target-min);
+  font-size: var(--text-small);
+}
+
+.descripcion {
+  max-width: var(--measure-reading);
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}

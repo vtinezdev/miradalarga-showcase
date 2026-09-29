@@ -1,0 +1,1835 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "origen": "Mismo show observado el 2026-09-21 (spike-1/raw) y el 2026-09-24T12:06:06Z (ops_sync_runs fila 44, .expiring-runs/2026-09-24T12-06-08-361Z-real). De 322 ofertas vistas en dos días distintos, solo 10 cambian: 8 video_link de Max, 1 precio de Apple buy y 1 subtítulos de Disney+.",
+    "recorte": "Solo los tres shows; opciones solo de ES; sin imageSet, reparto, dirección ni sinopsis."
+  },
+  "pares": [
+    {
+      "nombre": "Título ficticio 112 · apple buy · precio 9.99 → 4.99 EUR",
+      "antes": {
+        "observadoEn": "2026-09-21T12:42:59Z",
+        "show": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000020",
+          "imdbId": "tt9000027",
+          "tmdbId": "movie/900064",
+          "title": "Título ficticio 112",
+          "releaseYear": 2011,
+          "originalTitle": "Título ficticio 112",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "animation",
+              "name": "Animación"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            }
+          ],
+          "rating": 72,
+          "runtime": 107,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "buy",
+                "link": "https://tv.apple.com/ficticio/0244",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "9.99",
+                  "currency": "EUR",
+                  "formatted": "9.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1731818122
+              },
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "rent",
+                "link": "https://tv.apple.com/ficticio/0244",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1731818122
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "skyshowtimees",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/skyshowtimees",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0245",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1784951502
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0245",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1784951502
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "buy",
+                "link": "https://www.primevideo.com/ficticio/0245",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "4.99",
+                  "currency": "EUR",
+                  "formatted": "4.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1784951502
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "subscription",
+                "link": "https://app.primevideo.com/ficticio/0246",
+                "videoLink": "https://app.primevideo.com/ficticio/0247",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1786787606
+              },
+              {
+                "service": {
+                  "id": "skyshowtime",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.skyshowtime.com/",
+                  "themeColorCode": "#795fe3"
+                },
+                "type": "subscription",
+                "link": "https://www.skyshowtime.com/ficticio/0248",
+                "videoLink": "https://www.skyshowtime.com/ficticio/0249",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": true,
+                "expiresOn": 1790805540,
+                "availableSince": 1782825729
+              }
+            ]
+          }
+        }
+      },
+      "despues": {
+        "observadoEn": "2026-09-24T12:06:06Z",
+        "show": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000020",
+          "imdbId": "tt9000027",
+          "tmdbId": "movie/900064",
+          "title": "Título ficticio 112",
+          "releaseYear": 2011,
+          "originalTitle": "Título ficticio 112",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "animation",
+              "name": "Animación"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            }
+          ],
+          "rating": 72,
+          "runtime": 107,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "buy",
+                "link": "https://tv.apple.com/ficticio/0244",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "4.99",
+                  "currency": "EUR",
+                  "formatted": "4.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1731818122
+              },
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "rent",
+                "link": "https://tv.apple.com/ficticio/0244",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1731818122
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "skyshowtimees",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/skyshowtimees",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0245",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1784951502
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0245",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1784951502
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "buy",
+                "link": "https://www.primevideo.com/ficticio/0245",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "4.99",
+                  "currency": "EUR",
+                  "formatted": "4.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1784951502
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "subscription",
+                "link": "https://app.primevideo.com/ficticio/0246",
+                "videoLink": "https://app.primevideo.com/ficticio/0247",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1786787606
+              },
+              {
+                "service": {
+                  "id": "skyshowtime",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.skyshowtime.com/",
+                  "themeColorCode": "#795fe3"
+                },
+                "type": "subscription",
+                "link": "https://www.skyshowtime.com/ficticio/0248",
+                "videoLink": "https://www.skyshowtime.com/ficticio/0249",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": true,
+                "expiresOn": 1790805540,
+                "availableSince": 1782825729
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "nombre": "Título ficticio 095 · max subscription · solo video_link",
+      "antes": {
+        "observadoEn": "2026-09-21T12:42:05Z",
+        "show": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000063",
+          "imdbId": "tt90000024",
+          "tmdbId": "movie/900081",
+          "title": "Título ficticio 095",
+          "releaseYear": 2020,
+          "originalTitle": "Original ficticio 003",
+          "genres": [
+            {
+              "id": "documentary",
+              "name": "Documental"
+            }
+          ],
+          "rating": 58,
+          "runtime": 86,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxes",
+                  "name": "HBO Max",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxes",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0250",
+                "audios": [
+                  {
+                    "language": "ron"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1729055222
+              },
+              {
+                "service": {
+                  "id": "hbo",
+                  "name": "HBO Max",
+                  "homePage": "https://play.hbomax.com/",
+                  "themeColorCode": "#000000"
+                },
+                "type": "subscription",
+                "link": "https://play.hbomax.com/ficticio/0251",
+                "videoLink": "https://play.hbomax.com/ficticio/0252",
+                "audios": [
+                  {
+                    "language": "ron"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": true,
+                "expiresOn": 1792015140,
+                "availableSince": 1786065688
+              }
+            ]
+          }
+        }
+      },
+      "despues": {
+        "observadoEn": "2026-09-24T12:06:06Z",
+        "show": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000063",
+          "imdbId": "tt90000024",
+          "tmdbId": "movie/900081",
+          "title": "Título ficticio 095",
+          "releaseYear": 2020,
+          "originalTitle": "Original ficticio 003",
+          "genres": [
+            {
+              "id": "documentary",
+              "name": "Documental"
+            }
+          ],
+          "rating": 58,
+          "runtime": 86,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxes",
+                  "name": "HBO Max",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxes",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0250",
+                "audios": [
+                  {
+                    "language": "ron"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1729055222
+              },
+              {
+                "service": {
+                  "id": "hbo",
+                  "name": "HBO Max",
+                  "homePage": "https://play.hbomax.com/",
+                  "themeColorCode": "#000000"
+                },
+                "type": "subscription",
+                "link": "https://play.hbomax.com/ficticio/0251",
+                "videoLink": "https://play.hbomax.com/ficticio/0253",
+                "audios": [
+                  {
+                    "language": "ron"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": true,
+                "expiresOn": 1792015140,
+                "availableSince": 1786065688
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "nombre": "Título ficticio 045 · disney subscription · subtítulos",
+      "antes": {
+        "observadoEn": "2026-09-21T12:42:52Z",
+        "show": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000011",
+          "imdbId": "tt9000005",
+          "tmdbId": "movie/900052",
+          "title": "Título ficticio 045",
+          "releaseYear": 1997,
+          "originalTitle": "Original ficticio 106",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            },
+            {
+              "id": "scifi",
+              "name": "Ciencia Ficción"
+            }
+          ],
+          "rating": 65,
+          "runtime": 128,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "buy",
+                "link": "https://tv.apple.com/ficticio/0254",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "8.99",
+                  "currency": "EUR",
+                  "formatted": "8.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1779835795
+              },
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "buy",
+                "link": "https://tv.apple.com/ficticio/0254",
+                "quality": "sd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "5.99",
+                  "currency": "EUR",
+                  "formatted": "5.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1779835795
+              },
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "rent",
+                "link": "https://tv.apple.com/ficticio/0254",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1779835795
+              },
+              {
+                "service": {
+                  "id": "netflix",
+                  "name": "Netflix",
+                  "homePage": "https://www.netflix.com/",
+                  "themeColorCode": "#E50914"
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/ficticio/0255",
+                "videoLink": "https://www.netflix.com/ficticio/0256",
+                "audios": [
+                  {
+                    "language": "ces"
+                  },
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra"
+                  },
+                  {
+                    "language": "hin"
+                  },
+                  {
+                    "language": "hun"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "jpn"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "rus"
+                  },
+                  {
+                    "language": "spa"
+                  },
+                  {
+                    "language": "tam"
+                  },
+                  {
+                    "language": "tel"
+                  },
+                  {
+                    "language": "tha"
+                  },
+                  {
+                    "language": "tur"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ara"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ces"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "hin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "hrv"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "hun"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "isl"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "jpn"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "kor"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "msa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "pol"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ron"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "rus"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tam"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tel"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tur"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "vie"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "expiresSoon": true,
+                "expiresOn": 1790719199,
+                "availableSince": 1777527013
+              },
+              {
+                "service": {
+                  "id": "disney",
+                  "name": "Disney+",
+                  "homePage": "https://www.disneyplus.com/",
+                  "themeColorCode": "#01137c"
+                },
+                "type": "subscription",
+                "link": "https://www.disneyplus.com/ficticio/0257",
+                "videoLink": "https://www.disneyplus.com/ficticio/0258",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra",
+                    "region": "FRA"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por",
+                    "region": "BRA"
+                  },
+                  {
+                    "language": "spa",
+                    "region": "419"
+                  },
+                  {
+                    "language": "spa",
+                    "region": "ESP"
+                  },
+                  {
+                    "language": "tur"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ara"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra",
+                      "region": "FRA"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nor"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por",
+                      "region": "BRA"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa",
+                      "region": "419"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa",
+                      "region": "ESP"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1787651423
+              },
+              {
+                "service": {
+                  "id": "skyshowtime",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.skyshowtime.com/",
+                  "themeColorCode": "#795fe3"
+                },
+                "type": "subscription",
+                "link": "https://www.skyshowtime.com/ficticio/0259",
+                "videoLink": "https://www.skyshowtime.com/ficticio/0260",
+                "quality": "uhd",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": false,
+                "expiresOn": 1814306340,
+                "availableSince": 1782822146
+              },
+              {
+                "service": {
+                  "id": "skyshowtime",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.skyshowtime.com/",
+                  "themeColorCode": "#795fe3"
+                },
+                "type": "subscription",
+                "link": "https://www.skyshowtime.com/ficticio/0261",
+                "videoLink": "https://www.skyshowtime.com/ficticio/0262",
+                "quality": "uhd",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": false,
+                "expiresOn": 1814306340,
+                "availableSince": 1787222769
+              },
+              {
+                "service": {
+                  "id": "skyshowtime",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.skyshowtime.com/",
+                  "themeColorCode": "#795fe3"
+                },
+                "type": "subscription",
+                "link": "https://www.skyshowtime.com/ficticio/0263",
+                "videoLink": "https://www.skyshowtime.com/ficticio/0264",
+                "quality": "uhd",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": false,
+                "expiresOn": 1814306340,
+                "availableSince": 1768335988
+              }
+            ]
+          }
+        }
+      },
+      "despues": {
+        "observadoEn": "2026-09-24T12:06:06Z",
+        "show": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000011",
+          "imdbId": "tt9000005",
+          "tmdbId": "movie/900052",
+          "title": "Título ficticio 045",
+          "releaseYear": 1997,
+          "originalTitle": "Original ficticio 106",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            },
+            {
+              "id": "scifi",
+              "name": "Ciencia Ficción"
+            }
+          ],
+          "rating": 65,
+          "runtime": 128,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "buy",
+                "link": "https://tv.apple.com/ficticio/0254",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "8.99",
+                  "currency": "EUR",
+                  "formatted": "8.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1779835795
+              },
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "buy",
+                "link": "https://tv.apple.com/ficticio/0254",
+                "quality": "sd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "5.99",
+                  "currency": "EUR",
+                  "formatted": "5.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1779835795
+              },
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV",
+                  "homePage": "https://tv.apple.com/es",
+                  "themeColorCode": "#000000"
+                },
+                "type": "rent",
+                "link": "https://tv.apple.com/ficticio/0254",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1779835795
+              },
+              {
+                "service": {
+                  "id": "netflix",
+                  "name": "Netflix",
+                  "homePage": "https://www.netflix.com/",
+                  "themeColorCode": "#E50914"
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/ficticio/0255",
+                "videoLink": "https://www.netflix.com/ficticio/0256",
+                "audios": [
+                  {
+                    "language": "ces"
+                  },
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra"
+                  },
+                  {
+                    "language": "hin"
+                  },
+                  {
+                    "language": "hun"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "jpn"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "rus"
+                  },
+                  {
+                    "language": "spa"
+                  },
+                  {
+                    "language": "tam"
+                  },
+                  {
+                    "language": "tel"
+                  },
+                  {
+                    "language": "tha"
+                  },
+                  {
+                    "language": "tur"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ara"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ces"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "hin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "hrv"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "hun"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "isl"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "jpn"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "kor"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "msa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "pol"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ron"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "rus"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tam"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tel"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tur"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "vie"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "expiresSoon": true,
+                "expiresOn": 1790719199,
+                "availableSince": 1777527013
+              },
+              {
+                "service": {
+                  "id": "disney",
+                  "name": "Disney+",
+                  "homePage": "https://www.disneyplus.com/",
+                  "themeColorCode": "#01137c"
+                },
+                "type": "subscription",
+                "link": "https://www.disneyplus.com/ficticio/0257",
+                "videoLink": "https://www.disneyplus.com/ficticio/0258",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra",
+                    "region": "FRA"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por",
+                    "region": "BRA"
+                  },
+                  {
+                    "language": "spa",
+                    "region": "419"
+                  },
+                  {
+                    "language": "spa",
+                    "region": "ESP"
+                  },
+                  {
+                    "language": "tur"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ara"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ces"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra",
+                      "region": "FRA"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "hun"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nor"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "pol"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por",
+                      "region": "BRA"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por",
+                      "region": "PRT"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ron"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa",
+                      "region": "419"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa",
+                      "region": "ESP"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tur"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1787651423
+              },
+              {
+                "service": {
+                  "id": "skyshowtime",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.skyshowtime.com/",
+                  "themeColorCode": "#795fe3"
+                },
+                "type": "subscription",
+                "link": "https://www.skyshowtime.com/ficticio/0259",
+                "videoLink": "https://www.skyshowtime.com/ficticio/0260",
+                "quality": "uhd",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": false,
+                "expiresOn": 1814306340,
+                "availableSince": 1782822146
+              },
+              {
+                "service": {
+                  "id": "skyshowtime",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.skyshowtime.com/",
+                  "themeColorCode": "#795fe3"
+                },
+                "type": "subscription",
+                "link": "https://www.skyshowtime.com/ficticio/0261",
+                "videoLink": "https://www.skyshowtime.com/ficticio/0262",
+                "quality": "uhd",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": false,
+                "expiresOn": 1814306340,
+                "availableSince": 1787222769
+              },
+              {
+                "service": {
+                  "id": "skyshowtime",
+                  "name": "SkyShowtime",
+                  "homePage": "https://www.skyshowtime.com/",
+                  "themeColorCode": "#795fe3"
+                },
+                "type": "subscription",
+                "link": "https://www.skyshowtime.com/ficticio/0263",
+                "videoLink": "https://www.skyshowtime.com/ficticio/0264",
+                "quality": "uhd",
+                "audios": [],
+                "subtitles": [],
+                "expiresSoon": false,
+                "expiresOn": 1814306340,
+                "availableSince": 1768335988
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

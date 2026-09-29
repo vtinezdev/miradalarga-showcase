@@ -1,0 +1,60 @@
+.contenedor {
+  grid-template-columns: minmax(0, 1fr);
+  display: grid;
+  gap: var(--space-block) var(--grid-gap);
+}
+
+.columnas {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+}
+
+.pestanas {
+  gap: var(--space-4);
+}
+
+.lista {
+  display: flex;
+  gap: var(--space-1);
+  border-bottom: var(--border-hairline);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+/* Las tres pestañas caben a 375 px sin scroll: ninguna queda medio escondida. */
+.pestana {
+  position: relative;
+  flex: 1 0 auto;
+  min-height: var(--target-min);
+  padding-inline: var(--space-2);
+  font-size: var(--text-small);
+  color: var(--color-text-2);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.pestana[aria-selected="true"] {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.pestana[aria-selected="true"]::after {
+  content: "";
+  position: absolute;
+  left: var(--space-2);
+  right: var(--space-2);
+  bottom: -1px;
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.panel {
+  min-width: 0;
+}
+
+.panel:focus-visible {
+  outline-offset: 4px;
+}
+
+.titulo {
+  margin-bottom: var(--space-2);
+  font-size: var(--text-title-3);
+}

@@ -1,0 +1,81 @@
+.movil {
+  display: contents;
+}
+
+@media (min-width: 64rem) {
+  .movil {
+    display: none;
+  }
+}
+
+.destinos {
+  display: grid;
+  border-top: var(--border-hairline);
+}
+
+.destinos li {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  align-items: baseline;
+  border-bottom: var(--border-hairline);
+}
+
+/* El sumario de la edición: 01–05 en cifra fina, como los ordinales. */
+.numero {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  font-size: var(--text-title-3);
+  color: var(--color-text-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.destino {
+  display: flex;
+  align-items: center;
+  min-height: 3.5rem;
+  font-family: var(--font-serif);
+  font-size: var(--text-title-2);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.destino[aria-current="page"] {
+  color: var(--color-accent);
+}
+
+/* Al abrir, las entradas llegan escalonadas (40 ms entre cada una). La hoja
+   pasa por `display: none` al cerrarse, así que se repite en cada apertura. */
+@media (prefers-reduced-motion: no-preference) {
+  .destinos li {
+    animation: entrarDestino var(--duration-sheet-in) var(--ease-out) backwards;
+    animation-delay: calc(var(--i, 0) * 40ms + 60ms);
+  }
+}
+
+@keyframes entrarDestino {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+.misPlataformas {
+  justify-self: start;
+  min-height: var(--target-min);
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.confianza {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-5);
+  font-size: var(--text-small);
+  color: var(--color-text-2);
+}
+
+.confianza a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+}

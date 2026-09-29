@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "origen": "ops_sync_runs fila 50 (primera ejecución real de upcoming, 2026-09-24), .upcoming-runs/2026-09-24T15-49-46-186Z-real/002-upcoming.json, aviso 21 de la página 2",
+    "ahora": "2026-09-24T15:49:45.017Z",
+    "ventana": {
+      "from": 1790264925,
+      "to": 1792943385
+    },
+    "recorte": "Solo el aviso de tt9000044 («Título ficticio 068», Netflix subscription) y su show sin imageSet: el aviso trae el link ficticio 0091 y fecha futura; el snapshot ya lista la oferta disponible desde 2022 con el link ficticio 0096."
+  },
+  "body": {
+    "changes": [
+      {
+        "changeType": "upcoming",
+        "itemType": "show",
+        "showId": "5000025",
+        "showType": "series",
+        "service": {
+          "id": "netflix",
+          "name": "Netflix",
+          "homePage": "https://www.netflix.com/",
+          "themeColorCode": "#E50914",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1791356400,
+        "link": "https://www.netflix.com/ficticio/0091"
+      }
+    ],
+    "shows": {
+      "5000025": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000025",
+        "imdbId": "tt9000044",
+        "tmdbId": "tv/900135",
+        "title": "Título ficticio 068",
+        "overview": "Sinopsis ficticia de ejemplo número 13.",
+        "firstAirYear": 2011,
+        "lastAirYear": 2016,
+        "originalTitle": "Original ficticio 119",
+        "genres": [
+          {
+            "id": "crime",
+            "name": "Crimen"
+          },
+          {
+            "id": "drama",
+            "name": "Drama"
+          },
+          {
+            "id": "mystery",
+            "name": "Misterio"
+          }
+        ],
+        "creators": ["Creador Ficticio 009", "Creador Ficticio 010"],
+        "cast": [
+          "Persona Ficticia 267",
+          "Persona Ficticia 080",
+          "Persona Ficticia 125",
+          "Persona Ficticia 126",
+          "Persona Ficticia 065",
+          "Persona Ficticia 310",
+          "Persona Ficticia 230"
+        ],
+        "rating": 69,
+        "seasonCount": 4,
+        "episodeCount": 61,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0096",
+              "videoLink": "https://www.netflix.com/ficticio/0097",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ces"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "dan"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "deu"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ell"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fin"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hrv"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hun"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ita"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nob"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "pol"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ron"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "rus"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "swe"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1668096392
+            }
+          ]
+        }
+      }
+    },
+    "hasMore": false
+  }
+}

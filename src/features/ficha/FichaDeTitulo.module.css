@@ -1,0 +1,347 @@
+.ficha {
+  position: relative;
+}
+
+/* ── Banda de fondo (con imagen): se funde con el fondo ─────────────────── */
+
+.banda {
+  position: relative;
+  width: var(--container-wide);
+  margin-inline: auto;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.banda > div {
+  height: 100%;
+  aspect-ratio: auto;
+  border-radius: 0;
+}
+
+.banda img {
+  border: 0;
+}
+
+.banda::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 50%, var(--color-bg));
+  pointer-events: none;
+}
+
+@media (min-width: 48rem) {
+  .banda {
+    aspect-ratio: 16 / 9;
+    max-height: 32rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .banda {
+    aspect-ratio: 21 / 9;
+  }
+}
+
+/* ── Rejilla: móvil en una columna; escritorio 7 + 5 ────────────────────── */
+
+.rejilla {
+  grid-template-columns: minmax(0, 1fr);
+  display: grid;
+  gap: var(--space-6);
+  padding-top: var(--space-4);
+}
+
+.conImagen {
+  margin-top: calc(-1 * var(--space-16));
+  position: relative;
+}
+
+.tipografica {
+  padding-top: var(--space-4);
+}
+
+@media (min-width: 64rem) {
+  .rejilla {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    column-gap: var(--space-12);
+    row-gap: var(--space-8);
+    align-items: start;
+  }
+
+  .rejilla > nav {
+    grid-column: 1 / -1;
+  }
+
+  .cabecera {
+    grid-column: 1;
+  }
+
+  .disponibilidad {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    position: sticky;
+    top: calc(var(--header-height) + var(--space-6));
+  }
+
+  .cuerpo {
+    grid-column: 1;
+  }
+}
+
+/* ── Cabecera ───────────────────────────────────────────────────────────── */
+
+.cabecera {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-4);
+  align-items: end;
+}
+
+.cabecera .poster {
+  width: 96px;
+}
+
+@media (min-width: 64rem) {
+  .cabecera .poster {
+    width: 160px;
+  }
+}
+
+.identidad {
+  display: grid;
+  gap: var(--space-3);
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.poster + .identidad {
+  grid-column: 2;
+}
+
+.titulo {
+  font-size: var(--text-display-l);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  hyphens: auto;
+}
+
+.tipografica .titulo {
+  font-size: var(--text-ficha-tipografica);
+}
+
+.original,
+.generos {
+  font-size: var(--text-small);
+  color: var(--color-text-2);
+}
+
+.horizonte {
+  position: relative;
+  display: block;
+  height: 1px;
+  margin-top: var(--space-2);
+  background: var(--color-border-subtle);
+  transform-origin: left;
+}
+
+.horizonte::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -3px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+/* Al llegar, el horizonte se traza bajo el título y el punto se enciende al
+   final (firma 1). Una vez, y nunca con movimiento reducido. */
+@media (prefers-reduced-motion: no-preference) {
+  .horizonte {
+    animation: trazarHorizonte var(--duration-editorial) var(--ease-out) 80ms both;
+  }
+
+  .horizonte::after {
+    animation: encenderPunto var(--duration-hover) var(--ease-out) 480ms both;
+  }
+}
+
+@keyframes trazarHorizonte {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+@keyframes encenderPunto {
+  from {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+}
+
+/* ── Cuerpo ─────────────────────────────────────────────────────────────── */
+
+.cuerpo {
+  grid-template-columns: minmax(0, 1fr);
+  display: grid;
+  gap: var(--space-block);
+  min-width: 0;
+}
+
+.bloque {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.h2 {
+  font-size: var(--text-title-2);
+}
+
+.h3 {
+  font-size: var(--text-title-3);
+}
+
+.sinopsis {
+  display: grid;
+  gap: var(--space-4);
+  max-width: var(--measure-reading);
+  font-family: var(--font-serif);
+  font-size: var(--text-reading);
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+/* Veredicto: una cita editorial, no un número (BRAND.md §3). */
+.veredicto {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  border-left: var(--rule-editorial);
+  background: var(--color-surface);
+}
+
+.antetituloEditorial {
+  color: var(--color-text-2);
+}
+
+.etiquetaEditorial {
+  justify-self: start;
+  padding: 0.125rem var(--space-2);
+  border: 1px solid var(--color-editorial-rule);
+  border-radius: var(--radius-s);
+  font-size: var(--text-small);
+  color: var(--color-accent);
+}
+
+.cita p {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--text-lede);
+  line-height: 1.5;
+  max-width: var(--measure-reading);
+}
+
+.origen,
+.tambien {
+  font-size: var(--text-small);
+  color: var(--color-text-2);
+}
+
+.origen a,
+.tambien a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.origen a:hover,
+.tambien a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* Información útil: ficha de filmoteca en dt/dd. */
+.datos {
+  display: grid;
+  border-top: var(--border-row);
+}
+
+.dato {
+  display: grid;
+  gap: var(--space-1);
+  padding-block: var(--space-3);
+  border-bottom: var(--border-row);
+}
+
+@media (min-width: 48rem) {
+  .dato {
+    grid-template-columns: 11rem 1fr;
+    gap: var(--space-4);
+  }
+}
+
+.dato dt {
+  font-size: var(--text-small);
+  font-weight: 600;
+  color: var(--color-text-2);
+}
+
+.dato dd {
+  margin: 0;
+}
+
+.atribucion {
+  color: var(--color-text-3);
+  font-size: var(--text-small);
+}
+
+.movimientos {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.notaRegistro {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+/* ── Listas y relacionados ──────────────────────────────────────────────── */
+
+.seccion {
+  margin-top: var(--space-section);
+}
+
+.listas {
+  display: grid;
+}
+
+@media (min-width: 48rem) {
+  .listas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--grid-gap);
+  }
+}
+
+.grupoRelacionado {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.grupoRelacionado + .grupoRelacionado {
+  margin-top: var(--space-block);
+}
+
+/* Máximo 4 por grupo: nunca una parrilla de más de 4 columnas (DS §8.3). */
+.posters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-6) var(--grid-gap);
+}
+
+@media (min-width: 64rem) {
+  .posters {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

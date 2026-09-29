@@ -1,0 +1,33 @@
+# Configuración de pnpm para Mirada Larga.
+
+# pnpm bloquea por defecto los scripts de instalación de las dependencias
+# (defensa de cadena de suministro, docs/SECURITY.md). Se aprueban SOLO los
+# tres que necesitan compilar o descargar un binario nativo para funcionar:
+#
+#   esbuild        bundler nativo que usan Vite y vitest
+#   workerd        runtime de Cloudflare Workers, lo necesita wrangler
+#   unrs-resolver  resolvedor nativo de módulos que usa eslint-config-next
+#
+# Cualquier dependencia nueva que pida ejecutar scripts se evalúa antes de
+# añadirla aquí. La lista es deliberadamente corta.
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
+  workerd: true
+
+# pnpm 12 impone una antigüedad mínima antes de instalar una versión recién
+# publicada, como defensa frente a paquetes comprometidos. Estas exclusiones las
+# generó pnpm al fijar el conjunto de versiones EXACTAS validadas en el Spike 2
+# (ADR 0002): reproducir ese conjunto con fidelidad tiene prioridad sobre la
+# espera, porque es el único conjunto que se ha medido funcionando sobre Workers.
+minimumReleaseAgeExclude:
+  - "@cloudflare/vite-plugin@1.57.0"
+  - "@cloudflare/workerd-darwin-64@1.20260921.1"
+  - "@cloudflare/workerd-darwin-arm64@1.20260921.1"
+  - "@cloudflare/workerd-linux-64@1.20260921.1"
+  - "@cloudflare/workerd-linux-arm64@1.20260921.1"
+  - "@cloudflare/workerd-windows-64@1.20260921.1"
+  - drizzle-orm@0.45.3
+  - miniflare@5.20260921.0-alpha
+  - workerd@1.20260921.1
+  - wrangler@4.136.0

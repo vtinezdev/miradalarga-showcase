@@ -1,0 +1,4246 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "origen": "ops_sync_runs fila 50 (primera ejecución real de upcoming, 2026-09-24), .upcoming-runs/2026-09-24T15-49-46-186Z-real/",
+    "ahora": "2026-09-24T15:49:45.017Z",
+    "ventana": {
+      "from": 1790264925,
+      "to": 1792943385
+    },
+    "recorte": "Las tres páginas COMPLETAS: los 63 avisos y los cursores reales. De los shows se quitan imageSet, overview, cast, creators y directors; de los servicios, todo salvo id y name."
+  },
+  "paginas": [
+    {
+      "changes": [
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000126",
+          "showType": "series",
+          "service": {
+            "id": "hbo",
+            "name": "HBO Max"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790319600,
+          "link": "https://play.hbomax.com/ficticio/0041"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000112",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790319600,
+          "link": "https://www.netflix.com/ficticio/0042"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000042",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790319600,
+          "link": "https://www.netflix.com/ficticio/0043"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000116",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790319600,
+          "link": "https://www.netflix.com/ficticio/0044"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000127",
+          "showType": "series",
+          "service": {
+            "id": "hbo",
+            "name": "HBO Max"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790319660,
+          "link": "https://play.hbomax.com/ficticio/0045"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000129",
+          "showType": "series",
+          "service": {
+            "id": "disney",
+            "name": "Disney+"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790373600,
+          "link": "https://www.disneyplus.com/ficticio/0046"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000027",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790406000,
+          "link": "https://www.netflix.com/ficticio/0047"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000088",
+          "showType": "movie",
+          "service": {
+            "id": "disney",
+            "name": "Disney+"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790546400,
+          "link": "https://www.disneyplus.com/ficticio/0048"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000088",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790578800,
+          "link": "https://www.netflix.com/ficticio/0049"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000125",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790578800,
+          "link": "https://www.netflix.com/ficticio/0050"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000102",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790665200,
+          "link": "https://www.netflix.com/ficticio/0051"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000098",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790665200,
+          "link": "https://www.netflix.com/ficticio/0052"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000081",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790665200,
+          "link": "https://www.netflix.com/ficticio/0053"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000130",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790751600,
+          "link": "https://www.netflix.com/ficticio/0054"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000133",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790751600,
+          "link": "https://www.netflix.com/ficticio/0055"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000120",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790751600,
+          "link": "https://www.netflix.com/ficticio/0056"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000123",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0057"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000086",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0058"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000059",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0059"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000083",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0060"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000048",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0061"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000058",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0062"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000079",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0063"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000076",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0064"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000089",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0065"
+        }
+      ],
+      "shows": {
+        "5000027": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000027",
+          "imdbId": "tt90000025",
+          "tmdbId": "tv/900098",
+          "title": "Título ficticio 054",
+          "firstAirYear": 2021,
+          "lastAirYear": 2026,
+          "originalTitle": "Original ficticio 035",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            },
+            {
+              "id": "fantasy",
+              "name": "Fantasía"
+            }
+          ],
+          "rating": 74,
+          "seasonCount": 6,
+          "episodeCount": 98,
+          "streamingOptions": {}
+        },
+        "5000042": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000042",
+          "imdbId": "tt90000021",
+          "tmdbId": "tv/900097",
+          "title": "Título ficticio 139",
+          "firstAirYear": 2020,
+          "lastAirYear": 2020,
+          "originalTitle": "Título ficticio 139",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "rating": 64,
+          "seasonCount": 1,
+          "episodeCount": 8,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "atresplayeres",
+                  "name": "Atresplayer Premium sin anuncios",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/atresplayeres",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0066",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1708087880
+              }
+            ]
+          }
+        },
+        "5000048": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000048",
+          "imdbId": "tt9000007",
+          "tmdbId": "movie/900002",
+          "title": "Título ficticio 032",
+          "releaseYear": 2000,
+          "originalTitle": "Original ficticio 041",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "rating": 49,
+          "runtime": 94,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "sd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "2.99",
+                  "currency": "EUR",
+                  "formatted": "2.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "buy",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "5.99",
+                  "currency": "EUR",
+                  "formatted": "5.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              }
+            ]
+          }
+        },
+        "5000058": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000058",
+          "imdbId": "tt90000037",
+          "tmdbId": "movie/900091",
+          "title": "Título ficticio 042",
+          "releaseYear": 2022,
+          "originalTitle": "Original ficticio 087",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 62,
+          "runtime": 92,
+          "streamingOptions": {}
+        },
+        "5000059": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000059",
+          "imdbId": "tt9000140",
+          "tmdbId": "movie/900086",
+          "title": "Título ficticio 119",
+          "releaseYear": 2022,
+          "originalTitle": "Título ficticio 119",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 53,
+          "runtime": 95,
+          "streamingOptions": {}
+        },
+        "5000076": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000076",
+          "imdbId": "tt90000062",
+          "tmdbId": "movie/900004",
+          "title": "Título ficticio 084",
+          "releaseYear": 2024,
+          "originalTitle": "Original ficticio 055",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 59,
+          "runtime": 110,
+          "streamingOptions": {}
+        },
+        "5000079": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000079",
+          "imdbId": "tt90000049",
+          "tmdbId": "movie/900095",
+          "title": "Título ficticio 087",
+          "releaseYear": 2025,
+          "originalTitle": "Original ficticio 113",
+          "genres": [
+            {
+              "id": "scifi",
+              "name": "Ciencia Ficción"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 57,
+          "runtime": 119,
+          "streamingOptions": {}
+        },
+        "5000081": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000081",
+          "imdbId": "tt90000067",
+          "tmdbId": "movie/900017",
+          "title": "Título ficticio 116",
+          "releaseYear": 2024,
+          "originalTitle": "Título ficticio 116",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            },
+            {
+              "id": "documentary",
+              "name": "Documental"
+            }
+          ],
+          "rating": 57,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "subscription",
+                "link": "https://app.primevideo.com/ficticio/0068",
+                "videoLink": "https://app.primevideo.com/ficticio/0069",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1727712672
+              }
+            ]
+          }
+        },
+        "5000083": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000083",
+          "imdbId": "tt90000057",
+          "tmdbId": "movie/900011",
+          "title": "Título ficticio 056",
+          "releaseYear": 2025,
+          "originalTitle": "Original ficticio 034",
+          "genres": [
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 62,
+          "runtime": 102,
+          "streamingOptions": {}
+        },
+        "5000086": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000086",
+          "imdbId": "tt90000039",
+          "tmdbId": "movie/900092",
+          "title": "Título ficticio 049",
+          "releaseYear": 2024,
+          "originalTitle": "Original ficticio 054",
+          "genres": [
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 70,
+          "runtime": 92,
+          "streamingOptions": {}
+        },
+        "5000088": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000088",
+          "imdbId": "tt90000071",
+          "tmdbId": "movie/900018",
+          "title": "Título ficticio 060",
+          "releaseYear": 2025,
+          "originalTitle": "Original ficticio 127",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "animation",
+              "name": "Animación"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            }
+          ],
+          "rating": 79,
+          "runtime": 154,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxsportses",
+                  "name": "HBO Max + HBO Max Sport",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxsportses",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0070",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1783107405
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "crunchyrolles",
+                  "name": "test string id meant for sonata testing only",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/crunchyrolles",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0071",
+                "audios": [
+                  {
+                    "language": "cat"
+                  },
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "jpn"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "rus"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ara"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "pol"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "rus"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1787887606
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxsportses",
+                  "name": "HBO Max + HBO Max Sport",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxsportses",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0072",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1782408407
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxsportses",
+                  "name": "HBO Max + HBO Max Sport",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxsportses",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0073",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1766786687
+              },
+              {
+                "service": {
+                  "id": "crunchyroll",
+                  "name": "Crunchyroll"
+                },
+                "type": "subscription",
+                "link": "https://www.crunchyroll.com/ficticio/0074",
+                "audios": [
+                  {
+                    "language": "cat",
+                    "region": "ESP"
+                  },
+                  {
+                    "language": "deu",
+                    "region": "DEU"
+                  },
+                  {
+                    "language": "eng",
+                    "region": "USA"
+                  },
+                  {
+                    "language": "fra",
+                    "region": "FRA"
+                  },
+                  {
+                    "language": "ita",
+                    "region": "ITA"
+                  },
+                  {
+                    "language": "jpn",
+                    "region": "JPN"
+                  },
+                  {
+                    "language": "pol",
+                    "region": "POL"
+                  },
+                  {
+                    "language": "por",
+                    "region": "BRA"
+                  },
+                  {
+                    "language": "rus",
+                    "region": "RUS"
+                  },
+                  {
+                    "language": "spa",
+                    "region": "419"
+                  },
+                  {
+                    "language": "spa",
+                    "region": "ESP"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ara",
+                      "region": "SAU"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu",
+                      "region": "DEU"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "eng",
+                      "region": "USA"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra",
+                      "region": "FRA"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita",
+                      "region": "ITA"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "pol",
+                      "region": "POL"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por",
+                      "region": "BRA"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por",
+                      "region": "PRT"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "rus",
+                      "region": "RUS"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa",
+                      "region": "419"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa",
+                      "region": "ESP"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1770752143
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxsportses",
+                  "name": "HBO Max + HBO Max Sport",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxsportses",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0075",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1782623087
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxsportses",
+                  "name": "HBO Max + HBO Max Sport",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxsportses",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0076",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1782694974
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxsportses",
+                  "name": "HBO Max + HBO Max Sport",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxsportses",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0077",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1782697216
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxsportses",
+                  "name": "HBO Max + HBO Max Sport",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxsportses",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0078",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1781481751
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxsportses",
+                  "name": "HBO Max + HBO Max Sport",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxsportses",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0079",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1781481752
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "addon",
+                "addon": {
+                  "id": "maxsportses",
+                  "name": "HBO Max + HBO Max Sport",
+                  "homePage": "https://www.primevideo.com/storefront/subscription/maxsportses",
+                  "themeColorCode": "#000000"
+                },
+                "link": "https://www.primevideo.com/ficticio/0080",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [],
+                "expiresSoon": false,
+                "availableSince": 1783107699
+              }
+            ]
+          }
+        },
+        "5000089": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000089",
+          "imdbId": "tt90000077",
+          "tmdbId": "movie/900025",
+          "title": "Título ficticio 057",
+          "releaseYear": 2025,
+          "originalTitle": "Título ficticio 057",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 62,
+          "runtime": 73,
+          "streamingOptions": {}
+        },
+        "5000098": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000098",
+          "imdbId": "tt90000083",
+          "tmdbId": "movie/900019",
+          "title": "Título ficticio 142",
+          "releaseYear": 2026,
+          "originalTitle": "Título ficticio 142",
+          "genres": [
+            {
+              "id": "animation",
+              "name": "Animación"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000102": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000102",
+          "imdbId": "tt90000111",
+          "tmdbId": "tv/900125",
+          "title": "Título ficticio 085",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 085",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "animation",
+              "name": "Animación"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 2,
+          "streamingOptions": {}
+        },
+        "5000112": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000112",
+          "imdbId": "tt90000088",
+          "tmdbId": "tv/900117",
+          "title": "Título ficticio 047",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 047",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "history",
+              "name": "Historia"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 5,
+          "streamingOptions": {}
+        },
+        "5000116": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000116",
+          "imdbId": "tt9000128",
+          "tmdbId": "movie/900028",
+          "title": "Título ficticio 138",
+          "releaseYear": 2026,
+          "originalTitle": "Título ficticio 138",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000120": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000120",
+          "imdbId": "tt90000092",
+          "tmdbId": "tv/900128",
+          "title": "Título ficticio 074",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 074",
+          "genres": [
+            {
+              "id": "reality",
+              "name": "Realidad"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 1,
+          "streamingOptions": {}
+        },
+        "5000123": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000123",
+          "imdbId": "tt90000052",
+          "tmdbId": "tv/900109",
+          "title": "Título ficticio 004",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Original ficticio 024",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 7,
+          "streamingOptions": {}
+        },
+        "5000125": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000125",
+          "imdbId": "tt90000115",
+          "tmdbId": "tv/900131",
+          "title": "Título ficticio 106",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 106",
+          "genres": [
+            {
+              "id": "reality",
+              "name": "Realidad"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 2,
+          "streamingOptions": {}
+        },
+        "5000126": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000126",
+          "imdbId": "tt90000113",
+          "tmdbId": "tv/900130",
+          "title": "Título ficticio 039",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 039",
+          "genres": [
+            {
+              "id": "documentary",
+              "name": "Documental"
+            },
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 1,
+          "streamingOptions": {}
+        },
+        "5000127": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000127",
+          "imdbId": "tt90000107",
+          "tmdbId": "tv/900114",
+          "title": "Título ficticio 107",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 107",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 7,
+          "streamingOptions": {}
+        },
+        "5000129": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000129",
+          "imdbId": "tt90000116",
+          "tmdbId": "tv/900132",
+          "title": "Título ficticio 030",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 030",
+          "genres": [
+            {
+              "id": "documentary",
+              "name": "Documental"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 3,
+          "streamingOptions": {}
+        },
+        "5000130": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000130",
+          "imdbId": "tt90000096",
+          "tmdbId": "tv/900118",
+          "title": "Título ficticio 088",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 088",
+          "genres": [
+            {
+              "id": "reality",
+              "name": "Realidad"
+            },
+            {
+              "id": "romance",
+              "name": "Romance"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 10,
+          "streamingOptions": {}
+        },
+        "5000133": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000133",
+          "imdbId": "tt90000114",
+          "tmdbId": "movie/900037",
+          "title": "Título ficticio 131",
+          "releaseYear": 2026,
+          "originalTitle": "Título ficticio 131",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "documentary",
+              "name": "Documental"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        }
+      },
+      "hasMore": true,
+      "nextCursor": "1790838000:0"
+    },
+    {
+      "changes": [
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000123",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0057"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000086",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0058"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000059",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0059"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000083",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0060"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000048",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0061"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000058",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0062"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000079",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0063"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000076",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0064"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000089",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0065"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000068",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0081"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000062",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0082"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000119",
+          "showType": "series",
+          "service": {
+            "id": "disney",
+            "name": "Disney+"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790892000,
+          "link": "https://www.disneyplus.com/ficticio/0083"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000096",
+          "showType": "movie",
+          "service": {
+            "id": "apple",
+            "name": "Apple TV"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790899200,
+          "link": "https://tv.apple.com/ficticio/0084"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000121",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790924400,
+          "link": "https://www.netflix.com/ficticio/0085"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000134",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790924400,
+          "link": "https://www.netflix.com/ficticio/0086"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000078",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791097200,
+          "link": "https://www.netflix.com/ficticio/0087"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000104",
+          "showType": "series",
+          "service": {
+            "id": "hbo",
+            "name": "HBO Max"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791151200,
+          "link": "https://play.hbomax.com/ficticio/0088"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000114",
+          "showType": "series",
+          "service": {
+            "id": "prime",
+            "name": "Prime Video"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791324000
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000106",
+          "showType": "series",
+          "service": {
+            "id": "disney",
+            "name": "Disney+"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791324000,
+          "link": "https://www.disneyplus.com/ficticio/0089"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000128",
+          "showType": "series",
+          "service": {
+            "id": "disney",
+            "name": "Disney+"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791324000,
+          "link": "https://www.disneyplus.com/ficticio/0090"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000025",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791356400,
+          "link": "https://www.netflix.com/ficticio/0091"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000136",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791356400,
+          "link": "https://www.netflix.com/ficticio/0092"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000132",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791356400,
+          "link": "https://www.netflix.com/ficticio/0093"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000115",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791442800,
+          "link": "https://www.netflix.com/ficticio/0094"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000033",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791442800,
+          "link": "https://www.netflix.com/ficticio/0095"
+        }
+      ],
+      "shows": {
+        "5000025": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000025",
+          "imdbId": "tt9000044",
+          "tmdbId": "tv/900135",
+          "title": "Título ficticio 068",
+          "firstAirYear": 2011,
+          "lastAirYear": 2016,
+          "originalTitle": "Original ficticio 119",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            }
+          ],
+          "rating": 69,
+          "seasonCount": 4,
+          "episodeCount": 61,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "netflix",
+                  "name": "Netflix"
+                },
+                "type": "subscription",
+                "link": "https://www.netflix.com/ficticio/0096",
+                "videoLink": "https://www.netflix.com/ficticio/0097",
+                "audios": [
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ces"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "hrv"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "hun"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "pol"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ron"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "rus"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  }
+                ],
+                "expiresSoon": false,
+                "availableSince": 1668096392
+              }
+            ]
+          }
+        },
+        "5000033": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000033",
+          "imdbId": "tt9000119",
+          "tmdbId": "movie/900056",
+          "title": "Título ficticio 101",
+          "releaseYear": 2016,
+          "originalTitle": "Original ficticio 056",
+          "genres": [
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 63,
+          "runtime": 81,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV"
+                },
+                "type": "buy",
+                "link": "https://tv.apple.com/ficticio/0098",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "8.99",
+                  "currency": "EUR",
+                  "formatted": "8.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1731814301
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0099",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "cat"
+                  },
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ron"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "2.99",
+                  "currency": "EUR",
+                  "formatted": "2.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1768736926
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "buy",
+                "link": "https://www.primevideo.com/ficticio/0099",
+                "quality": "uhd",
+                "audios": [
+                  {
+                    "language": "cat"
+                  },
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ron"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "7.99",
+                  "currency": "EUR",
+                  "formatted": "7.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1768736926
+              },
+              {
+                "service": {
+                  "id": "apple",
+                  "name": "Apple TV"
+                },
+                "type": "rent",
+                "link": "https://tv.apple.com/ficticio/0098",
+                "quality": "hd",
+                "audios": [],
+                "subtitles": [],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1731814301
+              }
+            ]
+          }
+        },
+        "5000048": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000048",
+          "imdbId": "tt9000007",
+          "tmdbId": "movie/900002",
+          "title": "Título ficticio 032",
+          "releaseYear": 2000,
+          "originalTitle": "Original ficticio 041",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "rating": 49,
+          "runtime": 94,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "sd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "2.99",
+                  "currency": "EUR",
+                  "formatted": "2.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "buy",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "5.99",
+                  "currency": "EUR",
+                  "formatted": "5.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              }
+            ]
+          }
+        },
+        "5000058": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000058",
+          "imdbId": "tt90000037",
+          "tmdbId": "movie/900091",
+          "title": "Título ficticio 042",
+          "releaseYear": 2022,
+          "originalTitle": "Original ficticio 087",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 62,
+          "runtime": 92,
+          "streamingOptions": {}
+        },
+        "5000059": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000059",
+          "imdbId": "tt9000140",
+          "tmdbId": "movie/900086",
+          "title": "Título ficticio 119",
+          "releaseYear": 2022,
+          "originalTitle": "Título ficticio 119",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 53,
+          "runtime": 95,
+          "streamingOptions": {}
+        },
+        "5000062": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000062",
+          "imdbId": "tt90000032",
+          "tmdbId": "movie/900080",
+          "title": "Título ficticio 075",
+          "releaseYear": 2022,
+          "originalTitle": "Original ficticio 125",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            }
+          ],
+          "rating": 61,
+          "runtime": 137,
+          "streamingOptions": {}
+        },
+        "5000068": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000068",
+          "imdbId": "tt90000035",
+          "tmdbId": "movie/900085",
+          "title": "Título ficticio 114",
+          "releaseYear": 2022,
+          "originalTitle": "Original ficticio 078",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            }
+          ],
+          "rating": 58,
+          "runtime": 118,
+          "streamingOptions": {}
+        },
+        "5000076": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000076",
+          "imdbId": "tt90000062",
+          "tmdbId": "movie/900004",
+          "title": "Título ficticio 084",
+          "releaseYear": 2024,
+          "originalTitle": "Original ficticio 055",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 59,
+          "runtime": 110,
+          "streamingOptions": {}
+        },
+        "5000078": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000078",
+          "imdbId": "tt9000138",
+          "tmdbId": "movie/900075",
+          "title": "Título ficticio 073",
+          "releaseYear": 2024,
+          "originalTitle": "Título ficticio 073",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            },
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            }
+          ],
+          "rating": 57,
+          "runtime": 121,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "buy",
+                "link": "https://www.primevideo.com/ficticio/0100",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "jpn"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "jpn"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "pol"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "11.99",
+                  "currency": "EUR",
+                  "formatted": "11.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780757866
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0100",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "jpn"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "jpn"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "pol"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "5.99",
+                  "currency": "EUR",
+                  "formatted": "5.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780757866
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video"
+                },
+                "type": "buy",
+                "link": "https://www.primevideo.com/ficticio/0100",
+                "quality": "sd",
+                "audios": [
+                  {
+                    "language": "deu"
+                  },
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "fra"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "jpn"
+                  },
+                  {
+                    "language": "pol"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "deu"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "jpn"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "pol"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "9.99",
+                  "currency": "EUR",
+                  "formatted": "9.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780757866
+              }
+            ]
+          }
+        },
+        "5000079": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000079",
+          "imdbId": "tt90000049",
+          "tmdbId": "movie/900095",
+          "title": "Título ficticio 087",
+          "releaseYear": 2025,
+          "originalTitle": "Original ficticio 113",
+          "genres": [
+            {
+              "id": "scifi",
+              "name": "Ciencia Ficción"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 57,
+          "runtime": 119,
+          "streamingOptions": {}
+        },
+        "5000083": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000083",
+          "imdbId": "tt90000057",
+          "tmdbId": "movie/900011",
+          "title": "Título ficticio 056",
+          "releaseYear": 2025,
+          "originalTitle": "Original ficticio 034",
+          "genres": [
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 62,
+          "runtime": 102,
+          "streamingOptions": {}
+        },
+        "5000086": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000086",
+          "imdbId": "tt90000039",
+          "tmdbId": "movie/900092",
+          "title": "Título ficticio 049",
+          "releaseYear": 2024,
+          "originalTitle": "Original ficticio 054",
+          "genres": [
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 70,
+          "runtime": 92,
+          "streamingOptions": {}
+        },
+        "5000089": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000089",
+          "imdbId": "tt90000077",
+          "tmdbId": "movie/900025",
+          "title": "Título ficticio 057",
+          "releaseYear": 2025,
+          "originalTitle": "Título ficticio 057",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 62,
+          "runtime": 73,
+          "streamingOptions": {}
+        },
+        "5000096": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000096",
+          "imdbId": "tt90000099",
+          "tmdbId": "movie/900032",
+          "title": "Título ficticio 080",
+          "releaseYear": 2026,
+          "originalTitle": "Original ficticio 104",
+          "genres": [
+            {
+              "id": "documentary",
+              "name": "Documental"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000104": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000104",
+          "imdbId": "tt90000070",
+          "tmdbId": "tv/900108",
+          "title": "Título ficticio 003",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 003",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "animation",
+              "name": "Animación"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            }
+          ],
+          "rating": 56,
+          "seasonCount": 2,
+          "episodeCount": 25,
+          "streamingOptions": {}
+        },
+        "5000106": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000106",
+          "imdbId": "tt90000081",
+          "tmdbId": "tv/900121",
+          "title": "Título ficticio 129",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 129",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "music",
+              "name": "Música"
+            }
+          ],
+          "rating": 64,
+          "seasonCount": 1,
+          "episodeCount": 8,
+          "streamingOptions": {}
+        },
+        "5000114": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000114",
+          "imdbId": "tt90000026",
+          "tmdbId": "tv/900115",
+          "title": "Título ficticio 028",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 028",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 8,
+          "streamingOptions": {}
+        },
+        "5000115": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000115",
+          "imdbId": "tt90000079",
+          "tmdbId": "tv/900111",
+          "title": "Título ficticio 020",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Original ficticio 013",
+          "genres": [
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 6,
+          "streamingOptions": {}
+        },
+        "5000119": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000119",
+          "imdbId": "tt90000080",
+          "tmdbId": "tv/900120",
+          "title": "Título ficticio 033",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Original ficticio 020",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "family",
+              "name": "Familia"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 10,
+          "streamingOptions": {}
+        },
+        "5000121": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000121",
+          "imdbId": "tt90000085",
+          "tmdbId": "movie/900026",
+          "title": "Título ficticio 036",
+          "releaseYear": 2026,
+          "originalTitle": "Título ficticio 036",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000123": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000123",
+          "imdbId": "tt90000052",
+          "tmdbId": "tv/900109",
+          "title": "Título ficticio 004",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Original ficticio 024",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 7,
+          "streamingOptions": {}
+        },
+        "5000128": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000128",
+          "imdbId": "tt90000098",
+          "tmdbId": "tv/900122",
+          "title": "Título ficticio 141",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 141",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            },
+            {
+              "id": "romance",
+              "name": "Romance"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 4,
+          "streamingOptions": {}
+        },
+        "5000132": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000132",
+          "imdbId": "tt90000102",
+          "tmdbId": "movie/900033",
+          "title": "Título ficticio 098",
+          "releaseYear": 2026,
+          "originalTitle": "Título ficticio 098",
+          "genres": [],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000134": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000134",
+          "imdbId": "tt90000104",
+          "tmdbId": "movie/900036",
+          "title": "Título ficticio 117",
+          "releaseYear": 2026,
+          "originalTitle": "Original ficticio 083",
+          "genres": [
+            {
+              "id": "documentary",
+              "name": "Documental"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000136": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000136",
+          "imdbId": "tt90000087",
+          "tmdbId": "tv/900116",
+          "title": "Título ficticio 041",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 041",
+          "genres": [],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 1,
+          "streamingOptions": {}
+        }
+      },
+      "hasMore": true,
+      "nextCursor": "1791504000:0"
+    },
+    {
+      "changes": [
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000099",
+          "showType": "movie",
+          "service": {
+            "id": "apple",
+            "name": "Apple TV"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791504000,
+          "link": "https://tv.apple.com/ficticio/0101"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000122",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791529200,
+          "link": "https://www.netflix.com/ficticio/0102"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000139",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791529200,
+          "link": "https://www.netflix.com/ficticio/0103"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000137",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791874800,
+          "link": "https://www.netflix.com/ficticio/0104"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000138",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791874800,
+          "link": "https://www.netflix.com/ficticio/0105"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000111",
+          "showType": "movie",
+          "service": {
+            "id": "prime",
+            "name": "Prime Video"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791928800
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000051",
+          "showType": "movie",
+          "service": {
+            "id": "disney",
+            "name": "Disney+"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791928800,
+          "link": "https://www.disneyplus.com/ficticio/0106"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000118",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1792047600,
+          "link": "https://www.netflix.com/ficticio/0107"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000135",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1792047600,
+          "link": "https://www.netflix.com/ficticio/0108"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000110",
+          "showType": "movie",
+          "service": {
+            "id": "prime",
+            "name": "Prime Video"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1792101600
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000108",
+          "showType": "movie",
+          "service": {
+            "id": "apple",
+            "name": "Apple TV"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1792108800,
+          "link": "https://tv.apple.com/ficticio/0109"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000141",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1792134000,
+          "link": "https://www.netflix.com/ficticio/0110"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000140",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix"
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1792738800,
+          "link": "https://www.netflix.com/ficticio/0111"
+        }
+      ],
+      "shows": {
+        "5000051": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000051",
+          "imdbId": "tt9000002",
+          "tmdbId": "movie/900048",
+          "title": "Título ficticio 086",
+          "releaseYear": 1985,
+          "originalTitle": "Original ficticio 121",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "romance",
+              "name": "Romance"
+            }
+          ],
+          "rating": 65,
+          "runtime": 107,
+          "streamingOptions": {}
+        },
+        "5000099": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000099",
+          "imdbId": "tt90000060",
+          "tmdbId": "movie/900008",
+          "title": "Título ficticio 094",
+          "releaseYear": 2026,
+          "originalTitle": "Original ficticio 061",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000108": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000108",
+          "imdbId": "tt9000124",
+          "tmdbId": "movie/900014",
+          "title": "Título ficticio 127",
+          "releaseYear": 2026,
+          "originalTitle": "Título ficticio 127",
+          "genres": [
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000110": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000110",
+          "imdbId": "tt90000095",
+          "tmdbId": "movie/900031",
+          "title": "Título ficticio 093",
+          "releaseYear": 2026,
+          "originalTitle": "Título ficticio 093",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000111": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000111",
+          "imdbId": "tt90000075",
+          "tmdbId": "movie/900022",
+          "title": "Título ficticio 089",
+          "releaseYear": 2026,
+          "originalTitle": "Título ficticio 089",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "romance",
+              "name": "Romance"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000118": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000118",
+          "imdbId": "tt90000078",
+          "tmdbId": "tv/900112",
+          "title": "Título ficticio 067",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 067",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "family",
+              "name": "Familia"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 26,
+          "streamingOptions": {}
+        },
+        "5000122": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000122",
+          "imdbId": "tt90000065",
+          "tmdbId": "movie/900012",
+          "title": "Título ficticio 014",
+          "releaseYear": 2026,
+          "originalTitle": "Original ficticio 008",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "crime",
+              "name": "Crimen"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000135": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000135",
+          "imdbId": "tt90000089",
+          "tmdbId": "movie/900034",
+          "title": "Título ficticio 125",
+          "releaseYear": 2026,
+          "originalTitle": "Título ficticio 125",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            }
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        },
+        "5000137": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000137",
+          "imdbId": "tt90000086",
+          "tmdbId": "tv/900110",
+          "title": "Título ficticio 035",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 035",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 6,
+          "streamingOptions": {}
+        },
+        "5000138": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000138",
+          "imdbId": "tt90000076",
+          "tmdbId": "tv/900134",
+          "title": "Título ficticio 135",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 135",
+          "genres": [
+            {
+              "id": "documentary",
+              "name": "Documental"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 4,
+          "streamingOptions": {}
+        },
+        "5000139": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000139",
+          "imdbId": "tt90000091",
+          "tmdbId": "tv/900119",
+          "title": "Título ficticio 018",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 018",
+          "genres": [],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 8,
+          "streamingOptions": {}
+        },
+        "5000140": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000140",
+          "imdbId": "tt90000103",
+          "tmdbId": "tv/900133",
+          "title": "Título ficticio 058",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 058",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 6,
+          "streamingOptions": {}
+        },
+        "5000141": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000141",
+          "imdbId": "tt90000097",
+          "tmdbId": "tv/900126",
+          "title": "Título ficticio 105",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Título ficticio 105",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            }
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 1,
+          "streamingOptions": {}
+        }
+      },
+      "hasMore": false
+    }
+  ]
+}

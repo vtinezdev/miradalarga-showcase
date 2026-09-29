@@ -1,0 +1,199 @@
+/*
+ * Base global: reset mínimo, tipografía base, foco y unas pocas utilidades de
+ * maquetación que usan todas las pantallas. Lo específico de un componente va
+ * en su *.module.css.
+ */
+
+/*
+ * Fuentes de respaldo con la métrica de las de marca (`size-adjust`): mientras
+ * `font-display: swap` espera al woff2, el texto ocupa casi lo mismo y los
+ * saltos de línea no cambian al llegar la fuente (CLS, Quality Sprint 01).
+ * Proporciones medidas con canvas sobre el mismo párrafo: Newsreader / Georgia
+ * = 0,948 (cursiva 0,873); Schibsted Grotesk / Arial = 1,03 (400) y 0,99 (600).
+ */
+@font-face {
+  font-family: "Newsreader Fallback";
+  src: local("Georgia");
+  size-adjust: 94.8%;
+}
+
+@font-face {
+  font-family: "Newsreader Fallback";
+  font-style: italic;
+  src: local("Georgia Italic"), local("Georgia-Italic");
+  size-adjust: 87.3%;
+}
+
+@font-face {
+  font-family: "Schibsted Grotesk Fallback";
+  src: local("Arial");
+  size-adjust: 101%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  color-scheme: dark;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  /* La cabecera fija no tapa el destino de un ancla ni el foco (DS §4.4). */
+  scroll-padding-top: calc(var(--header-height) + var(--space-4));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  min-height: 100dvh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+svg,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.15;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cifras tabulares solo donde se alinean en columna: en Schibsted Grotesk la
+   característica también ensancha la coma («hoy , 06:10»). */
+.cifras {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Foco: siempre visible, nunca eliminado (DS §4.4) ─────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── Utilidades ────────────────────────────────────────────────────────── */
+
+.contenedor {
+  width: var(--container-page);
+  margin-inline: auto;
+}
+
+.contenedor-lectura {
+  width: var(--container-reading);
+  margin-inline: auto;
+}
+
+/* Oculto a la vista, presente para lectores de pantalla. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Antetítulo y etiquetas: 12 px solo en versalitas (DS §2.2). */
+.etiqueta {
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-3);
+}
+
+/* Enlace de texto con el acento. */
+.enlace {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.enlace:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* Movimiento reducido (DS §5.3): fuera desplazamientos, trazos y transiciones
+   no esenciales. Todo se ve en su estado final y nada depende de una animación. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    transition-delay: 0ms !important;
+    animation-duration: 0ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

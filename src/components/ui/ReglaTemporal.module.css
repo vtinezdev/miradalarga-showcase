@@ -1,0 +1,281 @@
+.regla {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-4);
+}
+
+/* ── Cabeza: leyenda de la línea y controles ────────────────────────────── */
+
+.cabeza {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-6);
+}
+
+/* La leyenda enseña el código de la línea: continua, punto, discontinua. */
+.leyenda {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-3);
+}
+
+.leyendaPasado::after,
+.leyendaFuturo::before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1px;
+  margin-inline: var(--space-2) 0;
+  vertical-align: middle;
+  background: var(--color-border);
+}
+
+.leyendaFuturo::before {
+  margin-inline: 0 var(--space-2);
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-border) 0 4px,
+    transparent 4px 8px
+  );
+}
+
+.leyendaHoy {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text);
+}
+
+.leyendaHoy::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.controles {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.control {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--target-min);
+  padding-inline: var(--space-3);
+  border: var(--border-control);
+  border-radius: var(--radius-s);
+  font-size: var(--text-small);
+  font-weight: 500;
+  color: var(--color-text);
+  touch-action: manipulation;
+  transition:
+    background-color var(--duration-feedback) var(--ease-standard),
+    border-color var(--duration-feedback) var(--ease-standard),
+    transform var(--duration-feedback) var(--ease-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .control:hover {
+    background: var(--color-surface-hover);
+    border-color: var(--color-border-control-hover);
+  }
+}
+
+.control:active {
+  transform: scale(var(--press-scale));
+}
+
+.control[aria-disabled="true"] {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.control[aria-disabled="true"]:active {
+  transform: none;
+}
+
+.izquierda {
+  transform: scaleX(-1);
+}
+
+/* ── La pista: un día por columna, encajando día a día ──────────────────── */
+
+/* `[role="list"]`: gana a la regla base que quita el relleno de las listas. */
+.pista[role="list"] {
+  position: relative;
+  display: flex;
+  margin-inline: calc(-1 * var(--gutter-page));
+  padding: 0 var(--gutter-page) var(--space-3);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  /* El día anterior asoma a la izquierda: se ve que hay pasado. */
+  scroll-padding-inline: calc(var(--gutter-page) + 2.5rem) var(--gutter-page);
+  scrollbar-width: none;
+}
+
+.pista::-webkit-scrollbar {
+  display: none;
+}
+
+.dia {
+  position: relative;
+  flex: 0 0 min(76%, 17rem);
+  min-width: 0;
+  padding: var(--space-8) var(--grid-gap) 0 0;
+  scroll-snap-align: start;
+}
+
+/* El tramo de horizonte de cada día. Los tramos se tocan: una sola línea. */
+.dia::before {
+  content: "";
+  position: absolute;
+  top: 0.6875rem;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--color-border);
+}
+
+/* El futuro todavía no ha ocurrido: línea discontinua. */
+.futuro::before,
+.hoy::before {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-border) 0 4px,
+    transparent 4px 8px
+  );
+}
+
+/* Marca del día sobre la línea: un trazo corto; hoy, el punto latón. */
+.marca {
+  position: absolute;
+  top: 0.375rem;
+  left: 0;
+  width: 1px;
+  height: 0.6875rem;
+  background: var(--color-border-control);
+}
+
+.hoy .marca {
+  top: 0.4375rem;
+  left: -1px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  box-shadow: 0 0 0 4px var(--color-bg);
+}
+
+.fecha {
+  margin-bottom: var(--space-3);
+  font-size: var(--text-title-3);
+  font-weight: 500;
+}
+
+.fecha time::first-letter {
+  text-transform: uppercase;
+}
+
+.pasado .fecha {
+  color: var(--color-text-2);
+}
+
+.eventos {
+  display: grid;
+}
+
+/* ── Un movimiento: estado, título y datos; todo él es la zona del enlace ── */
+
+.evento {
+  position: relative;
+  display: grid;
+  gap: var(--space-1);
+  padding-block: var(--space-3);
+  border-top: var(--border-hairline);
+}
+
+.titulo {
+  font-family: var(--font-serif);
+  font-size: var(--text-reading);
+  font-weight: 500;
+  line-height: 1.25;
+  overflow-wrap: break-word;
+}
+
+.titulo a {
+  text-decoration: none;
+}
+
+.titulo a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.titulo a:focus-visible {
+  outline: none;
+}
+
+.evento:has(.titulo a:focus-visible) {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .titulo a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+  }
+}
+
+.evento:active .titulo a {
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+}
+
+/* «Se fue» tiene menos protagonismo (SCREENS.md §4). */
+.evento[data-tipo="se-fue"] .titulo {
+  color: var(--color-text-2);
+}
+
+.meta {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+.enListas {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.vacio {
+  padding-block: var(--space-3);
+  border-top: var(--border-hairline);
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+.notas {
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+  max-width: var(--measure-reading);
+}
+
+@media (min-width: 64rem) {
+  .dia {
+    flex-basis: 18rem;
+  }
+}

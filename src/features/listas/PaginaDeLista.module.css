@@ -1,0 +1,55 @@
+/* Misma alineación que la cabecera: una columna de lectura a la izquierda. */
+.introduccion > * {
+  max-width: 44rem;
+}
+
+.introduccion {
+  display: grid;
+  gap: var(--space-4);
+  margin-top: var(--space-block);
+  font-family: var(--font-serif);
+  font-size: var(--text-reading);
+  line-height: 1.6;
+}
+
+.criterio {
+  border-block: var(--border-hairline);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: 1.5;
+  color: var(--color-text-2);
+}
+
+.criterio summary {
+  display: flex;
+  align-items: center;
+  min-height: var(--target-min);
+  font-weight: 600;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.criterio p {
+  padding-bottom: var(--space-3);
+  max-width: var(--measure-reading);
+}
+
+.publicada {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+.entradas {
+  margin-top: var(--space-block);
+}
+
+/* En escritorio, la columna de lectura: el ordinal cuelga del margen. */
+@media (min-width: 64rem) {
+  .entradas > * {
+    max-width: 58rem;
+  }
+}
+
+.otras {
+  margin-top: var(--space-section);
+}

@@ -1,0 +1,1954 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "origen": "ops_sync_runs fila 50 (primera ejecución real de upcoming, 2026-09-24), .upcoming-runs/2026-09-24T15-49-46-186Z-real/",
+    "ahora": "2026-09-24T15:49:45.017Z",
+    "ventana": {
+      "from": 1790264925,
+      "to": 1792943385
+    },
+    "recorte": "Tres páginas reales recortadas con sus cursores REALES: la 1 con sus avisos 17–25 (los 9 del 01-oct 07:00, nextCursor 1790838000:0), la 2 con sus avisos 1–11 (los mismos 9 repetidos + 2 nuevos del mismo instante, nextCursor 1791504000:0) y la 3 con su primer aviso (hasMore=false). Shows sin imageSet."
+  },
+  "paginas": [
+    {
+      "changes": [
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000123",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0057"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000086",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0058"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000059",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0059"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000083",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0060"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000048",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0061"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000058",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0062"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000079",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0063"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000076",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0064"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000089",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0065"
+        }
+      ],
+      "shows": {
+        "5000048": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000048",
+          "imdbId": "tt9000007",
+          "tmdbId": "movie/900002",
+          "title": "Título ficticio 032",
+          "overview": "Sinopsis ficticia de ejemplo número 12.",
+          "releaseYear": 2000,
+          "originalTitle": "Original ficticio 041",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "directors": ["Persona Ficticia 076"],
+          "cast": [
+            "Persona Ficticia 226",
+            "Persona Ficticia 076",
+            "Persona Ficticia 208",
+            "Persona Ficticia 322",
+            "Persona Ficticia 002",
+            "Persona Ficticia 140",
+            "Persona Ficticia 293"
+          ],
+          "rating": 49,
+          "runtime": 94,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1",
+                  "imageSet": {
+                    "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                    "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                    "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                  }
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1",
+                  "imageSet": {
+                    "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                    "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                    "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                  }
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "sd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "2.99",
+                  "currency": "EUR",
+                  "formatted": "2.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1",
+                  "imageSet": {
+                    "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                    "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                    "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                  }
+                },
+                "type": "buy",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "5.99",
+                  "currency": "EUR",
+                  "formatted": "5.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              }
+            ]
+          }
+        },
+        "5000058": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000058",
+          "imdbId": "tt90000037",
+          "tmdbId": "movie/900091",
+          "title": "Título ficticio 042",
+          "overview": "",
+          "releaseYear": 2022,
+          "originalTitle": "Original ficticio 087",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 032"],
+          "cast": [
+            "Persona Ficticia 301",
+            "Persona Ficticia 255",
+            "Persona Ficticia 083",
+            "Persona Ficticia 066",
+            "Persona Ficticia 228",
+            "Persona Ficticia 151",
+            "Persona Ficticia 058"
+          ],
+          "rating": 62,
+          "runtime": 92,
+          "streamingOptions": {}
+        },
+        "5000059": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000059",
+          "imdbId": "tt9000140",
+          "tmdbId": "movie/900086",
+          "title": "Título ficticio 119",
+          "overview": "",
+          "releaseYear": 2022,
+          "originalTitle": "Título ficticio 119",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 044"],
+          "cast": [
+            "Persona Ficticia 015",
+            "Persona Ficticia 190",
+            "Persona Ficticia 211",
+            "Persona Ficticia 275",
+            "Persona Ficticia 017",
+            "Persona Ficticia 147",
+            "Persona Ficticia 256"
+          ],
+          "rating": 53,
+          "runtime": 95,
+          "streamingOptions": {}
+        },
+        "5000076": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000076",
+          "imdbId": "tt90000062",
+          "tmdbId": "movie/900004",
+          "title": "Título ficticio 084",
+          "overview": "",
+          "releaseYear": 2024,
+          "originalTitle": "Original ficticio 055",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 157", "Persona Ficticia 014"],
+          "cast": [
+            "Persona Ficticia 320",
+            "Persona Ficticia 265",
+            "Persona Ficticia 284",
+            "Persona Ficticia 212",
+            "Persona Ficticia 087",
+            "Persona Ficticia 053",
+            "Persona Ficticia 162"
+          ],
+          "rating": 59,
+          "runtime": 110,
+          "streamingOptions": {}
+        },
+        "5000079": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000079",
+          "imdbId": "tt90000049",
+          "tmdbId": "movie/900095",
+          "title": "Título ficticio 087",
+          "overview": "",
+          "releaseYear": 2025,
+          "originalTitle": "Original ficticio 113",
+          "genres": [
+            {
+              "id": "scifi",
+              "name": "Ciencia Ficción"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 071"],
+          "cast": [
+            "Persona Ficticia 319",
+            "Persona Ficticia 077",
+            "Persona Ficticia 104",
+            "Persona Ficticia 285",
+            "Persona Ficticia 085",
+            "Persona Ficticia 135",
+            "Persona Ficticia 088"
+          ],
+          "rating": 57,
+          "runtime": 119,
+          "streamingOptions": {}
+        },
+        "5000083": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000083",
+          "imdbId": "tt90000057",
+          "tmdbId": "movie/900011",
+          "title": "Título ficticio 056",
+          "overview": "",
+          "releaseYear": 2025,
+          "originalTitle": "Original ficticio 034",
+          "genres": [
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 009"],
+          "cast": [
+            "Persona Ficticia 060",
+            "Persona Ficticia 037",
+            "Persona Ficticia 012",
+            "Persona Ficticia 254",
+            "Persona Ficticia 102",
+            "Persona Ficticia 238",
+            "Persona Ficticia 309"
+          ],
+          "rating": 62,
+          "runtime": 102,
+          "streamingOptions": {}
+        },
+        "5000086": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000086",
+          "imdbId": "tt90000039",
+          "tmdbId": "movie/900092",
+          "title": "Título ficticio 049",
+          "overview": "",
+          "releaseYear": 2024,
+          "originalTitle": "Original ficticio 054",
+          "genres": [
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 038", "Persona Ficticia 061"],
+          "cast": [
+            "Persona Ficticia 072",
+            "Persona Ficticia 194",
+            "Persona Ficticia 116",
+            "Persona Ficticia 091",
+            "Persona Ficticia 119",
+            "Persona Ficticia 272",
+            "Persona Ficticia 100"
+          ],
+          "rating": 70,
+          "runtime": 92,
+          "streamingOptions": {}
+        },
+        "5000089": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000089",
+          "imdbId": "tt90000077",
+          "tmdbId": "movie/900025",
+          "title": "Título ficticio 057",
+          "overview": "",
+          "releaseYear": 2025,
+          "originalTitle": "Título ficticio 057",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 031"],
+          "cast": [
+            "Persona Ficticia 292",
+            "Persona Ficticia 022",
+            "Persona Ficticia 193",
+            "Persona Ficticia 303",
+            "Persona Ficticia 021",
+            "Persona Ficticia 115",
+            "Persona Ficticia 028"
+          ],
+          "rating": 62,
+          "runtime": 73,
+          "streamingOptions": {}
+        },
+        "5000123": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000123",
+          "imdbId": "tt90000052",
+          "tmdbId": "tv/900109",
+          "title": "Título ficticio 004",
+          "overview": "",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Original ficticio 024",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "creators": ["Creador Ficticio 008"],
+          "cast": [
+            "Persona Ficticia 092",
+            "Persona Ficticia 054",
+            "Persona Ficticia 232",
+            "Persona Ficticia 153",
+            "Persona Ficticia 143",
+            "Persona Ficticia 315",
+            "Persona Ficticia 055"
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 7,
+          "streamingOptions": {}
+        }
+      },
+      "hasMore": true,
+      "nextCursor": "1790838000:0"
+    },
+    {
+      "changes": [
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000123",
+          "showType": "series",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0057"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000086",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0058"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000059",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0059"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000083",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0060"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000048",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0061"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000058",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0062"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000079",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0063"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000076",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0064"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000089",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0065"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000068",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0081"
+        },
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000062",
+          "showType": "movie",
+          "service": {
+            "id": "netflix",
+            "name": "Netflix",
+            "homePage": "https://www.netflix.com/",
+            "themeColorCode": "#E50914",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1790838000,
+          "link": "https://www.netflix.com/ficticio/0082"
+        }
+      ],
+      "shows": {
+        "5000048": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000048",
+          "imdbId": "tt9000007",
+          "tmdbId": "movie/900002",
+          "title": "Título ficticio 032",
+          "overview": "Sinopsis ficticia de ejemplo número 12.",
+          "releaseYear": 2000,
+          "originalTitle": "Original ficticio 041",
+          "genres": [
+            {
+              "id": "comedy",
+              "name": "Comedia"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "directors": ["Persona Ficticia 076"],
+          "cast": [
+            "Persona Ficticia 226",
+            "Persona Ficticia 076",
+            "Persona Ficticia 208",
+            "Persona Ficticia 322",
+            "Persona Ficticia 002",
+            "Persona Ficticia 140",
+            "Persona Ficticia 293"
+          ],
+          "rating": 49,
+          "runtime": 94,
+          "streamingOptions": {
+            "es": [
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1",
+                  "imageSet": {
+                    "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                    "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                    "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                  }
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "3.99",
+                  "currency": "EUR",
+                  "formatted": "3.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1",
+                  "imageSet": {
+                    "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                    "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                    "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                  }
+                },
+                "type": "rent",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "sd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "2.99",
+                  "currency": "EUR",
+                  "formatted": "2.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              },
+              {
+                "service": {
+                  "id": "prime",
+                  "name": "Prime Video",
+                  "homePage": "https://www.primevideo.com/",
+                  "themeColorCode": "#00A8E1",
+                  "imageSet": {
+                    "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                    "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                    "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                  }
+                },
+                "type": "buy",
+                "link": "https://www.primevideo.com/ficticio/0067",
+                "quality": "hd",
+                "audios": [
+                  {
+                    "language": "eng"
+                  },
+                  {
+                    "language": "ita"
+                  },
+                  {
+                    "language": "por"
+                  },
+                  {
+                    "language": "spa"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "dan"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ell"
+                    }
+                  },
+                  {
+                    "closedCaptions": true,
+                    "locale": {
+                      "language": "eng"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fin"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "fra"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "heb"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ind"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "ita"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nld"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "nob"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "por"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "spa"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "swe"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "tha"
+                    }
+                  },
+                  {
+                    "closedCaptions": false,
+                    "locale": {
+                      "language": "zho"
+                    }
+                  }
+                ],
+                "price": {
+                  "amount": "5.99",
+                  "currency": "EUR",
+                  "formatted": "5.99 EUR"
+                },
+                "expiresSoon": false,
+                "availableSince": 1780762457
+              }
+            ]
+          }
+        },
+        "5000058": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000058",
+          "imdbId": "tt90000037",
+          "tmdbId": "movie/900091",
+          "title": "Título ficticio 042",
+          "overview": "",
+          "releaseYear": 2022,
+          "originalTitle": "Original ficticio 087",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 032"],
+          "cast": [
+            "Persona Ficticia 301",
+            "Persona Ficticia 255",
+            "Persona Ficticia 083",
+            "Persona Ficticia 066",
+            "Persona Ficticia 228",
+            "Persona Ficticia 151",
+            "Persona Ficticia 058"
+          ],
+          "rating": 62,
+          "runtime": 92,
+          "streamingOptions": {}
+        },
+        "5000059": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000059",
+          "imdbId": "tt9000140",
+          "tmdbId": "movie/900086",
+          "title": "Título ficticio 119",
+          "overview": "",
+          "releaseYear": 2022,
+          "originalTitle": "Título ficticio 119",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 044"],
+          "cast": [
+            "Persona Ficticia 015",
+            "Persona Ficticia 190",
+            "Persona Ficticia 211",
+            "Persona Ficticia 275",
+            "Persona Ficticia 017",
+            "Persona Ficticia 147",
+            "Persona Ficticia 256"
+          ],
+          "rating": 53,
+          "runtime": 95,
+          "streamingOptions": {}
+        },
+        "5000062": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000062",
+          "imdbId": "tt90000032",
+          "tmdbId": "movie/900080",
+          "title": "Título ficticio 075",
+          "overview": "",
+          "releaseYear": 2022,
+          "originalTitle": "Original ficticio 125",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            }
+          ],
+          "directors": ["Persona Ficticia 192"],
+          "cast": [
+            "Persona Ficticia 247",
+            "Persona Ficticia 069",
+            "Persona Ficticia 332",
+            "Persona Ficticia 090",
+            "Persona Ficticia 006",
+            "Persona Ficticia 318",
+            "Persona Ficticia 253"
+          ],
+          "rating": 61,
+          "runtime": 137,
+          "streamingOptions": {}
+        },
+        "5000068": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000068",
+          "imdbId": "tt90000035",
+          "tmdbId": "movie/900085",
+          "title": "Título ficticio 114",
+          "overview": "",
+          "releaseYear": 2022,
+          "originalTitle": "Original ficticio 078",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            }
+          ],
+          "directors": ["Persona Ficticia 108"],
+          "cast": [
+            "Persona Ficticia 218",
+            "Persona Ficticia 098",
+            "Persona Ficticia 334",
+            "Persona Ficticia 210",
+            "Persona Ficticia 324",
+            "Persona Ficticia 093",
+            "Persona Ficticia 207"
+          ],
+          "rating": 58,
+          "runtime": 118,
+          "streamingOptions": {}
+        },
+        "5000076": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000076",
+          "imdbId": "tt90000062",
+          "tmdbId": "movie/900004",
+          "title": "Título ficticio 084",
+          "overview": "",
+          "releaseYear": 2024,
+          "originalTitle": "Original ficticio 055",
+          "genres": [
+            {
+              "id": "crime",
+              "name": "Crimen"
+            },
+            {
+              "id": "mystery",
+              "name": "Misterio"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 157", "Persona Ficticia 014"],
+          "cast": [
+            "Persona Ficticia 320",
+            "Persona Ficticia 265",
+            "Persona Ficticia 284",
+            "Persona Ficticia 212",
+            "Persona Ficticia 087",
+            "Persona Ficticia 053",
+            "Persona Ficticia 162"
+          ],
+          "rating": 59,
+          "runtime": 110,
+          "streamingOptions": {}
+        },
+        "5000079": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000079",
+          "imdbId": "tt90000049",
+          "tmdbId": "movie/900095",
+          "title": "Título ficticio 087",
+          "overview": "",
+          "releaseYear": 2025,
+          "originalTitle": "Original ficticio 113",
+          "genres": [
+            {
+              "id": "scifi",
+              "name": "Ciencia Ficción"
+            },
+            {
+              "id": "drama",
+              "name": "Drama"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 071"],
+          "cast": [
+            "Persona Ficticia 319",
+            "Persona Ficticia 077",
+            "Persona Ficticia 104",
+            "Persona Ficticia 285",
+            "Persona Ficticia 085",
+            "Persona Ficticia 135",
+            "Persona Ficticia 088"
+          ],
+          "rating": 57,
+          "runtime": 119,
+          "streamingOptions": {}
+        },
+        "5000083": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000083",
+          "imdbId": "tt90000057",
+          "tmdbId": "movie/900011",
+          "title": "Título ficticio 056",
+          "overview": "",
+          "releaseYear": 2025,
+          "originalTitle": "Original ficticio 034",
+          "genres": [
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 009"],
+          "cast": [
+            "Persona Ficticia 060",
+            "Persona Ficticia 037",
+            "Persona Ficticia 012",
+            "Persona Ficticia 254",
+            "Persona Ficticia 102",
+            "Persona Ficticia 238",
+            "Persona Ficticia 309"
+          ],
+          "rating": 62,
+          "runtime": 102,
+          "streamingOptions": {}
+        },
+        "5000086": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000086",
+          "imdbId": "tt90000039",
+          "tmdbId": "movie/900092",
+          "title": "Título ficticio 049",
+          "overview": "",
+          "releaseYear": 2024,
+          "originalTitle": "Original ficticio 054",
+          "genres": [
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 038", "Persona Ficticia 061"],
+          "cast": [
+            "Persona Ficticia 072",
+            "Persona Ficticia 194",
+            "Persona Ficticia 116",
+            "Persona Ficticia 091",
+            "Persona Ficticia 119",
+            "Persona Ficticia 272",
+            "Persona Ficticia 100"
+          ],
+          "rating": 70,
+          "runtime": 92,
+          "streamingOptions": {}
+        },
+        "5000089": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000089",
+          "imdbId": "tt90000077",
+          "tmdbId": "movie/900025",
+          "title": "Título ficticio 057",
+          "overview": "",
+          "releaseYear": 2025,
+          "originalTitle": "Título ficticio 057",
+          "genres": [
+            {
+              "id": "thriller",
+              "name": "Suspenso"
+            },
+            {
+              "id": "horror",
+              "name": "Terror"
+            }
+          ],
+          "directors": ["Persona Ficticia 031"],
+          "cast": [
+            "Persona Ficticia 292",
+            "Persona Ficticia 022",
+            "Persona Ficticia 193",
+            "Persona Ficticia 303",
+            "Persona Ficticia 021",
+            "Persona Ficticia 115",
+            "Persona Ficticia 028"
+          ],
+          "rating": 62,
+          "runtime": 73,
+          "streamingOptions": {}
+        },
+        "5000123": {
+          "itemType": "show",
+          "showType": "series",
+          "id": "5000123",
+          "imdbId": "tt90000052",
+          "tmdbId": "tv/900109",
+          "title": "Título ficticio 004",
+          "overview": "",
+          "firstAirYear": 2026,
+          "lastAirYear": 2026,
+          "originalTitle": "Original ficticio 024",
+          "genres": [
+            {
+              "id": "drama",
+              "name": "Drama"
+            }
+          ],
+          "creators": ["Creador Ficticio 008"],
+          "cast": [
+            "Persona Ficticia 092",
+            "Persona Ficticia 054",
+            "Persona Ficticia 232",
+            "Persona Ficticia 153",
+            "Persona Ficticia 143",
+            "Persona Ficticia 315",
+            "Persona Ficticia 055"
+          ],
+          "rating": 0,
+          "seasonCount": 1,
+          "episodeCount": 7,
+          "streamingOptions": {}
+        }
+      },
+      "hasMore": true,
+      "nextCursor": "1791504000:0"
+    },
+    {
+      "changes": [
+        {
+          "changeType": "upcoming",
+          "itemType": "show",
+          "showId": "5000099",
+          "showType": "movie",
+          "service": {
+            "id": "apple",
+            "name": "Apple TV",
+            "homePage": "https://tv.apple.com/es",
+            "themeColorCode": "#000000",
+            "imageSet": {
+              "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+              "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+              "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+            }
+          },
+          "streamingOptionType": "subscription",
+          "timestamp": 1791504000,
+          "link": "https://tv.apple.com/ficticio/0101"
+        }
+      ],
+      "shows": {
+        "5000099": {
+          "itemType": "show",
+          "showType": "movie",
+          "id": "5000099",
+          "imdbId": "tt90000060",
+          "tmdbId": "movie/900008",
+          "title": "Título ficticio 094",
+          "overview": "",
+          "releaseYear": 2026,
+          "originalTitle": "Original ficticio 061",
+          "genres": [
+            {
+              "id": "action",
+              "name": "Acción"
+            },
+            {
+              "id": "adventure",
+              "name": "Aventura"
+            }
+          ],
+          "directors": ["Persona Ficticia 280"],
+          "cast": [
+            "Persona Ficticia 145",
+            "Persona Ficticia 141",
+            "Persona Ficticia 281",
+            "Persona Ficticia 024",
+            "Persona Ficticia 311",
+            "Persona Ficticia 067",
+            "Persona Ficticia 063"
+          ],
+          "rating": 0,
+          "streamingOptions": {}
+        }
+      },
+      "hasMore": false
+    }
+  ]
+}

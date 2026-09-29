@@ -1,0 +1,137 @@
+/* ── Completa ───────────────────────────────────────────────────────────── */
+
+.grupo {
+  display: grid;
+  gap: var(--space-3);
+  padding-block: var(--space-4);
+  border-top: var(--border-row);
+}
+
+.cabeza {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+}
+
+.punto {
+  display: var(--mia-display, none);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-mine);
+}
+
+.nombre {
+  font-weight: 600;
+  font-size: var(--text-body);
+}
+
+.tuya {
+  display: var(--mia-display, none);
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.ofertas {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.oferta {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.tipo {
+  font-size: var(--text-body);
+  color: var(--color-text);
+}
+
+.detalles {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+.ver {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  justify-self: start;
+  min-height: var(--target-min);
+  padding-inline: var(--space-4);
+  border: var(--border-control);
+  border-radius: var(--radius-s);
+  color: var(--color-text);
+  font-weight: 500;
+  text-decoration: none;
+  transition:
+    background-color var(--duration-feedback) var(--ease-standard),
+    border-color var(--duration-feedback) var(--ease-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .ver:hover {
+    background: var(--color-surface-hover);
+    border-color: var(--color-border-control-hover);
+  }
+}
+
+/* La primera plataforma —la tuya si la hay— lleva el botón principal (SCREENS.md §2). */
+.grupo:first-child .ver {
+  justify-self: stretch;
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-on-accent);
+  font-weight: 600;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .grupo:first-child .ver:hover {
+    background: var(--color-accent-hover);
+    border-color: var(--color-accent-hover);
+  }
+}
+
+.grupo:first-child .ver:active {
+  background: var(--color-accent-pressed);
+  transform: scale(0.98);
+}
+
+@media (min-width: 48rem) {
+  .grupo:first-child .ver {
+    justify-self: start;
+  }
+}
+
+/* ── Compacta ───────────────────────────────────────────────────────────── */
+
+.compacta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  font-size: var(--text-small);
+}
+
+.compacta > li {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.tipoCompacto {
+  color: var(--color-text-3);
+}
+
+.resto {
+  color: var(--color-text-3);
+}
+
+.sinOfertas {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}

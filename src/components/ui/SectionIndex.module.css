@@ -1,0 +1,59 @@
+.indice {
+  position: relative;
+  margin-top: var(--space-6);
+  border-block: var(--border-hairline);
+}
+
+/* Fundido a la derecha en móvil: la fila continúa. */
+.indice::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: var(--space-8);
+  background: linear-gradient(to right, transparent, var(--color-bg));
+  pointer-events: none;
+}
+
+.lista[role="list"] {
+  display: flex;
+  gap: var(--space-6);
+  overflow-x: auto;
+  padding-right: var(--space-8);
+  scrollbar-width: none;
+}
+
+.lista::-webkit-scrollbar {
+  display: none;
+}
+
+.enlace {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  font-size: var(--text-small);
+  font-weight: 500;
+  color: var(--color-text-2);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .enlace:hover {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 64rem) {
+  .indice::after {
+    display: none;
+  }
+
+  .lista[role="list"] {
+    flex-wrap: wrap;
+    overflow: visible;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,7 @@
+.lista {
+  display: grid;
+}
+
+.valoracion {
+  color: var(--color-text-3);
+}

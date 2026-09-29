@@ -1,0 +1,2 @@
+ALTER TABLE "ops_sync_runs" ADD COLUMN "checkpoint" jsonb;--> statement-breakpoint
+ALTER TABLE "ops_sync_runs" ADD CONSTRAINT "ops_sync_runs_checkpoint_objeto" CHECK ("ops_sync_runs"."checkpoint" IS NULL OR jsonb_typeof("ops_sync_runs"."checkpoint") = 'object');

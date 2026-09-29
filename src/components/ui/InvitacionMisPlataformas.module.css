@@ -1,0 +1,8 @@
+.invitacion {
+  font-size: var(--text-small);
+}
+
+.invitacion button {
+  min-height: var(--target-min);
+  text-align: start;
+}

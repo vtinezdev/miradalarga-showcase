@@ -1,0 +1,1522 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "seq": 23,
+    "slug": "C-changes-expiring",
+    "path": "/changes",
+    "query": {
+      "country": "es",
+      "change_type": "expiring",
+      "item_type": "show",
+      "catalogs": "netflix,prime,disney,hbo,apple,skyshowtime",
+      "from": "1789994540",
+      "to": "1792672940",
+      "output_language": "es"
+    },
+    "status": 200,
+    "ok": true,
+    "ts_utc": "2026-09-21T12:42:48.715Z",
+    "ts_madrid": "2026-09-21T14:42:48",
+    "result_count": 25,
+    "has_more": true,
+    "next_cursor": "1790632740:1047936342",
+    "response_headers": {
+      "access-control-allow-headers": "*",
+      "access-control-allow-methods": "*",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "*",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 21 Sep 2026 12:42:49 GMT",
+      "transfer-encoding": "chunked",
+      "x-quota-granted": "1000",
+      "x-quota-reset": "2026-10-01T00:00:00Z",
+      "x-quota-used": "19"
+    },
+    "change_type": "expiring",
+    "item_type": "show",
+    "catalogs": ["netflix", "prime", "disney", "hbo", "apple", "skyshowtime"],
+    "ventana": {
+      "from_epoch": 1789994540,
+      "to_epoch": 1792672940,
+      "from_madrid": "2026-09-21 14:42:20",
+      "to_madrid": "2026-10-22 14:42:20"
+    },
+    "cursor_enviado": null,
+    "pagina": 1,
+    "recorte": "Recorte de spike-1/raw/023: 7 de sus 25 avisos (2 netflix, 2 prime/addon, 2 hbo, 1 skyshowtime) y sus shows sin imageSet. hasMore y nextCursor son los originales: en la API real hay página 2."
+  },
+  "body": {
+    "changes": [
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000007",
+        "showType": "movie",
+        "service": {
+          "id": "netflix",
+          "name": "Netflix",
+          "homePage": "https://www.netflix.com/",
+          "themeColorCode": "#E50914",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790027999,
+        "link": "https://www.netflix.com/ficticio/0014"
+      },
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000070",
+        "showType": "movie",
+        "service": {
+          "id": "prime",
+          "name": "Prime Video",
+          "homePage": "https://www.primevideo.com/",
+          "themeColorCode": "#00A8E1",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "addon",
+        "addon": {
+          "id": "shadowzes",
+          "name": "SHADOWZ",
+          "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+          "themeColorCode": "#000000",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+          }
+        },
+        "timestamp": 1790028000,
+        "link": "https://www.primevideo.com/ficticio/0015"
+      },
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000072",
+        "showType": "movie",
+        "service": {
+          "id": "prime",
+          "name": "Prime Video",
+          "homePage": "https://www.primevideo.com/",
+          "themeColorCode": "#00A8E1",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "addon",
+        "addon": {
+          "id": "shadowzes",
+          "name": "SHADOWZ",
+          "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+          "themeColorCode": "#000000",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+          }
+        },
+        "timestamp": 1790028000,
+        "link": "https://www.primevideo.com/ficticio/0016"
+      },
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000046",
+        "showType": "series",
+        "service": {
+          "id": "hbo",
+          "name": "HBO Max",
+          "homePage": "https://play.hbomax.com/",
+          "themeColorCode": "#000000",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.png",
+            "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790114340,
+        "link": "https://play.hbomax.com/ficticio/0017"
+      },
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000030",
+        "showType": "series",
+        "service": {
+          "id": "skyshowtime",
+          "name": "SkyShowtime",
+          "homePage": "https://www.skyshowtime.com/",
+          "themeColorCode": "#795fe3",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/skyshowtime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/skyshowtime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/skyshowtime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790114340,
+        "link": "https://www.skyshowtime.com/ficticio/0018"
+      },
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000055",
+        "showType": "movie",
+        "service": {
+          "id": "netflix",
+          "name": "Netflix",
+          "homePage": "https://www.netflix.com/",
+          "themeColorCode": "#E50914",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790200799,
+        "link": "https://www.netflix.com/ficticio/0019"
+      },
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000022",
+        "showType": "movie",
+        "service": {
+          "id": "hbo",
+          "name": "HBO Max",
+          "homePage": "https://play.hbomax.com/",
+          "themeColorCode": "#000000",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.png",
+            "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790287140,
+        "link": "https://play.hbomax.com/ficticio/0020"
+      }
+    ],
+    "shows": {
+      "5000007": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000007",
+        "imdbId": "tt9000013",
+        "tmdbId": "movie/900010",
+        "title": "Título ficticio 029",
+        "overview": "Sinopsis ficticia de ejemplo número 8.",
+        "releaseYear": 2005,
+        "originalTitle": "Original ficticio 016",
+        "genres": [
+          {
+            "id": "adventure",
+            "name": "Aventura"
+          },
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          },
+          {
+            "id": "family",
+            "name": "Familia"
+          }
+        ],
+        "directors": ["Persona Ficticia 313"],
+        "cast": [
+          "Persona Ficticia 150",
+          "Persona Ficticia 094",
+          "Persona Ficticia 073",
+          "Persona Ficticia 110",
+          "Persona Ficticia 249",
+          "Persona Ficticia 235",
+          "Persona Ficticia 124"
+        ],
+        "rating": 67,
+        "runtime": 114,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://www.primevideo.com/ficticio/0021",
+              "quality": "hd",
+              "audios": [
+                {
+                  "language": "cat"
+                },
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "fra"
+                },
+                {
+                  "language": "ita"
+                },
+                {
+                  "language": "pol"
+                },
+                {
+                  "language": "por"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "dan"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fin"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ita"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nob"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "pol"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "swe"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tur"
+                  }
+                }
+              ],
+              "price": {
+                "amount": "4.99",
+                "currency": "EUR",
+                "formatted": "4.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1768697667
+            },
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "rent",
+              "link": "https://tv.apple.com/ficticio/0022",
+              "quality": "hd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "3.99",
+                "currency": "EUR",
+                "formatted": "3.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1654501790
+            },
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://tv.apple.com/ficticio/0022",
+              "quality": "hd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "10.99",
+                "currency": "EUR",
+                "formatted": "10.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1654501790
+            },
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://app.primevideo.com/ficticio/0023",
+              "videoLink": "https://app.primevideo.com/ficticio/0024",
+              "audios": [
+                {
+                  "language": "cat"
+                },
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "fra"
+                },
+                {
+                  "language": "ita"
+                },
+                {
+                  "language": "pol"
+                },
+                {
+                  "language": "por"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "dan"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fin"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ita"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nob"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "pol"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "swe"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tur"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1774912329
+            },
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0014",
+              "videoLink": "https://www.netflix.com/ficticio/0025",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": true,
+              "expiresOn": 1790027999,
+              "availableSince": 1728155894
+            }
+          ]
+        }
+      },
+      "5000022": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000022",
+        "imdbId": "tt9000136",
+        "tmdbId": "movie/900074",
+        "title": "Título ficticio 136",
+        "overview": "Sinopsis ficticia de ejemplo número 9.",
+        "releaseYear": 2021,
+        "originalTitle": "Original ficticio 002",
+        "genres": [
+          {
+            "id": "scifi",
+            "name": "Ciencia Ficción"
+          },
+          {
+            "id": "horror",
+            "name": "Terror"
+          }
+        ],
+        "directors": ["Persona Ficticia 146"],
+        "cast": [
+          "Persona Ficticia 086",
+          "Persona Ficticia 146",
+          "Persona Ficticia 233",
+          "Persona Ficticia 248",
+          "Persona Ficticia 056",
+          "Persona Ficticia 079",
+          "Persona Ficticia 252"
+        ],
+        "rating": 72,
+        "runtime": 97,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://tv.apple.com/ficticio/0026",
+              "quality": "hd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "9.99",
+                "currency": "EUR",
+                "formatted": "9.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1702095168
+            },
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "maxes",
+                "name": "HBO Max",
+                "homePage": "https://www.primevideo.com/storefront/subscription/maxes",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0027",
+              "quality": "uhd",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1768735133
+            },
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://www.primevideo.com/ficticio/0027",
+              "quality": "uhd",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "price": {
+                "amount": "9.99",
+                "currency": "EUR",
+                "formatted": "9.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1781111791
+            },
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "rent",
+              "link": "https://tv.apple.com/ficticio/0026",
+              "quality": "hd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "3.99",
+                "currency": "EUR",
+                "formatted": "3.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1702095168
+            },
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "rent",
+              "link": "https://www.primevideo.com/ficticio/0027",
+              "quality": "uhd",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "price": {
+                "amount": "3.99",
+                "currency": "EUR",
+                "formatted": "3.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1781111791
+            },
+            {
+              "service": {
+                "id": "hbo",
+                "name": "HBO Max",
+                "homePage": "https://play.hbomax.com/",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://play.hbomax.com/ficticio/0020",
+              "videoLink": "https://play.hbomax.com/ficticio/0028",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": true,
+              "expiresOn": 1790287140,
+              "availableSince": 1786067118
+            }
+          ]
+        }
+      },
+      "5000030": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000030",
+        "imdbId": "tt9000127",
+        "tmdbId": "tv/900140",
+        "title": "Título ficticio 082",
+        "overview": "",
+        "firstAirYear": 2019,
+        "lastAirYear": 2019,
+        "originalTitle": "Original ficticio 107",
+        "genres": [
+          {
+            "id": "drama",
+            "name": "Drama"
+          }
+        ],
+        "creators": ["Creador Ficticio 006", "Creador Ficticio 007"],
+        "cast": [
+          "Persona Ficticia 276",
+          "Persona Ficticia 297",
+          "Persona Ficticia 240",
+          "Persona Ficticia 154",
+          "Persona Ficticia 011",
+          "Persona Ficticia 003",
+          "Persona Ficticia 291"
+        ],
+        "rating": 69,
+        "seasonCount": 1,
+        "episodeCount": 7,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "skyshowtimees",
+                "name": "SkyShowtime",
+                "homePage": "https://www.primevideo.com/storefront/subscription/skyshowtimees",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/skyshowtimees/light-theme.png",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/skyshowtimees/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/skyshowtimees/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0029",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "pol"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ces"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "dan"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fin"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hrv"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hun"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nob"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "pol"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ron"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "slk"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "swe"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1763998590
+            },
+            {
+              "service": {
+                "id": "skyshowtime",
+                "name": "SkyShowtime",
+                "homePage": "https://www.skyshowtime.com/",
+                "themeColorCode": "#795fe3",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/skyshowtime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/skyshowtime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/skyshowtime/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.skyshowtime.com/ficticio/0018",
+              "videoLink": "https://www.skyshowtime.com/ficticio/0030",
+              "quality": "uhd",
+              "audios": [],
+              "subtitles": [],
+              "expiresSoon": true,
+              "expiresOn": 1790114340,
+              "availableSince": 1768335500
+            },
+            {
+              "service": {
+                "id": "skyshowtime",
+                "name": "SkyShowtime",
+                "homePage": "https://www.skyshowtime.com/",
+                "themeColorCode": "#795fe3",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/skyshowtime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/skyshowtime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/skyshowtime/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.skyshowtime.com/ficticio/0031",
+              "videoLink": "https://www.skyshowtime.com/ficticio/0032",
+              "quality": "uhd",
+              "audios": [],
+              "subtitles": [],
+              "expiresSoon": true,
+              "expiresOn": 1790114340,
+              "availableSince": 1782822850
+            }
+          ]
+        }
+      },
+      "5000046": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000046",
+        "imdbId": "tt9000123",
+        "tmdbId": "tv/900137",
+        "title": "Título ficticio 100",
+        "overview": "",
+        "firstAirYear": 2016,
+        "lastAirYear": 2024,
+        "originalTitle": "Título ficticio 100",
+        "genres": [
+          {
+            "id": "reality",
+            "name": "Realidad"
+          },
+          {
+            "id": "romance",
+            "name": "Romance"
+          }
+        ],
+        "creators": [],
+        "cast": [
+          "Persona Ficticia 019",
+          "Persona Ficticia 274",
+          "Persona Ficticia 051",
+          "Persona Ficticia 186"
+        ],
+        "rating": 55,
+        "seasonCount": 12,
+        "episodeCount": 64,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "maxes",
+                "name": "HBO Max",
+                "homePage": "https://www.primevideo.com/storefront/subscription/maxes",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0033",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1727858268
+            },
+            {
+              "service": {
+                "id": "hbo",
+                "name": "HBO Max",
+                "homePage": "https://play.hbomax.com/",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://play.hbomax.com/ficticio/0017",
+              "videoLink": "https://play.hbomax.com/ficticio/0034",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": true,
+              "expiresOn": 1790114340,
+              "availableSince": 1744803462
+            }
+          ]
+        }
+      },
+      "5000055": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000055",
+        "imdbId": "tt9000108",
+        "tmdbId": "movie/900065",
+        "title": "Título ficticio 126",
+        "overview": "Sinopsis ficticia de ejemplo número 10.",
+        "releaseYear": 2018,
+        "originalTitle": "Título ficticio 126",
+        "genres": [
+          {
+            "id": "action",
+            "name": "Acción"
+          },
+          {
+            "id": "scifi",
+            "name": "Ciencia Ficción"
+          },
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          }
+        ],
+        "directors": ["Persona Ficticia 133"],
+        "cast": [
+          "Persona Ficticia 068",
+          "Persona Ficticia 013",
+          "Persona Ficticia 158",
+          "Persona Ficticia 217",
+          "Persona Ficticia 266",
+          "Persona Ficticia 040",
+          "Persona Ficticia 103"
+        ],
+        "rating": 54,
+        "runtime": 107,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "rent",
+              "link": "https://www.primevideo.com/ficticio/0035",
+              "quality": "hd",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "price": {
+                "amount": "1.99",
+                "currency": "EUR",
+                "formatted": "1.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1766767198
+            },
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://app.primevideo.com/ficticio/0036",
+              "videoLink": "https://app.primevideo.com/ficticio/0037",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1690621023
+            },
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://www.primevideo.com/ficticio/0035",
+              "quality": "hd",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "price": {
+                "amount": "3.99",
+                "currency": "EUR",
+                "formatted": "3.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1766767198
+            },
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0019",
+              "videoLink": "https://www.netflix.com/ficticio/0038",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": true,
+              "expiresOn": 1790200799,
+              "availableSince": 1648635315
+            }
+          ]
+        }
+      },
+      "5000070": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000070",
+        "imdbId": "tt9000051",
+        "tmdbId": "movie/900042",
+        "title": "Título ficticio 070",
+        "overview": "",
+        "releaseYear": 2012,
+        "originalTitle": "Original ficticio 033",
+        "genres": [
+          {
+            "id": "fantasy",
+            "name": "Fantasía"
+          },
+          {
+            "id": "thriller",
+            "name": "Suspenso"
+          }
+        ],
+        "directors": ["Persona Ficticia 165", "Persona Ficticia 288"],
+        "cast": ["Persona Ficticia 271", "Persona Ficticia 026"],
+        "rating": 52,
+        "runtime": 19,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "shadowzes",
+                "name": "SHADOWZ",
+                "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0015",
+              "audios": [
+                {
+                  "language": "eng"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": true,
+              "expiresOn": 1790028000,
+              "availableSince": 1709603975
+            }
+          ]
+        }
+      },
+      "5000072": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000072",
+        "imdbId": "tt90000034",
+        "tmdbId": "movie/900003",
+        "title": "Título ficticio 103",
+        "overview": "",
+        "releaseYear": 2022,
+        "originalTitle": "Título ficticio 103",
+        "genres": [],
+        "directors": ["Persona Ficticia 018"],
+        "cast": [
+          "Persona Ficticia 167",
+          "Persona Ficticia 099",
+          "Persona Ficticia 075"
+        ],
+        "rating": 42,
+        "runtime": 16,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "flixolees",
+                "name": "FlixOlé",
+                "homePage": "https://www.primevideo.com/storefront/subscription/flixolees",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/flixolees/light-theme.png",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/flixolees/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/flixolees/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0016",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [],
+              "expiresSoon": false,
+              "availableSince": 1751922947
+            },
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "shadowzes",
+                "name": "SHADOWZ",
+                "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0016",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [],
+              "expiresSoon": true,
+              "expiresOn": 1790028000,
+              "availableSince": 1710044547
+            }
+          ]
+        }
+      }
+    },
+    "hasMore": true,
+    "nextCursor": "1790632740:1047936342"
+  }
+}

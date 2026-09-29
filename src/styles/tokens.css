@@ -1,0 +1,200 @@
+/*
+ * Tokens de Mirada Larga — traducción literal de docs/frontend/DESIGN-SYSTEM.md.
+ * Un cambio de valor se hace PRIMERO en ese documento y después aquí.
+ *
+ * Tres capas: primitivos (valores) → semánticos (intención) → componente.
+ * Los componentes leen semánticos o de componente, nunca primitivos.
+ */
+
+:root {
+  /* ── 1.1 Primitivos de color ───────────────────────────────────────── */
+  --ink-950: #0e0d0b;
+  --ink-900: #161512;
+  --ink-850: #1d1b18;
+  --ink-800: #262420;
+  --ink-700: #34312c;
+  --ink-600: #4a463f;
+  --ink-500: #6b665d;
+  --ink-400: #968f84;
+  --ink-300: #b7b0a4;
+  --ink-100: #ede8df;
+  --brass-300: #e4c07f;
+  --brass-400: #d4a657;
+  --brass-600: #8f6a2c;
+  --brass-950: #221a0e;
+  --sage-400: #8fc29e;
+  --copper-400: #e0936c;
+  --slate-400: #a3b5c8;
+  --rust-400: #e58374;
+  --placeholder-field-1: #1a1814;
+  --placeholder-field-2: #1c1916;
+  --placeholder-field-3: #171714;
+  --placeholder-field-4: #1e1a15;
+
+  /* ── 1.2 Semánticos ────────────────────────────────────────────────── */
+  --color-bg: var(--ink-950);
+  --color-surface: var(--ink-900);
+  --color-surface-raised: var(--ink-850);
+  --color-surface-hover: var(--ink-800);
+  --color-text: var(--ink-100);
+  --color-text-2: var(--ink-300);
+  --color-text-3: var(--ink-400);
+  --color-border-subtle: var(--ink-700);
+  --color-border: var(--ink-600);
+  --color-border-control: var(--ink-500);
+  --color-border-control-hover: var(--ink-400);
+  --color-accent: var(--brass-400);
+  --color-accent-hover: var(--brass-300);
+  --color-accent-pressed: var(--brass-600);
+  --color-on-accent: var(--ink-950);
+  --color-accent-tint: var(--brass-950);
+  --color-focus: var(--brass-300);
+  --color-editorial-rule: var(--brass-600);
+  --color-mine: var(--brass-400);
+  --color-error: var(--rust-400);
+
+  /* ── 1.3 Estados del catálogo (siempre con icono y texto) ───────────── */
+  --color-status-arrives: var(--sage-400);
+  --color-status-leaves: var(--copper-400);
+  --color-status-upcoming: var(--slate-400);
+  --color-status-gone: var(--ink-300);
+  --color-status-changed: var(--ink-300);
+
+  /* ── 2 Tipografía ──────────────────────────────────────────────────── */
+  --font-serif:
+    "Newsreader Variable", "Newsreader Fallback", Georgia, "Times New Roman", serif;
+  --font-sans:
+    "Schibsted Grotesk Variable", "Schibsted Grotesk Fallback", system-ui,
+    -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --text-display-xl: clamp(2.5rem, 1.62rem + 3.76vw, 5rem);
+  --text-display-l: clamp(2.125rem, 1.641rem + 2.07vw, 3.5rem);
+  --text-title-1: clamp(1.875rem, 1.567rem + 1.31vw, 2.75rem);
+  --text-title-2: clamp(1.5rem, 1.324rem + 0.751vw, 2rem);
+  --text-title-3: clamp(1.25rem, 1.162rem + 0.376vw, 1.5rem);
+  --text-lede: clamp(1.188rem, 1.121rem + 0.282vw, 1.375rem);
+  --text-reading: clamp(1.062rem, 1.04rem + 0.0939vw, 1.125rem);
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-label: 0.75rem;
+
+  --measure-reading: 68ch;
+
+  /* ── 3 Layout ──────────────────────────────────────────────────────── */
+  /* Puntos de corte (solo documentales: las media queries no leen variables):
+     md 48rem (768) · lg 64rem (1024) · xl 90rem (1440). */
+  --gutter-page: clamp(1.25rem, 0.634rem + 2.63vw, 3rem);
+  --container-page: min(100% - 2 * var(--gutter-page), 80rem);
+  --container-wide: min(100%, 90rem);
+  --container-reading: min(100% - 2 * var(--gutter-page), 44rem);
+  --grid-gap: 1rem;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  --space-section: clamp(3.5rem, 2.268rem + 5.26vw, 7rem);
+  --space-block: clamp(2rem, 1.472rem + 2.25vw, 3.5rem);
+  --space-stack: var(--space-4);
+
+  --z-base: 0;
+  --z-sticky: 10;
+  --z-dropdown: 20;
+  --z-overlay: 40;
+  --z-sheet: 50;
+  --z-toast: 60;
+
+  --header-height: 3.5rem;
+
+  /* ── 4 Elementos de interfaz ───────────────────────────────────────── */
+  --radius-xs: 2px;
+  --radius-s: 4px;
+  --radius-m: 8px;
+
+  --border-hairline: 1px solid var(--color-border-subtle);
+  --border-row: 1px solid var(--color-border);
+  --border-control: 1px solid var(--color-border-control);
+  --rule-editorial: 2px solid var(--color-editorial-rule);
+
+  --shadow-overlay: 0 24px 64px rgb(0 0 0 / 0.55);
+
+  --target-min: 2.75rem; /* 44 px */
+
+  /* ── 5 Movimiento («Luz de sala — edición dinámica», DS §5) ────────── */
+  /* Duraciones por familia de uso, no por componente. */
+  --duration-feedback: 140ms; /* controles, color, pulsado (120–180) */
+  --duration-hover: 220ms; /* hover y foco de tarjetas y filas (180–260) */
+  --duration-reorder: 300ms; /* reordenaciones y cambios de posición (250–350) */
+  --duration-sheet-in: 320ms; /* hojas y navegación (280–400) */
+  --duration-sheet-out: 280ms;
+  --duration-editorial: 520ms; /* trazos del horizonte y entradas (400–600) */
+  /* Tres curvas y ninguna más. */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* entradas, luz, trazos */
+  --ease-standard: cubic-bezier(0.65, 0, 0.35, 1); /* cambios de estado y posición */
+  --ease-in: cubic-bezier(0.4, 0, 1, 1); /* salidas */
+  /* Amplitudes: desplazamiento mínimo, sin escalados notorios. */
+  --shift-hover: 4px;
+  --press-scale: 0.98;
+
+  /* ── Componente ──────────────────────────────────────────────────── */
+  --wordmark-size: 1.3125rem; /* 21 px; 24 px desde lg */
+  /* Ficha sin imagen: el título es la cabecera (VISUAL-DIRECTION §5.3). */
+  --text-ficha-tipografica: clamp(2.25rem, 1.6rem + 2.8vw, 4.25rem);
+  /* Cabecera contextual: cuánto se reduce al bajar (56 → 48 · 72 → 56). */
+  --header-shrink: 0.5rem;
+  /* Índice invertido (rankings y sumarios): papel sobre tinta al señalar. */
+  --invertido-fondo: var(--ink-100);
+  --invertido-texto: var(--ink-950);
+  --invertido-texto-2: var(--ink-700);
+  --invertido-texto-3: var(--ink-600);
+  --invertido-filete: var(--ink-500);
+  --invertido-acento: var(--brass-600);
+  /* Velo de «luz de sala» sobre imagen y cartel: baja al mirar. */
+  --velo-reposo: 0.18;
+
+  /* ── 7 Iconos ──────────────────────────────────────────────────────── */
+  --icon-s: 1rem;
+  --icon-m: 1.25rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --grid-gap: 1.5rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --header-height: 4.5rem;
+    --header-shrink: 1rem;
+    --wordmark-size: 1.5rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  :root {
+    --grid-gap: 2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-feedback: 0ms;
+    --duration-hover: 0ms;
+    --duration-reorder: 0ms;
+    --duration-sheet-in: 0ms;
+    --duration-sheet-out: 0ms;
+    --duration-editorial: 0ms;
+    --shift-hover: 0px;
+    --press-scale: 1;
+  }
+}

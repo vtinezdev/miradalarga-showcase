@@ -1,0 +1,15 @@
+/* Dos capas en la misma celda: la caja mide siempre lo que la forma absoluta,
+   que es la más ancha, y el texto visible (absoluto o relativo) se alinea al
+   inicio. Así hidratar no cambia el ancho ni el ajuste de línea. */
+.reserva {
+  display: inline-grid;
+}
+
+.hueco,
+.visible {
+  grid-area: 1 / 1;
+}
+
+.hueco {
+  visibility: hidden;
+}

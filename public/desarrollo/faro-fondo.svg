@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <!-- Imagen FICTICIA de desarrollo (datos de src/features/catalogo/desarrollo). No es una obra real. -->
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a3a"/>
+      <stop offset="0.55" stop-color="#6b5a4a"/>
+      <stop offset="0.72" stop-color="#c98d55"/>
+      <stop offset="1" stop-color="#2a2622"/>
+    </linearGradient>
+    <linearGradient id="mar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a3c"/>
+      <stop offset="1" stop-color="#0e0d0b"/>
+    </linearGradient>
+    <radialGradient id="haz" cx="0.72" cy="0.38" r="0.5">
+      <stop offset="0" stop-color="#ffe2a8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffe2a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#cielo)"/>
+  <rect width="1600" height="900" fill="url(#haz)"/>
+  <rect y="640" width="1600" height="260" fill="url(#mar)"/>
+  <path d="M0 660 L380 600 L620 640 L760 590 L1000 650 L1600 620 L1600 700 L0 700 Z" fill="#141312"/>
+  <rect x="1140" y="330" width="44" height="300" fill="#e8e1d4"/>
+  <rect x="1132" y="310" width="60" height="30" fill="#1b1a18"/>
+  <circle cx="1162" cy="300" r="14" fill="#ffd98a"/>
+  <path d="M1162 300 L1600 230 L1600 380 Z" fill="#ffe2a8" opacity="0.18"/>
+</svg>

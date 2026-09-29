@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <!-- Imagen FICTICIA de desarrollo (datos de src/features/catalogo/desarrollo). No es una obra real. -->
+  <defs>
+    <linearGradient id="niebla" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26292b"/>
+      <stop offset="0.7" stop-color="#46423c"/>
+      <stop offset="1" stop-color="#121110"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#niebla)"/>
+  <g fill="#191817">
+    <rect x="0" y="380" width="150" height="520"/>
+    <rect x="170" y="300" width="120" height="600"/>
+    <rect x="420" y="340" width="180" height="560"/>
+  </g>
+  <rect x="300" y="520" width="110" height="380" fill="#0e0d0b"/>
+  <rect x="332" y="640" width="46" height="110" fill="#e0b56c" opacity="0.9"/>
+  <g fill="#d6a45a" opacity="0.8">
+    <rect x="210" y="360" width="14" height="20"/>
+    <rect x="470" y="420" width="14" height="20"/>
+  </g>
+</svg>

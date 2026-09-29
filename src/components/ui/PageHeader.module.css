@@ -1,0 +1,98 @@
+.cabecera {
+  display: grid;
+  gap: var(--space-2);
+  padding-top: var(--space-4);
+}
+
+.bloque {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 52rem;
+  padding-top: var(--space-4);
+}
+
+.editorial .antetitulo::before {
+  content: "";
+  display: block;
+  width: 24px;
+  margin-bottom: var(--space-2);
+  border-top: var(--rule-editorial);
+}
+
+.titulo {
+  font-size: var(--text-title-1);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.tituloLista {
+  font-size: var(--text-display-l);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+/* El horizonte bajo el título: filete + punto latón en el extremo. */
+.horizonte {
+  position: relative;
+  display: block;
+  height: 1px;
+  margin-block: var(--space-1) var(--space-2);
+  background: var(--color-border-subtle);
+  transform-origin: left;
+}
+
+.horizonte::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -3px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+/* Se traza al llegar, una vez, y nunca con movimiento reducido (DS §5.4, 1). */
+@media (prefers-reduced-motion: no-preference) {
+  .horizonte {
+    animation: trazar var(--duration-editorial) var(--ease-out) 80ms both;
+  }
+
+  .horizonte::after {
+    animation: encender var(--duration-hover) var(--ease-out) 480ms both;
+  }
+}
+
+@keyframes trazar {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+@keyframes encender {
+  from {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+}
+
+.entradilla {
+  display: grid;
+  gap: var(--space-3);
+  max-width: var(--measure-reading);
+  font-family: var(--font-serif);
+  font-size: var(--text-lede);
+  line-height: 1.45;
+  color: var(--color-text-2);
+}
+
+.estado {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-6);
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}

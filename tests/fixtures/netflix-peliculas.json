@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "seq": 3,
+    "slug": "B-netflix-movie",
+    "path": "/shows/search/filters",
+    "query": {
+      "country": "es",
+      "catalogs": "netflix",
+      "show_type": "movie",
+      "series_granularity": "show",
+      "output_language": "es"
+    },
+    "status": 200,
+    "ok": true,
+    "ts_utc": "2026-09-21T12:41:54.775Z",
+    "ts_madrid": "2026-09-21T14:41:54",
+    "result_count": 20,
+    "has_more": true,
+    "next_cursor": "23192730:ficticio",
+    "response_headers": {
+      "access-control-allow-headers": "*",
+      "access-control-allow-methods": "*",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "*",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 21 Sep 2026 12:41:55 GMT",
+      "transfer-encoding": "chunked",
+      "x-quota-granted": "1000",
+      "x-quota-reset": "2026-10-01T00:00:00Z",
+      "x-quota-used": "3"
+    },
+    "plataforma": "netflix",
+    "service_id": "netflix",
+    "show_type": "movie"
+  },
+  "body": {
+    "shows": [
+      {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000049",
+        "imdbId": "tt9000031",
+        "tmdbId": "movie/900067",
+        "title": "Título ficticio 110",
+        "overview": "Sinopsis ficticia de ejemplo número 18.",
+        "releaseYear": 2010,
+        "originalTitle": "Original ficticio 137",
+        "genres": [
+          {
+            "id": "drama",
+            "name": "Drama"
+          }
+        ],
+        "directors": ["Persona Ficticia 195"],
+        "cast": [
+          "Persona Ficticia 329",
+          "Persona Ficticia 074",
+          "Persona Ficticia 172",
+          "Persona Ficticia 008",
+          "Persona Ficticia 184",
+          "Persona Ficticia 261",
+          "Persona Ficticia 129"
+        ],
+        "rating": 67,
+        "runtime": 139,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000049/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000049/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000049/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000049/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000049/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000049/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000049/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000049/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000049/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000049/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "verticalBackdrop": {
+            "w240": "https://cdn.movieofthenight.com/show/5000049/backdrop/vertical/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000049/backdrop/vertical/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000049/backdrop/vertical/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000049/backdrop/vertical/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000049/backdrop/vertical/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000049/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000049/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000049/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000049/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000049/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0349",
+              "videoLink": "https://www.netflix.com/ficticio/0350",
+              "audios": [],
+              "subtitles": [],
+              "expiresSoon": false,
+              "availableSince": 1788499026
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000044",
+        "imdbId": "tt90000022",
+        "tmdbId": "movie/900077",
+        "title": "Título ficticio 048",
+        "overview": "Sinopsis ficticia de ejemplo número 19.",
+        "releaseYear": 2020,
+        "originalTitle": "Original ficticio 140",
+        "genres": [
+          {
+            "id": "crime",
+            "name": "Crimen"
+          },
+          {
+            "id": "mystery",
+            "name": "Misterio"
+          },
+          {
+            "id": "horror",
+            "name": "Terror"
+          }
+        ],
+        "directors": ["Persona Ficticia 196"],
+        "cast": [
+          "Persona Ficticia 263",
+          "Persona Ficticia 137",
+          "Persona Ficticia 183",
+          "Persona Ficticia 081",
+          "Persona Ficticia 259",
+          "Persona Ficticia 250",
+          "Persona Ficticia 197"
+        ],
+        "rating": 72,
+        "runtime": 112,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000044/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000044/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000044/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000044/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000044/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000044/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000044/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000044/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000044/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000044/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000044/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000044/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000044/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000044/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000044/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0351",
+              "videoLink": "https://www.netflix.com/ficticio/0352",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "hin"
+                },
+                {
+                  "language": "kor"
+                },
+                {
+                  "language": "por"
+                },
+                {
+                  "language": "spa"
+                },
+                {
+                  "language": "tha"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ara"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ces"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "dan"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "deu"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ell"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fil"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fin"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "heb"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hrv"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "hun"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ind"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ita"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "jpn"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "kor"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "msa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nob"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "pol"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ron"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "rus"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "swe"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tha"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tur"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "vie"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "zho"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1648624203
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000056",
+        "imdbId": "tt9000129",
+        "tmdbId": "movie/900073",
+        "title": "Título ficticio 024",
+        "overview": "Sinopsis ficticia de ejemplo número 20.",
+        "releaseYear": 2018,
+        "originalTitle": "Original ficticio 132",
+        "genres": [
+          {
+            "id": "action",
+            "name": "Acción"
+          },
+          {
+            "id": "crime",
+            "name": "Crimen"
+          },
+          {
+            "id": "thriller",
+            "name": "Suspenso"
+          }
+        ],
+        "directors": ["Persona Ficticia 198"],
+        "cast": [
+          "Persona Ficticia 046",
+          "Persona Ficticia 278",
+          "Persona Ficticia 176",
+          "Persona Ficticia 042",
+          "Persona Ficticia 183",
+          "Persona Ficticia 258",
+          "Persona Ficticia 239"
+        ],
+        "rating": 64,
+        "runtime": 123,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000056/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000056/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000056/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000056/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000056/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000056/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000056/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000056/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000056/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000056/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "verticalBackdrop": {
+            "w240": "https://cdn.movieofthenight.com/show/5000056/backdrop/vertical/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000056/backdrop/vertical/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000056/backdrop/vertical/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000056/backdrop/vertical/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000056/backdrop/vertical/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000056/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000056/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000056/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000056/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000056/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0353",
+              "videoLink": "https://www.netflix.com/ficticio/0354",
+              "audios": [
+                {
+                  "language": "kor"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1697800979
+            }
+          ]
+        }
+      }
+    ],
+    "hasMore": true,
+    "nextCursor": "23192730:ficticio"
+  }
+}

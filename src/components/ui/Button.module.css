@@ -1,0 +1,75 @@
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 3rem;
+  padding-inline: var(--space-5);
+  border: 1px solid transparent;
+  border-radius: var(--radius-s);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition:
+    background-color var(--duration-feedback) var(--ease-standard),
+    border-color var(--duration-feedback) var(--ease-standard),
+    transform var(--duration-feedback) var(--ease-standard);
+}
+
+.principal {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .principal:hover {
+    background: var(--color-accent-hover);
+  }
+}
+
+.principal:active {
+  background: var(--color-accent-pressed);
+  transform: scale(0.98);
+}
+
+.secundario {
+  border-color: var(--color-border-control);
+  color: var(--color-text);
+  background: transparent;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .secundario:hover {
+    background: var(--color-surface-hover);
+    border-color: var(--color-border-control-hover);
+  }
+}
+
+.secundario:active {
+  background: var(--ink-700);
+}
+
+.texto {
+  min-height: var(--target-min);
+  padding-inline: var(--space-2);
+  color: var(--color-accent);
+  font-weight: 500;
+  background: transparent;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .texto:hover {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+  }
+}
+
+.boton:disabled,
+.boton[aria-disabled="true"] {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

@@ -1,0 +1,70 @@
+# ── Secretos ────────────────────────────────────────────────────────────────
+# Nunca en el repositorio (Plan v1.0 §16, docs/SECURITY.md).
+# El repositorio sea privado NO relaja esta regla.
+.env
+.env.*
+!.env.example
+# Entornos de los comandos operativos (`pnpm ops`, scripts/entorno-operativo.ts):
+# credenciales de Neon y de la API, fuera de `.env` porque el build copia `.env`
+# a dist/server/.dev.vars.
+.ops-env/
+.dev.vars
+.dev.vars.*
+
+# ── Dependencias ────────────────────────────────────────────────────────────
+node_modules/
+.pnpm-store/
+
+# ── Build y caché ───────────────────────────────────────────────────────────
+.next/
+.vinext/
+.open-next/
+.vercel/
+.wrangler/
+dist/
+*.tsbuildinfo
+
+# ── Tests ───────────────────────────────────────────────────────────────────
+coverage/
+playwright-report/
+test-results/
+
+# ── Evidencia cruda de los spikes ───────────────────────────────────────────
+# Respuestas originales de la API: ~28 MB que no aportan nada que no esté ya
+# destilado en RESULTADOS.md y en los JSON derivados, que SÍ se versionan.
+# Permanecen en local hasta validar la destilación documental.
+spike-1/raw/
+spike-3/raw/
+
+# ── Ejecuciones manuales de deltas ──────────────────────────────────────────
+# Manifiesto de reanudación y crudo de cada respuesta de /changes. Evidencia de
+# trabajo local, como spike-1/raw/: se reprocesa desde aquí sin gastar cuota.
+.deltas-runs/
+# Lo mismo para expiring (`pnpm api:run:expiring`).
+.expiring-runs/
+# Y para upcoming (`pnpm api:run:upcoming`).
+.upcoming-runs/
+# Y para updated (`pnpm api:run:updated`).
+.updated-runs/
+# Y el crudo del seed (ADR 0009 §4): se verifica y se carga desde aquí con 0
+# requests. Inmutable; sus copias verificadas por huella viven fuera de git.
+.seed-runs/
+# Informes de cada carga y validación del seed contra Neon (`seed:cargar`,
+# `seed:validar`): sin secretos, pero evidencia de trabajo local.
+.seed-cargas/
+
+# ── Sistema operativo y editores ────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ── Logs ────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# NOTA: drizzle/ NO se ignora. Las migraciones se versionan (Plan §6, CLAUDE.md).
+# Playwright CLI output (may contain credentials)
+.playwright-cli/

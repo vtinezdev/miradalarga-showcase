@@ -1,0 +1,1 @@
+ALTER TABLE "external_titles" ADD CONSTRAINT "external_titles_imdb_id_no_vacio" CHECK ("external_titles"."imdb_id" ~ '[^[:space:]]');

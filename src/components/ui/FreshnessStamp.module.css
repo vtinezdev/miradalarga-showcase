@@ -1,0 +1,18 @@
+.sello {
+  font-size: var(--text-small);
+  line-height: 1.45;
+  color: var(--color-text-3);
+}
+
+.fuente {
+  white-space: normal;
+}
+
+/* En una fila `flex-wrap` (PageHeader `.estado`), que el sello quepa junto al
+   resto dependía de la métrica de la fuente: a ~780 px, al cargarla, saltaba
+   de línea y desplazaba el contenido. Por debajo de 64rem ocupa su línea. */
+@media (max-width: 63.999rem) {
+  .sello {
+    flex-basis: 100%;
+  }
+}

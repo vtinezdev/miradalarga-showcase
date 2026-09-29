@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <!-- Imagen FICTICIA de desarrollo (datos de src/features/catalogo/desarrollo). No es una obra real. -->
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16222e"/>
+      <stop offset="0.6" stop-color="#5d4d40"/>
+      <stop offset="0.75" stop-color="#b98050"/>
+      <stop offset="1" stop-color="#1a1816"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#cielo)"/>
+  <rect y="700" width="600" height="200" fill="#0e0d0b"/>
+  <path d="M0 710 L200 660 L360 700 L600 670 L600 740 L0 740 Z" fill="#161412"/>
+  <rect x="380" y="380" width="36" height="300" fill="#e8e1d4"/>
+  <rect x="372" y="360" width="52" height="26" fill="#1b1a18"/>
+  <circle cx="398" cy="350" r="12" fill="#ffd98a"/>
+  <path d="M398 350 L0 260 L0 420 Z" fill="#ffe2a8" opacity="0.16"/>
+</svg>

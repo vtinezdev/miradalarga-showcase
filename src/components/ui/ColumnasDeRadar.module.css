@@ -1,0 +1,22 @@
+.columna {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.filas[role="list"] {
+  display: grid;
+}
+
+.nota {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+/* Columna vacía: la razón, en el sitio de las filas, con su filete. */
+.vacia {
+  padding-block: var(--space-4);
+  border-top: var(--border-row);
+  font-size: var(--text-body);
+  color: var(--color-text-2);
+  max-width: 34ch;
+}

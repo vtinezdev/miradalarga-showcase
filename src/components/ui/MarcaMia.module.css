@@ -1,0 +1,19 @@
+.punto {
+  display: var(--mia-display, none);
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-mine);
+}
+
+/* Solo para lectores de pantalla, y solo si la plataforma es tuya. */
+.texto {
+  display: var(--mia-texto, none);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

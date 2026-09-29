@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "seq": 10,
+    "slug": "B-max-series",
+    "path": "/shows/search/filters",
+    "query": {
+      "country": "es",
+      "catalogs": "hbo",
+      "show_type": "series",
+      "series_granularity": "show",
+      "output_language": "es"
+    },
+    "status": 200,
+    "ok": true,
+    "ts_utc": "2026-09-21T12:42:07.834Z",
+    "ts_madrid": "2026-09-21T14:42:07",
+    "result_count": 20,
+    "has_more": true,
+    "next_cursor": "28849:ficticio",
+    "response_headers": {
+      "access-control-allow-headers": "*",
+      "access-control-allow-methods": "*",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "*",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 21 Sep 2026 12:42:08 GMT",
+      "transfer-encoding": "chunked",
+      "x-quota-granted": "1000",
+      "x-quota-reset": "2026-10-01T00:00:00Z",
+      "x-quota-used": "10"
+    },
+    "plataforma": "max",
+    "service_id": "hbo",
+    "show_type": "series"
+  },
+  "body": {
+    "shows": [
+      {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000064",
+        "imdbId": "tt9000134",
+        "tmdbId": "tv/900139",
+        "title": "Título ficticio 002",
+        "overview": "Sinopsis ficticia de ejemplo número 16.",
+        "firstAirYear": 2017,
+        "lastAirYear": 2025,
+        "originalTitle": "Título ficticio 002",
+        "genres": [
+          {
+            "id": "documentary",
+            "name": "Documental"
+          }
+        ],
+        "creators": [],
+        "cast": [],
+        "rating": 0,
+        "seasonCount": 13,
+        "episodeCount": 115,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000064/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000064/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000064/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000064/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000064/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000064/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000064/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000064/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000064/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000064/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "verticalBackdrop": {
+            "w240": "https://cdn.movieofthenight.com/show/5000064/backdrop/vertical/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000064/backdrop/vertical/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000064/backdrop/vertical/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000064/backdrop/vertical/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000064/backdrop/vertical/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000064/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000064/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000064/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000064/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000064/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "maxes",
+                "name": "HBO Max",
+                "homePage": "https://www.primevideo.com/storefront/subscription/maxes",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0338",
+              "audios": [
+                {
+                  "language": "deu"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1768929486
+            },
+            {
+              "service": {
+                "id": "hbo",
+                "name": "HBO Max",
+                "homePage": "https://play.hbomax.com/",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://play.hbomax.com/ficticio/0339",
+              "videoLink": "https://play.hbomax.com/ficticio/0340",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [],
+              "expiresSoon": false,
+              "expiresOn": 4102441140,
+              "availableSince": 1786039136
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000084",
+        "imdbId": "tt90000072",
+        "tmdbId": "tv/900106",
+        "title": "Título ficticio 134",
+        "overview": "Sinopsis ficticia de ejemplo número 17.",
+        "firstAirYear": 2024,
+        "lastAirYear": 2024,
+        "originalTitle": "Original ficticio 138",
+        "genres": [
+          {
+            "id": "animation",
+            "name": "Animación"
+          },
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          },
+          {
+            "id": "drama",
+            "name": "Drama"
+          }
+        ],
+        "creators": [],
+        "cast": [
+          "Persona Ficticia 159",
+          "Persona Ficticia 289",
+          "Persona Ficticia 130",
+          "Persona Ficticia 160",
+          "Persona Ficticia 175"
+        ],
+        "rating": 55,
+        "seasonCount": 1,
+        "episodeCount": 13,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000084/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000084/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000084/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000084/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000084/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000084/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000084/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000084/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000084/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000084/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "verticalBackdrop": {
+            "w240": "https://cdn.movieofthenight.com/show/5000084/backdrop/vertical/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000084/backdrop/vertical/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000084/backdrop/vertical/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000084/backdrop/vertical/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000084/backdrop/vertical/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000084/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000084/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000084/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000084/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000084/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "crunchyroll",
+                "name": "Crunchyroll",
+                "homePage": "https://www.crunchyroll.com/",
+                "themeColorCode": "#ff5e00",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/crunchyroll/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/crunchyroll/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/crunchyroll/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.crunchyroll.com/ficticio/0341",
+              "videoLink": "https://www.crunchyroll.com/ficticio/0342",
+              "quality": "hd",
+              "audios": [
+                {
+                  "language": "eng",
+                  "region": "USA"
+                },
+                {
+                  "language": "fra",
+                  "region": "FRA"
+                },
+                {
+                  "language": "jpn",
+                  "region": "JPN"
+                },
+                {
+                  "language": "kor",
+                  "region": "KOR"
+                },
+                {
+                  "language": "por",
+                  "region": "BRA"
+                },
+                {
+                  "language": "spa",
+                  "region": "419"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ara",
+                    "region": "SAU"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "deu",
+                    "region": "DEU"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng",
+                    "region": "USA"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra",
+                    "region": "FRA"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ind",
+                    "region": "IDN"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "ita",
+                    "region": "ITA"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "msa",
+                    "region": "MYS"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "por",
+                    "region": "BRA"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "rus",
+                    "region": "RUS"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa",
+                    "region": "419"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa",
+                    "region": "ESP"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "tha",
+                    "region": "THA"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "vie",
+                    "region": "VNM"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "zho",
+                    "region": "CHN"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "zho",
+                    "region": "HKG"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "expiresOn": 253368063900,
+              "availableSince": 1771934101
+            },
+            {
+              "service": {
+                "id": "hbo",
+                "name": "HBO Max",
+                "homePage": "https://play.hbomax.com/",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://play.hbomax.com/ficticio/0343",
+              "videoLink": "https://play.hbomax.com/ficticio/0344",
+              "audios": [
+                {
+                  "language": "jpn"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "expiresOn": 1853963940,
+              "availableSince": 1764112567
+            },
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "maxes",
+                "name": "HBO Max",
+                "homePage": "https://www.primevideo.com/storefront/subscription/maxes",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/maxes/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0345",
+              "audios": [
+                {
+                  "language": "jpn"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1775099229
+            },
+            {
+              "service": {
+                "id": "hbo",
+                "name": "HBO Max",
+                "homePage": "https://play.hbomax.com/",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://play.hbomax.com/ficticio/0346",
+              "videoLink": "https://play.hbomax.com/ficticio/0344",
+              "audios": [
+                {
+                  "language": "jpn"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "expiresOn": 1853963940,
+              "availableSince": 1786064853
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000075",
+        "imdbId": "tt90000055",
+        "tmdbId": "tv/900105",
+        "title": "Título ficticio 065",
+        "overview": "",
+        "firstAirYear": 2023,
+        "lastAirYear": 2024,
+        "originalTitle": "Original ficticio 142",
+        "genres": [
+          {
+            "id": "action",
+            "name": "Acción"
+          },
+          {
+            "id": "animation",
+            "name": "Animación"
+          },
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          }
+        ],
+        "creators": [],
+        "cast": [
+          "Persona Ficticia 215",
+          "Persona Ficticia 123",
+          "Persona Ficticia 030",
+          "Persona Ficticia 282",
+          "Persona Ficticia 316",
+          "Persona Ficticia 078",
+          "Persona Ficticia 034"
+        ],
+        "rating": 56,
+        "seasonCount": 3,
+        "episodeCount": 20,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000075/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000075/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000075/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000075/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000075/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000075/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000075/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000075/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000075/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000075/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "verticalBackdrop": {
+            "w240": "https://cdn.movieofthenight.com/show/5000075/backdrop/vertical/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000075/backdrop/vertical/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000075/backdrop/vertical/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000075/backdrop/vertical/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000075/backdrop/vertical/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000075/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000075/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000075/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000075/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000075/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "hbo",
+                "name": "HBO Max",
+                "homePage": "https://play.hbomax.com/",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/hbo/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/hbo/logo-dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/hbo/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://play.hbomax.com/ficticio/0347",
+              "videoLink": "https://play.hbomax.com/ficticio/0348",
+              "audios": [
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [],
+              "expiresSoon": false,
+              "expiresOn": 1851371940,
+              "availableSince": 1786061665
+            }
+          ]
+        }
+      }
+    ],
+    "hasMore": true,
+    "nextCursor": "28849:ficticio"
+  }
+}

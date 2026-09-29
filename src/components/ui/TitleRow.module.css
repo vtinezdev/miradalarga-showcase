@@ -1,0 +1,94 @@
+.fila {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-4);
+  align-items: start;
+  padding-block: var(--space-4);
+  border-top: var(--border-row);
+}
+
+.conOrdinal {
+  grid-template-columns: 2.25rem auto 1fr;
+}
+
+.ordinal {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  font-size: var(--text-title-2);
+  line-height: 1;
+  color: var(--color-text-3);
+  font-variant-numeric: tabular-nums;
+  text-align: end;
+}
+
+.fila .miniatura {
+  width: 48px;
+}
+
+.cuerpo {
+  display: grid;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.titulo {
+  font-family: var(--font-serif);
+  font-size: var(--text-title-3);
+  font-weight: 500;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+}
+
+.titulo a {
+  text-decoration: none;
+}
+
+/* Toda la fila es la zona de clic del título (objetivo ≥ 44 px, DS §4.5). */
+.titulo a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.titulo a:focus-visible {
+  outline: none;
+}
+
+.fila:has(.titulo a:focus-visible) {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* En un ranking la fila se invierte entera: el subrayado sobra. */
+@media (hover: hover) and (pointer: fine) {
+  .fila:not(.conOrdinal) .titulo a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+  }
+}
+
+.meta {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+.nota {
+  font-size: var(--text-small);
+  color: var(--color-text-2);
+}
+
+.fuera {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+/* Coincidencia de búsqueda: subrayado latón, sin fondo que rompa la lectura. */
+.titulo mark {
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}

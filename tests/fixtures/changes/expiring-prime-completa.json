@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "seq": 26,
+    "slug": "D-expiring-prime",
+    "path": "/changes",
+    "query": {
+      "country": "es",
+      "change_type": "expiring",
+      "item_type": "show",
+      "catalogs": "prime",
+      "from": "1789994540",
+      "to": "1792672940",
+      "output_language": "es"
+    },
+    "status": 200,
+    "ok": true,
+    "ts_utc": "2026-09-21T12:42:54.112Z",
+    "ts_madrid": "2026-09-21T14:42:54",
+    "result_count": 7,
+    "has_more": false,
+    "next_cursor": null,
+    "response_headers": {
+      "access-control-allow-headers": "*",
+      "access-control-allow-methods": "*",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "*",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 21 Sep 2026 12:42:54 GMT",
+      "transfer-encoding": "chunked",
+      "x-quota-granted": "1000",
+      "x-quota-reset": "2026-10-01T00:00:00Z",
+      "x-quota-used": "22"
+    },
+    "change_type": "expiring",
+    "item_type": "show",
+    "catalogs": ["prime"],
+    "plataforma": "prime",
+    "ventana": {
+      "from_epoch": 1789994540,
+      "to_epoch": 1792672940,
+      "from_madrid": "2026-09-21 14:42:20",
+      "to_madrid": "2026-10-22 14:42:20"
+    },
+    "cursor_enviado": null,
+    "pagina": 1,
+    "recorte": "Recorte de spike-1/raw/026 (solo prime, lista completa, hasMore=false): 3 de sus 7 avisos y sus shows sin imageSet. 5000070 también está en expiring-pagina-1: la misma oferta en dos páginas."
+  },
+  "body": {
+    "changes": [
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000070",
+        "showType": "movie",
+        "service": {
+          "id": "prime",
+          "name": "Prime Video",
+          "homePage": "https://www.primevideo.com/",
+          "themeColorCode": "#00A8E1",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "addon",
+        "addon": {
+          "id": "shadowzes",
+          "name": "SHADOWZ",
+          "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+          "themeColorCode": "#000000",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+          }
+        },
+        "timestamp": 1790028000,
+        "link": "https://www.primevideo.com/ficticio/0015"
+      },
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000069",
+        "showType": "movie",
+        "service": {
+          "id": "prime",
+          "name": "Prime Video",
+          "homePage": "https://www.primevideo.com/",
+          "themeColorCode": "#00A8E1",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "addon",
+        "addon": {
+          "id": "shadowzes",
+          "name": "SHADOWZ",
+          "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+          "themeColorCode": "#000000",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+          }
+        },
+        "timestamp": 1790028000,
+        "link": "https://www.primevideo.com/ficticio/0039"
+      },
+      {
+        "changeType": "expiring",
+        "itemType": "show",
+        "showId": "5000067",
+        "showType": "movie",
+        "service": {
+          "id": "prime",
+          "name": "Prime Video",
+          "homePage": "https://www.primevideo.com/",
+          "themeColorCode": "#00A8E1",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "addon",
+        "addon": {
+          "id": "shadowzes",
+          "name": "SHADOWZ",
+          "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+          "themeColorCode": "#000000",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+            "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+            "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+          }
+        },
+        "timestamp": 1790028000,
+        "link": "https://www.primevideo.com/ficticio/0040"
+      }
+    ],
+    "shows": {
+      "5000067": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000067",
+        "imdbId": "tt9000122",
+        "tmdbId": "movie/900062",
+        "title": "Título ficticio 034",
+        "overview": "Sinopsis ficticia de ejemplo número 11.",
+        "releaseYear": 2016,
+        "originalTitle": "Título ficticio 034",
+        "genres": [
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          },
+          {
+            "id": "horror",
+            "name": "Terror"
+          }
+        ],
+        "directors": ["Persona Ficticia 050"],
+        "cast": [
+          "Persona Ficticia 187",
+          "Persona Ficticia 229",
+          "Persona Ficticia 323",
+          "Persona Ficticia 279",
+          "Persona Ficticia 005",
+          "Persona Ficticia 039",
+          "Persona Ficticia 052"
+        ],
+        "rating": 51,
+        "runtime": 4,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "shadowzes",
+                "name": "SHADOWZ",
+                "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0040",
+              "audios": [
+                {
+                  "language": "eng"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": true,
+              "expiresOn": 1790028000,
+              "availableSince": 1710305441
+            }
+          ]
+        }
+      },
+      "5000069": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000069",
+        "imdbId": "tt9000131",
+        "tmdbId": "movie/900066",
+        "title": "Título ficticio 140",
+        "overview": "",
+        "releaseYear": 2017,
+        "originalTitle": "Título ficticio 140",
+        "genres": [
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          },
+          {
+            "id": "horror",
+            "name": "Terror"
+          }
+        ],
+        "directors": ["Persona Ficticia 050"],
+        "cast": [
+          "Persona Ficticia 187",
+          "Persona Ficticia 039",
+          "Persona Ficticia 148"
+        ],
+        "rating": 49,
+        "runtime": 5,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "shadowzes",
+                "name": "SHADOWZ",
+                "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0039",
+              "audios": [
+                {
+                  "language": "eng"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": true,
+              "expiresOn": 1790028000,
+              "availableSince": 1710276158
+            }
+          ]
+        }
+      },
+      "5000070": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000070",
+        "imdbId": "tt9000051",
+        "tmdbId": "movie/900042",
+        "title": "Título ficticio 070",
+        "overview": "",
+        "releaseYear": 2012,
+        "originalTitle": "Original ficticio 033",
+        "genres": [
+          {
+            "id": "fantasy",
+            "name": "Fantasía"
+          },
+          {
+            "id": "thriller",
+            "name": "Suspenso"
+          }
+        ],
+        "directors": ["Persona Ficticia 165", "Persona Ficticia 288"],
+        "cast": ["Persona Ficticia 271", "Persona Ficticia 026"],
+        "rating": 52,
+        "runtime": 19,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "shadowzes",
+                "name": "SHADOWZ",
+                "homePage": "https://www.primevideo.com/storefront/subscription/shadowzes",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/light-theme.png",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/es/addons/shadowzes/white.svg"
+                }
+              },
+              "link": "https://www.primevideo.com/ficticio/0015",
+              "audios": [
+                {
+                  "language": "eng"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": true,
+              "expiresOn": 1790028000,
+              "availableSince": 1709603975
+            }
+          ]
+        }
+      }
+    },
+    "hasMore": false
+  }
+}

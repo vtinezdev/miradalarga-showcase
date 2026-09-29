@@ -1,0 +1,74 @@
+.nav {
+  display: none;
+}
+
+@media (min-width: 64rem) {
+  .nav {
+    display: block;
+  }
+}
+
+.lista {
+  display: flex;
+  gap: var(--space-1);
+}
+
+.enlace {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  padding-inline: var(--space-3);
+  color: var(--color-text-2);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color var(--duration-feedback) var(--ease-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .enlace:hover {
+    color: var(--color-text);
+  }
+}
+
+.enlace[aria-current="page"] {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+/* El horizonte como señal de navegación: una línea que se traza bajo el
+   destino señalado y, en el actual, queda trazada con el punto latón. */
+.enlace::after {
+  content: "";
+  position: absolute;
+  left: var(--space-3);
+  right: var(--space-3);
+  bottom: 0.55rem;
+  height: 1px;
+  background: var(--color-border-control);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-hover) var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .enlace:hover::after {
+    transform: scaleX(1);
+  }
+}
+
+.enlace:focus-visible::after,
+.enlace[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
+.enlace[aria-current="page"]::before {
+  content: "";
+  position: absolute;
+  right: calc(var(--space-3) - 3px);
+  bottom: calc(0.55rem - 2.5px);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}

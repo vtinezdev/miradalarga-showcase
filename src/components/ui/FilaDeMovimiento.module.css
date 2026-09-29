@@ -1,0 +1,9 @@
+.enListas {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+/* «Se fue»: menos protagonismo, sin perder contraste de lectura (≥ 7:1). */
+.seFue {
+  color: var(--color-text-2);
+}

@@ -1,0 +1,119 @@
+.grupo {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.legend {
+  margin-bottom: var(--space-2);
+  padding: 0;
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-3);
+}
+
+/* Envuelven línea: ningún chip queda cortado ni escondido (DS §8.6). */
+.chips[role="list"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--target-min);
+  padding-inline: var(--space-3);
+  border: var(--border-control);
+  border-radius: var(--radius-s);
+  font-size: var(--text-small);
+  font-weight: 500;
+  color: var(--color-text);
+  touch-action: manipulation;
+  transition:
+    background-color var(--duration-feedback) var(--ease-standard),
+    border-color var(--duration-feedback) var(--ease-standard),
+    transform var(--duration-feedback) var(--ease-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .chip:hover {
+    background: var(--color-surface-hover);
+    border-color: var(--color-border-control-hover);
+  }
+}
+
+.chip:active {
+  transform: scale(var(--press-scale));
+}
+
+/* Seleccionado: tinte, borde latón y marca. Nunca solo color (DS §4.4). */
+.chip[aria-pressed="true"] {
+  background: var(--color-accent-tint);
+  border-color: var(--color-accent);
+}
+
+.check {
+  display: none;
+  color: var(--color-accent);
+}
+
+.chip[aria-pressed="true"] .check {
+  display: block;
+}
+
+.recuento {
+  color: var(--color-text-3);
+}
+
+.chip[aria-pressed="true"] .recuento {
+  color: var(--color-text-2);
+}
+
+/* Sin resultados con los demás filtros: se ve, pero pesa menos. */
+.cero {
+  color: var(--color-text-3);
+}
+
+.mas {
+  color: var(--color-text-2);
+}
+
+.chevron {
+  color: var(--color-text-3);
+}
+
+.desplegar {
+  display: none;
+}
+
+/* Móvil: un grupo plegable empieza plegado y el botón dice el valor actual. */
+@media (max-width: 47.98rem) {
+  .grupo[data-plegable] .desplegar {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: var(--target-min);
+    padding-inline: var(--space-3);
+    border: var(--border-control);
+    border-radius: var(--radius-s);
+    font-size: var(--text-small);
+    font-weight: 500;
+  }
+
+  .grupo[data-plegable]:not([data-desplegado]) .chips {
+    display: none;
+  }
+
+  .grupo[data-desplegado] .desplegar {
+    margin-bottom: var(--space-2);
+  }
+
+  .grupo[data-desplegado] .desplegar .chevron {
+    transform: rotate(180deg);
+  }
+}

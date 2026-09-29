@@ -1,0 +1,74 @@
+.pie {
+  margin-top: var(--space-section);
+  padding-block: var(--space-block) var(--space-12);
+  background: var(--color-surface);
+  border-top: var(--border-hairline);
+  font-size: var(--text-small);
+  color: var(--color-text-2);
+}
+
+.rejilla {
+  display: grid;
+  gap: var(--space-8);
+}
+
+@media (min-width: 48rem) {
+  .rejilla {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .atribucion {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 64rem) {
+  .rejilla {
+    grid-template-columns: 2fr 1fr 1fr 3fr;
+  }
+
+  .atribucion {
+    grid-column: auto;
+  }
+}
+
+.nombre {
+  font-family: var(--font-serif);
+  font-size: var(--text-title-3);
+  color: var(--color-text);
+}
+
+.lema {
+  margin-top: var(--space-1);
+}
+
+.columna ul {
+  display: grid;
+  margin-top: var(--space-2);
+}
+
+.columna a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  color: var(--color-text-2);
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .columna a:hover {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
+}
+
+.atribucion {
+  display: grid;
+  gap: var(--space-2);
+  color: var(--color-text-3);
+}
+
+.desarrollo {
+  color: var(--color-text-2);
+  font-weight: 600;
+}

@@ -1,0 +1,146 @@
+/* ── 0 · Cabecera de edición ────────────────────────────────────────────── */
+
+.edicion {
+  display: flex;
+  /* Apilados hasta 64rem: lema y fecha en línea dependían de que la métrica de
+     la fuente cupiera o no (a 768 px estaban en el umbral y el hero saltaba
+     20 px al cargar la fuente de marca). */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-1) var(--space-6);
+  padding-block: var(--space-4);
+  border-bottom: var(--border-hairline);
+}
+
+.lema {
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-2);
+  text-wrap: pretty;
+}
+
+.fecha {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+.fecha > time:first-child::first-letter {
+  text-transform: uppercase;
+}
+
+@media (min-width: 64rem) {
+  .edicion {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .lema {
+    font-family: var(--font-serif);
+    font-size: var(--text-title-3);
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--color-text);
+  }
+}
+
+/* ── 2 · Utilidad ───────────────────────────────────────────────────────── */
+
+.utilidad {
+  display: grid;
+  /* Pista explícita: con la implícita (`auto`) crece hasta el min-content de
+     sus hijos y desborda a 375 px. */
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-block);
+  padding-block: var(--space-6);
+  border-block: var(--border-hairline);
+}
+
+/* Una columna en todas las anchuras: el mosaico de plataformas necesita el
+   ancho entero (3 por fila en tableta, 6 en escritorio). */
+@media (min-width: 48rem) {
+  .buscador {
+    max-width: 40rem;
+  }
+}
+
+.accesos ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-5);
+}
+
+.accesos a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  color: var(--color-accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .accesos a:hover {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+  }
+}
+
+/* ── Secciones ──────────────────────────────────────────────────────────── */
+
+.seccion {
+  margin-top: var(--space-section);
+}
+
+/* 6 · Explora */
+/* 6 plataformas: 1 · 2 · 3 columnas, sin filas cojas. */
+.plataformas {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--grid-gap);
+  border-top: var(--border-row);
+}
+
+@media (min-width: 48rem) {
+  .plataformas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 64rem) {
+  .plataformas {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.plataforma {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 3.5rem;
+  border-bottom: var(--border-row);
+  font-family: var(--font-serif);
+  font-size: var(--text-title-3);
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .plataforma:hover {
+    color: var(--color-accent-hover);
+  }
+}
+
+.puntoMio {
+  display: var(--mia-display, none);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-mine);
+}

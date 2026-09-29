@@ -1,0 +1,90 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# El repositorio de desarrollo es privado: GitHub Free da 2.000 min/mes.
+# Cancelar ejecuciones obsoletas es la medida que más minutos ahorra.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  # Fijada para que una versión nueva de Gitleaks no cambie el resultado del
+  # CI sin que nadie lo haya decidido.
+  GITLEAKS_VERSION: "8.30.1"
+
+jobs:
+  calidad:
+    name: Calidad
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v5
+        with:
+          # Historial completo: el escaneo de secretos mira todos los commits,
+          # no solo el árbol actual. Un secreto borrado en un commit posterior
+          # sigue estando en el historial.
+          fetch-depth: 0
+
+      # v6.1.0 EXACTA: Node 24 nativo y soporte de pnpm 12 (`packageManager`),
+      # que llegó en 6.1.0; a 2026-09-23 el tag móvil `v6` sigue en 6.0.10.
+      - name: Preparar pnpm
+        uses: pnpm/action-setup@v6.1.0
+
+      - name: Preparar Node
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: Instalar dependencias
+        run: pnpm install --frozen-lockfile
+
+      - name: Comprobación de tipos
+        run: pnpm typecheck
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Formato
+        run: pnpm format:check
+
+      - name: Tests
+        run: pnpm test
+
+      - name: Build
+        run: pnpm build
+
+      # Solo dependencias de producción: son las únicas que acaban dentro del
+      # Worker. Un CVE en una herramienta de desarrollo no es riesgo de runtime,
+      # y bloquear el CI por él lo convertiría en un semáforo que nadie mira.
+      # Las dependencias de desarrollo las vigila Dependabot, sin gastar minutos.
+      - name: Auditoría de dependencias de producción
+        run: pnpm audit --prod --audit-level=high
+
+      # Gitleaks descargado de su release, con versión fijada.
+      #
+      # No se usa la acción oficial gitleaks/gitleaks-action: exige la variable
+      # GITLEAKS_LICENSE en repositorios de organización. Tampoco se usa el
+      # secret scanning de GitHub, que en repositorios privados depende de
+      # GitHub Secret Protection, que es de pago. El binario es MIT y gratuito
+      # en cualquier caso.
+      - name: Instalar Gitleaks
+        run: |
+          curl -sSfL -o /tmp/gitleaks.tar.gz \
+            "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          tar -xzf /tmp/gitleaks.tar.gz -C /tmp gitleaks
+          sudo install -m 0755 /tmp/gitleaks /usr/local/bin/gitleaks
+          gitleaks version
+
+      - name: Escaneo de secretos en el historial completo
+        run: gitleaks git --redact --no-banner --verbose .

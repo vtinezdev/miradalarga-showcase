@@ -1,0 +1,27 @@
+.evento {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  font-size: var(--text-small);
+  line-height: 1.45;
+}
+
+.evento > svg {
+  margin-top: 0.1em;
+}
+
+.evento[data-tipo="llega"] {
+  color: var(--color-status-arrives);
+}
+.evento[data-tipo="se-va"] {
+  color: var(--color-status-leaves);
+}
+.evento[data-tipo="proximamente"] {
+  color: var(--color-status-upcoming);
+}
+.evento[data-tipo="se-fue"] {
+  color: var(--color-status-gone);
+}
+.evento[data-tipo="cambio"] {
+  color: var(--color-status-changed);
+}

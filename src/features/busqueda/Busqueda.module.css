@@ -1,0 +1,135 @@
+.busqueda {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-6);
+  padding-top: var(--space-8);
+}
+
+.campo {
+  max-width: 48rem;
+}
+
+.ayuda,
+.recuento {
+  max-width: var(--measure-reading);
+  color: var(--color-text-2);
+}
+
+.recuento strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+/* ── Resultados: filtros arriba (móvil) o a la izquierda (escritorio) ───── */
+
+.resultados {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-8);
+}
+
+.filtros {
+  display: grid;
+  gap: var(--space-5);
+  align-content: start;
+  padding-block: var(--space-5);
+  border-block: var(--border-hairline);
+}
+
+@media (min-width: 64rem) {
+  .resultados {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 9fr);
+    column-gap: var(--grid-gap);
+    align-items: start;
+  }
+
+  .filtros {
+    grid-row: span 2;
+    padding-top: 0;
+    border-top: 0;
+    border-bottom: 0;
+    padding-right: var(--space-4);
+    border-right: var(--border-hairline);
+  }
+}
+
+.grupoPlataforma {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.invitacion {
+  font-size: var(--text-small);
+}
+
+.quitar {
+  justify-self: start;
+  min-height: var(--target-min);
+}
+
+.grupo {
+  display: grid;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+@media (min-width: 64rem) {
+  .grupo {
+    grid-column: 2;
+  }
+}
+
+.h2 {
+  font-size: var(--text-title-2);
+}
+
+.cuantos {
+  font-family: var(--font-sans);
+  font-size: var(--text-small);
+  font-weight: 500;
+  color: var(--color-text-3);
+}
+
+.filas[role="list"] {
+  display: grid;
+}
+
+.enListas {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+/* ── Sin consulta o sin resultados: salidas útiles ──────────────────────── */
+
+.sugeridas {
+  margin-top: var(--space-block);
+}
+
+.accesos ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-6);
+  margin-bottom: var(--space-4);
+}
+
+.accesos a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  color: var(--color-accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .accesos a:hover {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+  }
+}
+
+.listas[role="list"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+  gap: 0 var(--grid-gap);
+}

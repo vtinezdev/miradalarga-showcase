@@ -1,0 +1,631 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "origen": "ops_sync_runs fila 21 (primera ejecución real de deltas), respuesta 002-new de .deltas-runs/2026-09-23T17-00-52-605Z-real/",
+    "ahora": "2026-09-23T17:00:47.636Z",
+    "change_type": "new",
+    "recorte": "Solo los 4 títulos que también anuncia raw/024 (tt9000126 Apple uhd; tt90000082, tt90000101 y tt90000059 Netflix sin quality), sus avisos new y sus shows sin imageSet. hasMore a false: recorte de una página."
+  },
+  "body": {
+    "changes": [
+      {
+        "changeType": "new",
+        "itemType": "show",
+        "showId": "5000105",
+        "showType": "series",
+        "service": {
+          "id": "apple",
+          "name": "Apple TV",
+          "homePage": "https://tv.apple.com/es",
+          "themeColorCode": "#000000",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790128291,
+        "link": "https://tv.apple.com/ficticio/0006"
+      },
+      {
+        "changeType": "new",
+        "itemType": "show",
+        "showId": "5000085",
+        "showType": "movie",
+        "service": {
+          "id": "netflix",
+          "name": "Netflix",
+          "homePage": "https://www.netflix.com/",
+          "themeColorCode": "#E50914",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790128736,
+        "link": "https://www.netflix.com/ficticio/0007"
+      },
+      {
+        "changeType": "new",
+        "itemType": "show",
+        "showId": "5000109",
+        "showType": "series",
+        "service": {
+          "id": "netflix",
+          "name": "Netflix",
+          "homePage": "https://www.netflix.com/",
+          "themeColorCode": "#E50914",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790157554,
+        "link": "https://www.netflix.com/ficticio/0008"
+      },
+      {
+        "changeType": "new",
+        "itemType": "show",
+        "showId": "5000124",
+        "showType": "series",
+        "service": {
+          "id": "netflix",
+          "name": "Netflix",
+          "homePage": "https://www.netflix.com/",
+          "themeColorCode": "#E50914",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790157554,
+        "link": "https://www.netflix.com/ficticio/0009"
+      }
+    ],
+    "shows": {
+      "5000085": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000085",
+        "imdbId": "tt90000059",
+        "tmdbId": "movie/900009",
+        "title": "Título ficticio 005",
+        "overview": "Sinopsis ficticia de ejemplo número 4.",
+        "releaseYear": 2024,
+        "originalTitle": "Título ficticio 005",
+        "genres": [
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          }
+        ],
+        "directors": ["Persona Ficticia 214"],
+        "cast": [
+          "Persona Ficticia 268",
+          "Persona Ficticia 287",
+          "Persona Ficticia 223",
+          "Persona Ficticia 132",
+          "Persona Ficticia 106",
+          "Persona Ficticia 152",
+          "Persona Ficticia 326"
+        ],
+        "rating": 54,
+        "runtime": 103,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://www.primevideo.com/ficticio/0010",
+              "quality": "hd",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "price": {
+                "amount": "3.99",
+                "currency": "EUR",
+                "formatted": "3.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1770925440
+            },
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0007",
+              "videoLink": "https://www.netflix.com/ficticio/0011",
+              "audios": [],
+              "subtitles": [],
+              "expiresSoon": false,
+              "availableSince": 1790128736
+            }
+          ]
+        }
+      },
+      "5000105": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000105",
+        "imdbId": "tt9000126",
+        "tmdbId": "tv/900107",
+        "title": "Título ficticio 026",
+        "overview": "Sinopsis ficticia de ejemplo número 5.",
+        "firstAirYear": 2026,
+        "lastAirYear": 2026,
+        "originalTitle": "Título ficticio 026",
+        "genres": [
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          }
+        ],
+        "creators": [
+          "Creador Ficticio 001",
+          "Creador Ficticio 002",
+          "Creador Ficticio 003",
+          "Creador Ficticio 004"
+        ],
+        "cast": [
+          "Persona Ficticia 225",
+          "Persona Ficticia 325",
+          "Persona Ficticia 112",
+          "Persona Ficticia 242",
+          "Persona Ficticia 035"
+        ],
+        "rating": 0,
+        "seasonCount": 1,
+        "episodeCount": 8,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://tv.apple.com/ficticio/0006",
+              "quality": "uhd",
+              "audios": [
+                {
+                  "language": "deu"
+                },
+                {
+                  "language": "eng"
+                },
+                {
+                  "language": "fra",
+                  "region": "CAN"
+                },
+                {
+                  "language": "fra",
+                  "region": "FRA"
+                },
+                {
+                  "language": "ita"
+                },
+                {
+                  "language": "jpn"
+                },
+                {
+                  "language": "por",
+                  "region": "BRA"
+                },
+                {
+                  "language": "spa",
+                  "region": "419"
+                },
+                {
+                  "language": "spa",
+                  "region": "ESP"
+                },
+                {
+                  "language": "tur"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "ara"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "bul"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "ces"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "cmn"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "dan"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "deu"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "ell"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "est"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "fin"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "fra",
+                    "region": "CAN"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "fra",
+                    "region": "FRA"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "heb"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "hin"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "hun"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "ind"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "ita"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "jpn"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "kor"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "lav"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "lit"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "msa"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "nor"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "pol"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "por",
+                    "region": "BRA"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "rus"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "slk"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "slv"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "spa",
+                    "region": "419"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "spa",
+                    "region": "ESP"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "swe"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "tam"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "tel"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "tha"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "tur"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "ukr"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "vie"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "yue"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1790128291
+            }
+          ]
+        }
+      },
+      "5000109": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000109",
+        "imdbId": "tt90000082",
+        "tmdbId": "tv/900113",
+        "title": "Título ficticio 038",
+        "overview": "Sinopsis ficticia de ejemplo número 6.",
+        "firstAirYear": 2026,
+        "lastAirYear": 2026,
+        "originalTitle": "Original ficticio 123",
+        "genres": [
+          {
+            "id": "adventure",
+            "name": "Aventura"
+          },
+          {
+            "id": "family",
+            "name": "Familia"
+          }
+        ],
+        "creators": [],
+        "cast": [],
+        "rating": 0,
+        "seasonCount": 1,
+        "episodeCount": 9,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0008",
+              "videoLink": "https://www.netflix.com/ficticio/0012",
+              "audios": [],
+              "subtitles": [],
+              "expiresSoon": false,
+              "availableSince": 1790157554
+            }
+          ]
+        }
+      },
+      "5000124": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000124",
+        "imdbId": "tt90000101",
+        "tmdbId": "tv/900123",
+        "title": "Título ficticio 062",
+        "overview": "Sinopsis ficticia de ejemplo número 7.",
+        "firstAirYear": 2026,
+        "lastAirYear": 2026,
+        "originalTitle": "Título ficticio 062",
+        "genres": [
+          {
+            "id": "drama",
+            "name": "Drama"
+          }
+        ],
+        "creators": ["Creador Ficticio 005"],
+        "cast": [
+          "Persona Ficticia 220",
+          "Persona Ficticia 020",
+          "Persona Ficticia 070",
+          "Persona Ficticia 219",
+          "Persona Ficticia 241",
+          "Persona Ficticia 244",
+          "Persona Ficticia 321"
+        ],
+        "rating": 0,
+        "seasonCount": 1,
+        "episodeCount": 8,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "netflix",
+                "name": "Netflix",
+                "homePage": "https://www.netflix.com/",
+                "themeColorCode": "#E50914",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://www.netflix.com/ficticio/0009",
+              "videoLink": "https://www.netflix.com/ficticio/0013",
+              "audios": [],
+              "subtitles": [],
+              "expiresSoon": false,
+              "availableSince": 1790157554
+            }
+          ]
+        }
+      }
+    },
+    "hasMore": false
+  }
+}

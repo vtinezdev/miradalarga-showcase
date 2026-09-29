@@ -1,0 +1,124 @@
+.buscador {
+  margin-top: var(--space-6);
+}
+
+@media (min-width: 48rem) {
+  .buscador > form {
+    max-width: 40rem;
+  }
+}
+
+.seccion {
+  margin-top: var(--space-section);
+}
+
+.rejilla[role="list"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+  column-gap: var(--grid-gap);
+}
+
+.ranking {
+  max-width: 44rem;
+}
+
+/* ── Por plataforma: seis enlaces, sin filas cojas (1 · 2 · 3 columnas) ─── */
+
+.plataformas[role="list"] {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--grid-gap);
+  border-top: var(--border-row);
+}
+
+@media (min-width: 48rem) {
+  .plataformas[role="list"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 64rem) {
+  .plataformas[role="list"] {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.plataforma {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 3.5rem;
+  border-bottom: var(--border-row);
+  text-decoration: none;
+}
+
+.nombre {
+  font-family: var(--font-serif);
+  font-size: var(--text-title-3);
+}
+
+.cuantas {
+  margin-left: auto;
+  font-family: var(--font-sans);
+  font-size: var(--text-small);
+  font-weight: 400;
+  color: var(--color-text-3);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .plataforma:hover .nombre {
+    color: var(--color-accent-hover);
+  }
+}
+
+/* ── Por género: un índice, no una parrilla ─────────────────────────────── */
+
+.generos[role="list"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+  gap: var(--space-6) var(--grid-gap);
+}
+
+.genero {
+  display: grid;
+  gap: var(--space-2);
+  align-content: start;
+  padding-top: var(--space-3);
+  border-top: var(--border-row);
+}
+
+.nombreGenero {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-size: var(--text-title-3);
+}
+
+.nombreGenero .cuantas {
+  margin-left: 0;
+}
+
+.titulosDeGenero[role="list"] {
+  display: grid;
+}
+
+.titulosDeGenero a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  font-family: var(--font-serif);
+  font-size: var(--text-reading);
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .titulosDeGenero a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+  }
+}
+
+.resto {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}

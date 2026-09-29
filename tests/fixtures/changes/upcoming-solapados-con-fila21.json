@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "seq": 24,
+    "slug": "C-changes-upcoming",
+    "path": "/changes",
+    "query": {
+      "country": "es",
+      "change_type": "upcoming",
+      "item_type": "show",
+      "catalogs": "netflix,prime,disney,hbo,apple,skyshowtime",
+      "from": "1789994540",
+      "to": "1792672940",
+      "output_language": "es"
+    },
+    "status": 200,
+    "ok": true,
+    "ts_utc": "2026-09-21T12:42:50.662Z",
+    "ts_madrid": "2026-09-21T14:42:50",
+    "result_count": 25,
+    "has_more": true,
+    "next_cursor": "1790665200:0",
+    "response_headers": {
+      "access-control-allow-headers": "*",
+      "access-control-allow-methods": "*",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "*",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 21 Sep 2026 12:42:51 GMT",
+      "transfer-encoding": "chunked",
+      "x-quota-granted": "1000",
+      "x-quota-reset": "2026-10-01T00:00:00Z",
+      "x-quota-used": "20"
+    },
+    "change_type": "upcoming",
+    "item_type": "show",
+    "catalogs": ["netflix", "prime", "disney", "hbo", "apple", "skyshowtime"],
+    "ventana": {
+      "from_epoch": 1789994540,
+      "to_epoch": 1792672940,
+      "from_madrid": "2026-09-21 14:42:20",
+      "to_madrid": "2026-10-22 14:42:20"
+    },
+    "cursor_enviado": null,
+    "pagina": 1,
+    "recorte": "Recorte de spike-1/raw/024 (capturado el 21-sep, ANTES de la fila 21 del 23-sep): los avisos upcoming de los 4 títulos que la fila 21 ya había dado de alta, y sus shows sin imageSet. hasMore a false."
+  },
+  "body": {
+    "changes": [
+      {
+        "changeType": "upcoming",
+        "itemType": "show",
+        "showId": "5000105",
+        "showType": "series",
+        "service": {
+          "id": "apple",
+          "name": "Apple TV",
+          "homePage": "https://tv.apple.com/es",
+          "themeColorCode": "#000000",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790121600,
+        "link": "https://tv.apple.com/ficticio/0006"
+      },
+      {
+        "changeType": "upcoming",
+        "itemType": "show",
+        "showId": "5000109",
+        "showType": "series",
+        "service": {
+          "id": "netflix",
+          "name": "Netflix",
+          "homePage": "https://www.netflix.com/",
+          "themeColorCode": "#E50914",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790146800,
+        "link": "https://www.netflix.com/ficticio/0008"
+      },
+      {
+        "changeType": "upcoming",
+        "itemType": "show",
+        "showId": "5000124",
+        "showType": "series",
+        "service": {
+          "id": "netflix",
+          "name": "Netflix",
+          "homePage": "https://www.netflix.com/",
+          "themeColorCode": "#E50914",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790146800,
+        "link": "https://www.netflix.com/ficticio/0009"
+      },
+      {
+        "changeType": "upcoming",
+        "itemType": "show",
+        "showId": "5000085",
+        "showType": "movie",
+        "service": {
+          "id": "netflix",
+          "name": "Netflix",
+          "homePage": "https://www.netflix.com/",
+          "themeColorCode": "#E50914",
+          "imageSet": {
+            "lightThemeImage": "https://media.movieofthenight.com/services/netflix/logo-light-theme.svg",
+            "darkThemeImage": "https://media.movieofthenight.com/services/netflix/logo-dark-theme.svg",
+            "whiteImage": "https://media.movieofthenight.com/services/netflix/logo-white.svg"
+          }
+        },
+        "streamingOptionType": "subscription",
+        "timestamp": 1790146800,
+        "link": "https://www.netflix.com/ficticio/0007"
+      }
+    ],
+    "shows": {
+      "5000085": {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000085",
+        "imdbId": "tt90000059",
+        "tmdbId": "movie/900009",
+        "title": "Título ficticio 005",
+        "overview": "Sinopsis ficticia de ejemplo número 4.",
+        "releaseYear": 2024,
+        "originalTitle": "Título ficticio 005",
+        "genres": [
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          }
+        ],
+        "directors": ["Persona Ficticia 214"],
+        "cast": [
+          "Persona Ficticia 268",
+          "Persona Ficticia 287",
+          "Persona Ficticia 223",
+          "Persona Ficticia 132",
+          "Persona Ficticia 106",
+          "Persona Ficticia 152",
+          "Persona Ficticia 326"
+        ],
+        "rating": 54,
+        "runtime": 103,
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "prime",
+                "name": "Prime Video",
+                "homePage": "https://www.primevideo.com/",
+                "themeColorCode": "#00A8E1",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/prime/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/prime/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/prime/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://www.primevideo.com/ficticio/0010",
+              "quality": "hd",
+              "audios": [
+                {
+                  "language": "spa"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": true,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "price": {
+                "amount": "3.99",
+                "currency": "EUR",
+                "formatted": "3.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1770925440
+            }
+          ]
+        }
+      },
+      "5000105": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000105",
+        "imdbId": "tt9000126",
+        "tmdbId": "tv/900107",
+        "title": "Título ficticio 026",
+        "overview": "",
+        "firstAirYear": 2026,
+        "lastAirYear": 2026,
+        "originalTitle": "Título ficticio 026",
+        "genres": [
+          {
+            "id": "comedy",
+            "name": "Comedia"
+          }
+        ],
+        "creators": [
+          "Creador Ficticio 001",
+          "Creador Ficticio 002",
+          "Creador Ficticio 003",
+          "Creador Ficticio 004"
+        ],
+        "cast": [
+          "Persona Ficticia 225",
+          "Persona Ficticia 325",
+          "Persona Ficticia 112",
+          "Persona Ficticia 242",
+          "Persona Ficticia 035"
+        ],
+        "rating": 0,
+        "seasonCount": 1,
+        "episodeCount": 8,
+        "streamingOptions": {}
+      },
+      "5000109": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000109",
+        "imdbId": "tt90000082",
+        "tmdbId": "tv/900113",
+        "title": "Título ficticio 038",
+        "overview": "",
+        "firstAirYear": 2026,
+        "lastAirYear": 2026,
+        "originalTitle": "Original ficticio 123",
+        "genres": [
+          {
+            "id": "adventure",
+            "name": "Aventura"
+          },
+          {
+            "id": "family",
+            "name": "Familia"
+          }
+        ],
+        "creators": [],
+        "cast": [],
+        "rating": 0,
+        "seasonCount": 1,
+        "episodeCount": 9,
+        "streamingOptions": {}
+      },
+      "5000124": {
+        "itemType": "show",
+        "showType": "series",
+        "id": "5000124",
+        "imdbId": "tt90000101",
+        "tmdbId": "tv/900123",
+        "title": "Título ficticio 062",
+        "overview": "",
+        "firstAirYear": 2026,
+        "lastAirYear": 2026,
+        "originalTitle": "Título ficticio 062",
+        "genres": [
+          {
+            "id": "drama",
+            "name": "Drama"
+          }
+        ],
+        "creators": ["Creador Ficticio 005"],
+        "cast": [
+          "Persona Ficticia 220",
+          "Persona Ficticia 020",
+          "Persona Ficticia 070",
+          "Persona Ficticia 219",
+          "Persona Ficticia 241",
+          "Persona Ficticia 244",
+          "Persona Ficticia 321"
+        ],
+        "rating": 0,
+        "seasonCount": 1,
+        "episodeCount": 1,
+        "streamingOptions": {}
+      }
+    },
+    "hasMore": false
+  }
+}

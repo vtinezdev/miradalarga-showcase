@@ -1,0 +1,144 @@
+.rail {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-4);
+}
+
+/* La pista sangra hasta el borde de la ventana en móvil (el margen lateral de
+   la página), pero su contenido arranca alineado con la columna. */
+/* `[role="list"]`: gana a la regla base que quita el relleno de las listas. */
+.pista[role="list"] {
+  position: relative;
+  display: flex;
+  gap: var(--grid-gap);
+  margin-inline: calc(-1 * var(--gutter-page));
+  padding: var(--space-2) var(--gutter-page) var(--space-3);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter-page);
+  scrollbar-width: none;
+}
+
+.pista::-webkit-scrollbar {
+  display: none;
+}
+
+/* La siguiente pieza siempre asoma: ninguna ocupa el ancho entero. */
+.pieza {
+  flex: 0 0 min(72%, 17rem);
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.principal {
+  flex-basis: min(86%, 36rem);
+}
+
+@media (min-width: 48rem) {
+  .pieza {
+    flex-basis: 16rem;
+  }
+
+  .principal {
+    flex-basis: min(60%, 36rem);
+  }
+}
+
+@media (min-width: 64rem) {
+  .pieza {
+    flex-basis: 17rem;
+  }
+
+  .principal {
+    flex-basis: 38rem;
+  }
+}
+
+/* ── Pie: el horizonte como indicador de posición y los controles ────────── */
+
+.pie {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  min-height: var(--target-min);
+}
+
+.horizonte {
+  position: relative;
+  flex: 1;
+  height: 1px;
+  background: var(--color-border-subtle);
+  /* El punto se desplaza en unidades de esta línea (cqi): nunca sale de ella
+     ni agranda el área desplazable de la página. */
+  container-type: inline-size;
+}
+
+/* Sin desborde (o sin JavaScript) no hay nada que recorrer: el punto descansa
+   al final, como en la marca. */
+.carro {
+  position: absolute;
+  left: 0;
+  top: -3px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  transform: translateX(calc(var(--progreso, 1) * (100cqi - 7px)));
+}
+
+.controles {
+  display: flex;
+  gap: var(--space-2);
+  visibility: hidden;
+}
+
+.desborda .controles {
+  visibility: visible;
+}
+
+/* En táctil se desliza con el dedo; los botones sobran (el siguiente asoma). */
+@media (hover: none) and (pointer: coarse) {
+  .controles {
+    display: none;
+  }
+}
+
+.boton {
+  display: inline-grid;
+  place-items: center;
+  width: var(--target-min);
+  height: var(--target-min);
+  border: var(--border-control);
+  border-radius: var(--radius-s);
+  color: var(--color-text);
+  touch-action: manipulation;
+  transition:
+    background-color var(--duration-feedback) var(--ease-standard),
+    border-color var(--duration-feedback) var(--ease-standard),
+    transform var(--duration-feedback) var(--ease-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .boton:hover {
+    background: var(--color-surface-hover);
+    border-color: var(--color-border-control-hover);
+  }
+}
+
+.boton:active {
+  transform: scale(var(--press-scale));
+}
+
+.boton[aria-disabled="true"] {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.boton[aria-disabled="true"]:active {
+  transform: none;
+}
+
+.izquierda {
+  transform: scaleX(-1);
+}

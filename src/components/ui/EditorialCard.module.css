@@ -1,0 +1,256 @@
+.tarjeta {
+  grid-template-columns: minmax(0, 1fr);
+  position: relative;
+  display: grid;
+  gap: var(--space-4);
+  align-content: start;
+}
+
+/* ── Portada: pósters o carteles superpuestos ───────────────────────────── */
+
+.portada {
+  display: flex;
+}
+
+/* `.portada .poster`: más específico que el `width: 100%` de TitleImage. */
+/* Sin sombra propia (DS §4.3: una sola sombra, la de lo que flota); los
+   pósters se separan por su filete. */
+.portada .poster {
+  flex: none;
+}
+
+.portada .poster:nth-child(1) {
+  z-index: 3;
+}
+.portada .poster:nth-child(2) {
+  z-index: 2;
+}
+
+/* Tres pósters al 38 % con 7 % de solape: caben enteros y se ven los tres. */
+.principal .portada {
+  max-width: 26rem;
+}
+
+.columna .portada {
+  max-width: 13rem;
+}
+
+.principal .portada .poster,
+.columna .portada .poster {
+  width: 38%;
+}
+
+.principal .portada .poster + .poster,
+.columna .portada .poster + .poster {
+  margin-left: -7%;
+}
+
+/* ── Luz de sala: los carteles se encienden y avanzan al señalar ────────── */
+
+.portada .poster {
+  transition: transform var(--duration-hover) var(--ease-out);
+}
+
+/* El velo solo existe donde hay algo que lo levante (ratón fino); en táctil
+   los carteles están siempre encendidos. */
+.portada .poster::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--color-bg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--duration-hover) var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .portada .poster::after {
+    opacity: var(--velo-reposo);
+  }
+
+  .tarjeta:hover .portada .poster::after {
+    opacity: 0;
+  }
+}
+
+.tarjeta:has(.titulo a:focus-visible) .portada .poster::after,
+.tarjeta:active .portada .poster::after {
+  opacity: 0;
+}
+
+/* Desplazamiento mínimo, escalonado: el primero avanza más. */
+.tarjeta:has(.titulo a:focus-visible) .poster:nth-child(1),
+.tarjeta:active .poster:nth-child(1) {
+  transform: translateY(calc(-1.5 * var(--shift-hover)));
+}
+
+.tarjeta:has(.titulo a:focus-visible) .poster:nth-child(2),
+.tarjeta:active .poster:nth-child(2) {
+  transform: translateY(calc(-1 * var(--shift-hover)));
+}
+
+.tarjeta:has(.titulo a:focus-visible) .poster:nth-child(3),
+.tarjeta:active .poster:nth-child(3) {
+  transform: translateY(calc(-0.5 * var(--shift-hover)));
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .tarjeta:hover .poster:nth-child(1) {
+    transform: translateY(calc(-1.5 * var(--shift-hover)));
+  }
+
+  .tarjeta:hover .poster:nth-child(2) {
+    transform: translateY(calc(-1 * var(--shift-hover)));
+  }
+
+  .tarjeta:hover .poster:nth-child(3) {
+    transform: translateY(calc(-0.5 * var(--shift-hover)));
+  }
+}
+
+.secundaria {
+  grid-template-columns: 88px 1fr;
+  align-items: start;
+  padding-block: var(--space-4);
+  border-top: var(--border-row);
+}
+
+.secundaria .portada {
+  width: 88px;
+}
+
+.secundaria .portada .poster {
+  width: 56px;
+}
+
+.secundaria .portada .poster + .poster {
+  margin-left: -40px;
+}
+
+/* ── Textos ─────────────────────────────────────────────────────────────── */
+
+.textos {
+  display: grid;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.antetitulo::before {
+  content: "";
+  display: block;
+  width: 24px;
+  margin-bottom: var(--space-2);
+  border-top: var(--rule-editorial);
+}
+
+.titulo {
+  font-size: var(--text-title-3);
+  line-height: 1.15;
+}
+
+.principal .titulo {
+  font-size: var(--text-title-1);
+}
+
+/* En el rail, la tarjeta es una columna: título, estado y firma apilados. */
+.columna .titulo {
+  font-size: var(--text-title-3);
+}
+
+.titulo a {
+  text-decoration: none;
+}
+
+.titulo a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.titulo a:focus-visible {
+  outline: none;
+}
+
+.tarjeta:has(.titulo a:focus-visible) {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 4px;
+  border-radius: var(--radius-s);
+}
+
+/* El horizonte bajo el título: se traza al señalar (firma 1). */
+.horizonte {
+  position: relative;
+  display: block;
+  height: 1px;
+  margin-block: 2px var(--space-1);
+  background: var(--color-border-control);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-hover) var(--ease-out);
+}
+
+.horizonte::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -3px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  opacity: 0;
+  transition: opacity var(--duration-feedback) var(--ease-out);
+}
+
+.tarjeta:has(.titulo a:focus-visible) .horizonte,
+.tarjeta:active .horizonte {
+  transform: scaleX(1);
+}
+
+.tarjeta:has(.titulo a:focus-visible) .horizonte::after,
+.tarjeta:active .horizonte::after {
+  opacity: 1;
+  transition-delay: 120ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .tarjeta:hover .horizonte {
+    transform: scaleX(1);
+  }
+
+  .tarjeta:hover .horizonte::after {
+    opacity: 1;
+    transition-delay: 120ms;
+  }
+}
+
+/* En la fila compacta no hay horizonte: el título se subraya, como siempre. */
+.secundaria .horizonte {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .secundaria:hover .titulo a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+  }
+}
+
+.entradilla {
+  font-family: var(--font-serif);
+  font-size: var(--text-lede);
+  line-height: 1.45;
+  color: var(--color-text-2);
+  max-width: var(--measure-reading);
+}
+
+.estado {
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+/* El enlace del autor queda por encima de la zona de clic de la tarjeta. */
+.firma a {
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,196 @@
+/* ── /plataformas: seis filas grandes de índice ─────────────────────────── */
+
+.indice {
+  margin-top: var(--space-block);
+}
+
+.filas[role="list"] {
+  display: grid;
+  border-bottom: var(--border-row);
+}
+
+/*
+ * Móvil: nombre, datos y acción apilados. Escritorio: nombre (4) · datos (6) ·
+ * acción (2), alineados en la parte superior.
+ */
+.fila {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-4);
+  padding-block: var(--space-8);
+  border-top: var(--border-row);
+}
+
+@media (min-width: 64rem) {
+  .fila {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 6fr) minmax(0, 2fr);
+    column-gap: var(--grid-gap);
+    align-items: start;
+  }
+
+  .accion {
+    justify-self: end;
+  }
+}
+
+.nombre {
+  font-size: var(--text-title-1);
+  line-height: 1.1;
+}
+
+.enlaceNombre {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--target-min);
+  text-decoration: none;
+}
+
+.flecha {
+  color: var(--color-accent);
+  transition: transform var(--duration-hover) var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .enlaceNombre:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+    text-decoration-thickness: 1px;
+  }
+
+  .enlaceNombre:hover .flecha {
+    transform: translateX(var(--shift-hover));
+  }
+}
+
+.enlaceNombre:active .flecha {
+  transform: translateX(var(--shift-hover));
+}
+
+.datos {
+  display: grid;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.recuento {
+  font-family: var(--font-serif);
+  font-size: var(--text-reading);
+  color: var(--color-text);
+}
+
+.movimiento[role="list"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-5);
+  font-size: var(--text-small);
+}
+
+.movimiento li {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.movimiento [data-tipo="llega"] {
+  color: var(--color-status-arrives);
+}
+
+.movimiento [data-tipo="se-va"] {
+  color: var(--color-status-leaves);
+}
+
+.destacados {
+  font-size: var(--text-small);
+  color: var(--color-text-2);
+}
+
+.destacados a {
+  color: var(--color-text);
+  text-decoration-color: var(--color-border-control);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .destacados a:hover {
+    text-decoration-color: var(--color-accent);
+  }
+}
+
+.antetitulo {
+  color: var(--color-text-3);
+}
+
+.limites[role="list"] {
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+/* ── Hub de una plataforma ──────────────────────────────────────────────── */
+
+.seccion {
+  margin-top: var(--space-section);
+}
+
+.filasEditoriales[role="list"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+  column-gap: var(--grid-gap);
+}
+
+.veredicto {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--text-body);
+  color: var(--color-text);
+}
+
+.deLista {
+  color: var(--color-text-3);
+}
+
+.rankingUnico {
+  max-width: 40rem;
+}
+
+.h3 {
+  margin-bottom: var(--space-2);
+  font-size: var(--text-title-3);
+}
+
+.otras[role="list"] {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--grid-gap);
+  border-top: var(--border-row);
+}
+
+@media (min-width: 48rem) {
+  .otras[role="list"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 64rem) {
+  .otras[role="list"] {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.otra {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 3.5rem;
+  border-bottom: var(--border-row);
+  font-family: var(--font-serif);
+  font-size: var(--text-title-3);
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .otra:hover {
+    color: var(--color-accent-hover);
+  }
+}

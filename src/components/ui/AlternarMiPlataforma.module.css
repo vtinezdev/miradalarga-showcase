@@ -1,0 +1,61 @@
+/*
+ * Mismo lenguaje que PlatformSelector: todo cambia por las propiedades `--mia-*`
+ * que el layout activa en `[data-plataforma]` si la plataforma es tuya.
+ */
+.boton {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--target-min);
+  padding-inline: var(--space-4);
+  border: 1px solid var(--mia-borde, var(--color-border-control));
+  border-radius: var(--radius-s);
+  background: var(--mia-fondo, transparent);
+  font-size: var(--text-small);
+  font-weight: 600;
+  color: var(--color-text);
+  touch-action: manipulation;
+  transition:
+    background-color var(--duration-feedback) var(--ease-standard),
+    border-color var(--duration-feedback) var(--ease-standard),
+    transform var(--duration-feedback) var(--ease-standard);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .boton:hover {
+    border-color: var(--mia-borde, var(--color-border-control-hover));
+  }
+}
+
+.boton:active {
+  transform: scale(var(--press-scale));
+}
+
+.luz {
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  box-shadow: 0 0 0 1px var(--color-accent);
+  opacity: var(--mia-check, 0);
+  pointer-events: none;
+  transition: opacity var(--duration-hover) var(--ease-out);
+}
+
+.check {
+  display: var(--mia-display, none);
+  color: var(--color-accent);
+}
+
+.siMia {
+  display: var(--mia-texto, none);
+}
+
+.noMia {
+  display: var(--mia-oculto, inline);
+}
+
+.quitar {
+  font-weight: 500;
+  color: var(--color-text-2);
+}

@@ -1,0 +1,559 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "seq": 11,
+    "slug": "B-apple-movie",
+    "path": "/shows/search/filters",
+    "query": {
+      "country": "es",
+      "catalogs": "apple",
+      "show_type": "movie",
+      "series_granularity": "show",
+      "output_language": "es"
+    },
+    "status": 200,
+    "ok": true,
+    "ts_utc": "2026-09-21T12:42:09.517Z",
+    "ts_madrid": "2026-09-21T14:42:09",
+    "result_count": 20,
+    "has_more": true,
+    "next_cursor": "35021:ficticio",
+    "response_headers": {
+      "access-control-allow-headers": "*",
+      "access-control-allow-methods": "*",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "*",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 21 Sep 2026 12:42:10 GMT",
+      "transfer-encoding": "chunked",
+      "x-quota-granted": "1000",
+      "x-quota-reset": "2026-10-01T00:00:00Z",
+      "x-quota-used": "11"
+    },
+    "plataforma": "apple",
+    "service_id": "apple",
+    "show_type": "movie"
+  },
+  "body": {
+    "shows": [
+      {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000065",
+        "imdbId": "tt90000029",
+        "tmdbId": "movie/900079",
+        "title": "Título ficticio 069",
+        "overview": "Sinopsis ficticia de ejemplo número 1.",
+        "releaseYear": 2020,
+        "originalTitle": "Original ficticio 129",
+        "genres": [
+          {
+            "id": "crime",
+            "name": "Crimen"
+          },
+          {
+            "id": "thriller",
+            "name": "Suspenso"
+          }
+        ],
+        "directors": ["Persona Ficticia 262"],
+        "cast": [
+          "Persona Ficticia 295",
+          "Persona Ficticia 027",
+          "Persona Ficticia 114",
+          "Persona Ficticia 113",
+          "Persona Ficticia 306",
+          "Persona Ficticia 188",
+          "Persona Ficticia 257"
+        ],
+        "rating": 60,
+        "runtime": 111,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000065/poster/vertical/en/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000065/poster/vertical/en/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000065/poster/vertical/en/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000065/poster/vertical/en/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000065/poster/vertical/en/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000065/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000065/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000065/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000065/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000065/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "verticalBackdrop": {
+            "w240": "https://cdn.movieofthenight.com/show/5000065/backdrop/vertical/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000065/backdrop/vertical/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000065/backdrop/vertical/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000065/backdrop/vertical/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000065/backdrop/vertical/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000065/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000065/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000065/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000065/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000065/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "rent",
+              "link": "https://tv.apple.com/ficticio/0001",
+              "quality": "hd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "3.99",
+                "currency": "EUR",
+                "formatted": "3.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1655483615
+            },
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://tv.apple.com/ficticio/0001",
+              "quality": "sd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "5.99",
+                "currency": "EUR",
+                "formatted": "5.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1731813990
+            },
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://tv.apple.com/ficticio/0001",
+              "quality": "hd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "9.99",
+                "currency": "EUR",
+                "formatted": "9.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1655483615
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000045",
+        "imdbId": "tt9000139",
+        "tmdbId": "movie/900078",
+        "title": "Título ficticio 109",
+        "overview": "Sinopsis ficticia de ejemplo número 2.",
+        "releaseYear": 2020,
+        "originalTitle": "Original ficticio 134",
+        "genres": [
+          {
+            "id": "action",
+            "name": "Acción"
+          },
+          {
+            "id": "horror",
+            "name": "Terror"
+          }
+        ],
+        "directors": ["Persona Ficticia 327"],
+        "cast": [
+          "Persona Ficticia 097",
+          "Persona Ficticia 201",
+          "Persona Ficticia 203",
+          "Persona Ficticia 191",
+          "Persona Ficticia 180",
+          "Persona Ficticia 189",
+          "Persona Ficticia 168"
+        ],
+        "rating": 58,
+        "runtime": 116,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000045/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000045/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000045/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000045/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000045/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000045/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000045/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000045/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000045/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000045/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "verticalBackdrop": {
+            "w240": "https://cdn.movieofthenight.com/show/5000045/backdrop/vertical/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000045/backdrop/vertical/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000045/backdrop/vertical/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000045/backdrop/vertical/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000045/backdrop/vertical/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000045/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000045/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000045/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000045/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000045/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://tv.apple.com/ficticio/0002",
+              "quality": "hd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "9.99",
+                "currency": "EUR",
+                "formatted": "9.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1653592074
+            },
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "rent",
+              "link": "https://tv.apple.com/ficticio/0002",
+              "quality": "hd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "3.99",
+                "currency": "EUR",
+                "formatted": "3.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1655466023
+            },
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://tv.apple.com/ficticio/0002",
+              "quality": "sd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "8.99",
+                "currency": "EUR",
+                "formatted": "8.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1731817368
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "show",
+        "showType": "movie",
+        "id": "5000041",
+        "imdbId": "tt9000130",
+        "tmdbId": "movie/900071",
+        "title": "Título ficticio 027",
+        "overview": "Sinopsis ficticia de ejemplo número 3.",
+        "releaseYear": 2018,
+        "originalTitle": "Original ficticio 135",
+        "genres": [
+          {
+            "id": "crime",
+            "name": "Crimen"
+          },
+          {
+            "id": "drama",
+            "name": "Drama"
+          },
+          {
+            "id": "mystery",
+            "name": "Misterio"
+          }
+        ],
+        "directors": ["Persona Ficticia 195"],
+        "cast": [
+          "Persona Ficticia 328",
+          "Persona Ficticia 302",
+          "Persona Ficticia 137",
+          "Persona Ficticia 182",
+          "Persona Ficticia 047",
+          "Persona Ficticia 237",
+          "Persona Ficticia 234"
+        ],
+        "rating": 73,
+        "runtime": 148,
+        "imageSet": {
+          "verticalPoster": {
+            "w240": "https://cdn.movieofthenight.com/show/5000041/poster/vertical/es/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000041/poster/vertical/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000041/poster/vertical/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000041/poster/vertical/es/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000041/poster/vertical/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalPoster": {
+            "w360": "https://cdn.movieofthenight.com/show/5000041/poster/horizontal/es/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000041/poster/horizontal/es/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000041/poster/horizontal/es/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000041/poster/horizontal/es/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000041/poster/horizontal/es/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "verticalBackdrop": {
+            "w240": "https://cdn.movieofthenight.com/show/5000041/backdrop/vertical/240.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w360": "https://cdn.movieofthenight.com/show/5000041/backdrop/vertical/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000041/backdrop/vertical/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w600": "https://cdn.movieofthenight.com/show/5000041/backdrop/vertical/600.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000041/backdrop/vertical/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          },
+          "horizontalBackdrop": {
+            "w360": "https://cdn.movieofthenight.com/show/5000041/backdrop/horizontal/360.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w480": "https://cdn.movieofthenight.com/show/5000041/backdrop/horizontal/480.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w720": "https://cdn.movieofthenight.com/show/5000041/backdrop/horizontal/720.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1080": "https://cdn.movieofthenight.com/show/5000041/backdrop/horizontal/1080.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO",
+            "w1440": "https://cdn.movieofthenight.com/show/5000041/backdrop/horizontal/1440.jpg?Expires=REDACTADO&Signature=REDACTADO&Key-Pair-Id=REDACTADO"
+          }
+        },
+        "streamingOptions": {
+          "es": [
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://tv.apple.com/ficticio/0003",
+              "quality": "sd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "6.99",
+                "currency": "EUR",
+                "formatted": "6.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1731814097
+            },
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "buy",
+              "link": "https://tv.apple.com/ficticio/0003",
+              "quality": "hd",
+              "audios": [],
+              "subtitles": [],
+              "price": {
+                "amount": "8.99",
+                "currency": "EUR",
+                "formatted": "8.99 EUR"
+              },
+              "expiresSoon": false,
+              "availableSince": 1655442870
+            },
+            {
+              "service": {
+                "id": "apple",
+                "name": "Apple TV",
+                "homePage": "https://tv.apple.com/es",
+                "themeColorCode": "#000000",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/logo-white.svg"
+                }
+              },
+              "type": "addon",
+              "addon": {
+                "id": "tvs.sbd.1000249",
+                "name": "MUBI",
+                "homePage": "https://tv.apple.com/es/channel/mubi/tvs.sbd.1000249",
+                "themeColorCode": "#041383",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/apple/es/addons/tvs.sbd.1000249/light-theme.png",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/apple/es/addons/tvs.sbd.1000249/dark-theme.png",
+                  "whiteImage": "https://media.movieofthenight.com/services/apple/es/addons/tvs.sbd.1000249/white.png"
+                }
+              },
+              "link": "https://tv.apple.com/ficticio/0004",
+              "quality": "hd",
+              "audios": [
+                {
+                  "language": "kor"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra",
+                    "region": "FRA"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "availableSince": 1787864439
+            },
+            {
+              "service": {
+                "id": "mubi",
+                "name": "Mubi",
+                "homePage": "https://mubi.com/",
+                "themeColorCode": "#001588",
+                "imageSet": {
+                  "lightThemeImage": "https://media.movieofthenight.com/services/mubi/logo-light-theme.svg",
+                  "darkThemeImage": "https://media.movieofthenight.com/services/mubi/logo-dark-theme.svg",
+                  "whiteImage": "https://media.movieofthenight.com/services/mubi/logo-white.svg"
+                }
+              },
+              "type": "subscription",
+              "link": "https://mubi.com/ficticio/0005",
+              "quality": "hd",
+              "audios": [
+                {
+                  "language": "kor"
+                }
+              ],
+              "subtitles": [
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "eng"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "fra"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "nld"
+                  }
+                },
+                {
+                  "closedCaptions": false,
+                  "locale": {
+                    "language": "spa"
+                  }
+                }
+              ],
+              "expiresSoon": false,
+              "expiresOn": 1832972400,
+              "availableSince": 1787584963
+            }
+          ]
+        }
+      }
+    ],
+    "hasMore": true,
+    "nextCursor": "35021:ficticio"
+  }
+}

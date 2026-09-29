@@ -1,0 +1,189 @@
+/*
+ * Radar: móvil, filtros apilados (plataforma plegada) y el diario debajo;
+ * tableta, filtros en banda; escritorio, columna lateral **no fija** de 3 y
+ * contenido en 9 (SCREENS.md §4).
+ */
+.radar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-8);
+  margin-top: var(--space-8);
+}
+
+.filtros {
+  display: grid;
+  gap: var(--space-5);
+  align-content: start;
+  padding-block: var(--space-5);
+  border-block: var(--border-hairline);
+}
+
+.grupoPlataforma {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.invitacion {
+  font-size: var(--text-small);
+}
+
+@media (min-width: 64rem) {
+  .radar {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 9fr);
+    column-gap: var(--grid-gap);
+    align-items: start;
+  }
+
+  .filtros {
+    padding-top: 0;
+    border-top: 0;
+    border-bottom: 0;
+    padding-right: var(--space-4);
+    border-right: var(--border-hairline);
+  }
+}
+
+.cuerpo {
+  display: grid;
+  gap: var(--space-block);
+  min-width: 0;
+}
+
+.resumen {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-6);
+  font-size: var(--text-small);
+  color: var(--color-text-2);
+}
+
+.resumen strong {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.quitar {
+  min-height: var(--target-min);
+}
+
+.h2 {
+  font-size: var(--text-title-2);
+}
+
+.h3 {
+  font-size: var(--text-title-3);
+}
+
+.h3 time::first-letter {
+  text-transform: uppercase;
+}
+
+.nota {
+  display: grid;
+  gap: var(--space-1);
+  max-width: var(--measure-reading);
+  font-size: var(--text-small);
+  color: var(--color-text-3);
+}
+
+.filas[role="list"] {
+  display: grid;
+}
+
+/* ── De nuestras listas: el criterio, arriba y con filete latón ─────────── */
+
+.destacado {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.destacado .h2::before {
+  content: "";
+  display: block;
+  width: 24px;
+  margin-bottom: var(--space-3);
+  border-top: var(--rule-editorial);
+}
+
+/* ── La regla como índice de días ───────────────────────────────────────── */
+
+/* Columnas más estrechas que las de la portada: aquí solo van recuentos. */
+.dia {
+  flex-basis: min(44%, 11rem);
+}
+
+@media (min-width: 64rem) {
+  .dia {
+    flex-basis: 10rem;
+  }
+}
+
+.fechaIndice {
+  font-size: var(--text-body);
+  font-family: var(--font-sans);
+  font-weight: 600;
+}
+
+.irAlDia {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  margin-block: calc(-1 * var(--space-3));
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--color-border-control);
+  text-decoration-thickness: 1px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .irAlDia:hover {
+    text-decoration-color: var(--color-accent);
+  }
+}
+
+.conteos[role="list"] {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.conteo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-small);
+}
+
+.conteo[data-tipo="llega"] {
+  color: var(--color-status-arrives);
+}
+.conteo[data-tipo="se-va"] {
+  color: var(--color-status-leaves);
+}
+.conteo[data-tipo="proximamente"] {
+  color: var(--color-status-upcoming);
+}
+.conteo[data-tipo="se-fue"],
+.conteo[data-tipo="cambio"] {
+  color: var(--color-status-gone);
+}
+
+/* ── El diario ──────────────────────────────────────────────────────────── */
+
+.tramo {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.diaDelDiario {
+  display: grid;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.sinFuturo {
+  padding-block: var(--space-4);
+  border-top: var(--border-row);
+  color: var(--color-text-2);
+}

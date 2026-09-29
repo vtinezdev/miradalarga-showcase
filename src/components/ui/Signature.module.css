@@ -1,0 +1,16 @@
+.firma {
+  font-size: var(--text-small);
+  line-height: 1.45;
+  color: var(--color-text-2);
+}
+
+.firma a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.firma a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}

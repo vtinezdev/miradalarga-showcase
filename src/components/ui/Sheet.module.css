@@ -1,0 +1,110 @@
+.hoja {
+  padding: 0;
+  border: var(--border-hairline);
+  background: var(--color-surface-raised);
+  color: var(--color-text);
+  box-shadow: var(--shadow-overlay);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hoja::backdrop {
+  background: color-mix(in srgb, var(--color-bg) 70%, transparent);
+}
+
+.contenido {
+  display: grid;
+  gap: var(--space-5);
+  padding: var(--space-5) var(--gutter-page) var(--space-8);
+}
+
+.cabeza {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.titulo {
+  font-size: var(--text-title-2);
+}
+
+.cerrar {
+  display: inline-grid;
+  place-items: center;
+  width: var(--target-min);
+  height: var(--target-min);
+  margin-right: calc(-1 * var(--space-3));
+  border-radius: var(--radius-s);
+  color: var(--color-text-2);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cerrar:hover {
+    background: var(--color-surface-hover);
+    color: var(--color-text);
+  }
+}
+
+/* ── Hoja inferior (móvil) → diálogo centrado (tableta y escritorio) ────── */
+
+.inferior {
+  width: 100%;
+  margin: auto 0 0;
+  border-radius: var(--radius-m) var(--radius-m) 0 0;
+  max-height: 85dvh;
+  overflow-y: auto;
+}
+
+@media (min-width: 48rem) {
+  .inferior {
+    width: min(30rem, 100% - 2 * var(--gutter-page));
+    margin: auto;
+    border-radius: var(--radius-m);
+  }
+
+  .inferior .contenido {
+    padding-inline: var(--space-6);
+  }
+}
+
+/* ── Pantalla completa (menú) ───────────────────────────────────────────── */
+
+.completa {
+  width: 100%;
+  height: 100dvh;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  overflow-y: auto;
+  background: var(--color-bg);
+}
+
+/* ── Movimiento: primero baja la luz de la sala, después sube la hoja ──── */
+
+@media (prefers-reduced-motion: no-preference) {
+  .hoja[open] {
+    transition:
+      transform var(--duration-sheet-in) var(--ease-out),
+      opacity var(--duration-sheet-in) var(--ease-out);
+  }
+
+  .hoja[open]::backdrop {
+    transition: opacity var(--duration-hover) var(--ease-standard);
+  }
+
+  @starting-style {
+    .inferior[open] {
+      transform: translateY(24px);
+      opacity: 0;
+    }
+
+    .completa[open] {
+      opacity: 0;
+    }
+
+    .hoja[open]::backdrop {
+      opacity: 0;
+    }
+  }
+}

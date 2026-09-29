@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "aviso_ficticio": "Datos FICTICIOS: estructura y forma de una respuesta real del proveedor, con títulos, identificadores, personas y enlaces inventados. No contiene datos reales.",
+    "seq": 36,
+    "slug": "D-upcoming-skyshowtime",
+    "path": "/changes",
+    "query": {
+      "country": "es",
+      "change_type": "upcoming",
+      "item_type": "show",
+      "catalogs": "skyshowtime",
+      "from": "1789994540",
+      "to": "1792672940",
+      "output_language": "es"
+    },
+    "status": 200,
+    "ok": true,
+    "ts_utc": "2026-09-21T12:43:08.425Z",
+    "ts_madrid": "2026-09-21T14:43:08",
+    "result_count": 0,
+    "has_more": false,
+    "next_cursor": null,
+    "response_headers": {
+      "access-control-allow-headers": "*",
+      "access-control-allow-methods": "*",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "*",
+      "content-length": "41",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 21 Sep 2026 12:43:08 GMT",
+      "x-quota-granted": "1000",
+      "x-quota-reset": "2026-10-01T00:00:00Z",
+      "x-quota-used": "32"
+    },
+    "change_type": "upcoming",
+    "item_type": "show",
+    "catalogs": ["skyshowtime"],
+    "plataforma": "skyshowtime",
+    "ventana": {
+      "from_epoch": 1789994540,
+      "to_epoch": 1792672940,
+      "from_madrid": "2026-09-21 14:42:20",
+      "to_madrid": "2026-10-22 14:42:20"
+    },
+    "cursor_enviado": null,
+    "pagina": 1,
+    "recorte": "spike-1/raw/036 completo: SkyShowtime, HTTP 200 y 0 avisos. Documentado como no soportado por el proveedor."
+  },
+  "body": {
+    "changes": [],
+    "shows": {},
+    "hasMore": false
+  }
+}
